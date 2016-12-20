@@ -24,7 +24,7 @@ When the user scrolls now to read the rest of the content, the navigation bar sh
 ######  <a id="challenge-4"></a>
 ## Challenge \#4
 
-What is the smallest number  that can be divided by each of the numbers from 1 to 10 without any remainder?
+What is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder?
 
 ######  <a id="challenge-5"></a>
 ## Challenge \#5
@@ -42,3 +42,8 @@ What is the difference between the sum of the squares of the first ten natural n
 Your challenge is to replicate the shapes, and the animations that you see in the animated GIF below. You must **only use CSS**. No JavaScript and no images.
 
 <img src="fKDwWc0Stk.gif">
+
+###### <a id="challenge-8"></a>
+## Challenge \#8
+
+Write out 143 happy numbers up to 1,000. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number either equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers (or sad numbers).
