@@ -11,8 +11,13 @@
 
 
 ###Intermediate
-###Advanced
+1. [Doctors and Patients: Angular and Firebase](2-intermediate/MF_DOCTORS_PATIENTS.md)
+1. [Music History with Angular](2-intermediate/MF_MUSIC_HISTORY.md)
+1. [Angular controllers and factories with Firebase storage and authentication](2-intermediate/MF_NATIONAL_PARKS.md)
 
+###Advanced
+1. [Add Filtering Form to Music History](3-advanced/MF_MUSIC_HISTORY.md)
+1. [Angular, APIs, and Charts](3-advanced/MF_NASHVILLE_CHART.md)
 
 ## Prototypal Inheritance
 
