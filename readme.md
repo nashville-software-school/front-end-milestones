@@ -1,6 +1,6 @@
 # Mastery Learning
 
-Welcome to an experiment in education. Learning software development isn't ike learning anything else , so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class, or your college intro to philosophy.
+Welcome to an experiment in education. Learning software development isn't like learning anything else , so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class, or your college intro to philosophy.
 
 ## How is mastery learning different from what I've experienced before?
 Basically, we're aiming for 100% of students to have 100% mastery of the material. This is an ambitous plan and we're plannning on reaching it by allowing students to work at their own pace, providing students with lots of instructor guidance, and generally being awesome.
@@ -53,10 +53,10 @@ Basically, we're aiming for 100% of students to have 100% mastery of the materia
   * Show up to class 
   * Participate in class discussions and group projects 
   * Complete the exercises for each  milestone, the quiz for each milestone, and top it all off with a capstone project 
-  * Timing is flexible, if  you need a little more time to completely understnad a topic, take some time, ask for help and fill in any gaps in your understanding.
+  * Timing is flexible, if  you need a little more time to completely understand a topic, take some time, ask for help and fill in any gaps in your understanding.
 1. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
 1. Make sure you are putting in the time and effort to reach success.
-1. Work through the exercises for each milestone before you attempt the quiz. Skipping ahead to the quiz is the best way to cheat yourself out of understanding.
+1. Work through the exercises for each milestone before you attempt the Milestone Challenge. Skipping ahead to the challenge is the best way to cheat yourself out of understanding.
 
 > **Bottom Line:** We will give you all of the ingredients, but it's up to you to bake the cake.
 
