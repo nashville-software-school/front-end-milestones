@@ -1,5 +1,10 @@
 <a id="challenge-1"></a>
-## Challenge \#1 - Music History Part 2.5
+## Challenge \#1 - Flexbox Challenge
+Complete all 24 levels of Flexbox Froggy 
+http://flexboxfroggy.com/
+
+<a id="challenge-2"></a>
+## Challenge \#2 - Music History Part 2.5
 
 ### Create a new branch
 
@@ -18,7 +23,8 @@ Using your new CSS skills, you'll build even better looking music history pages.
 ### Merging
 Remember to merge the `version2-5` branch back into `master` when you're done.
 
-## Challenge \#2
+<a id="challenge-3"></a>
+## Challenge \#3
 ### Whither the Weather? 
 #### Use the OpenWeather API to build a weather forecast search tool
 
@@ -37,9 +43,9 @@ You must sign up to receive an API key
 Example of an API call to get a 5-day forecast for 37201
 > api.openweathermap.org/data/2.5/weather?zip=37201&APPID=1111111111
 
-<a id="challenge-3"></a>
+<a id="challenge-4"></a>
 
-## Challenge \#3 - Building Tetris Foundations
+## Challenge \#4 - Building Tetris Foundations
 
 Investigate the HTML5 [canvas](http://www.html5canvastutorials.com/) tag to build the 7 different Tetris game shapes. Display them somewhere on the canvas as a staging area. Outline a separate area in the canvas as the game area.
 
