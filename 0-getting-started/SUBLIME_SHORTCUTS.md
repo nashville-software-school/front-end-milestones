@@ -4,6 +4,7 @@
 1. Cmd+K, B (_Show/hide sidebar_)
 1. Cmd+N (_New file_)
 1. Cmd+S (_Save file_)
+1. Cmd+Alt+S (_Save all files_)
 1. Cmd+P (_Quick open file_)
 1. Shift+Arrows for selection
 1. Copy, cut, paste (_Cmd+C, X, V_)
