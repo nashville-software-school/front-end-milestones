@@ -12,13 +12,15 @@
   + span
 
 #### HTML5 semantic structure
-  + article
-  + section
-  + nav
-  + footer
-  + header
-  + time `<time datetime="">`
-  + mark
+  + __article__ - specifies independent, self-contained content.
+  + __section__ - defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+  + __nav__
+  + __footer__
+  + __header__ - element represents a container for introductory content and/or a set of navigational links.
+  + __time__ - defines a human-readable date/time. 
+    can also be used to encode dates and times in a machine-readable way allowing user agents more functionality (add to calendar) `<time datetime="2008-02-14 20:00">`
+  + __mark__ - highlight parts of your text.
+  + __aside__ - defines some content aside from the content it is placed in. This content should be related to the surrounding content.
 
 ### Meta
   + DOCTYPE
