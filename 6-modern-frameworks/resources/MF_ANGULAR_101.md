@@ -172,7 +172,7 @@ return $q(function(resolve, reject) {
 Angular has its own implementation of the Q library that we've been using.
 
 ```js
-  var getSongs = $q(function(resolve, reject) {
+  var getSongs = return $q(function(resolve, reject) {
       $http.get('./data/songs.json')
       .then(
         function(objectFromJSONFile) {
