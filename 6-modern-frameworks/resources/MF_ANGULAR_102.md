@@ -299,6 +299,76 @@ Finally we will need to add script tags for our controllers and factory to index
   <script src="app/controllers/SongFormCtrl.js"></script>
 ```
 
+## Connecting a JSON file
+We are now ready to add a $http call to our SongFactory instead of hard coding the songs array.  To do this we will need to change two files: SongFactory and SongListCtrl.  In Song Factory change the getSongs function to:
+```js
+getSongs: function() {
+  return $q(function(resolve, reject){
+    $http.get('./data/songs.json')
+      .then(function(objectFromJSONFile) {
+        resolve(objectFromJSONFile.data.songs);
+      }, function(error) {
+        reject(error);
+      });
+  });
+},
+```
+In the SongList Ctrl we will need to resolve the promise returned by $q.
+```js
+app.controller("SongListCtrl",
+  [
+    "$scope",
+    "SongFactory",
+    function($scope, SongFactory) {
+      $scope.songs = [];
+      SongFactory.getSongs().then(function (songs) {
+        $scope.songs = songs;
+      }, function (error) {
+        console.log("Failed");
+      });
+
+    }
+  ]
+);
+```
+### Using chained promises
+
+If you want to perform mutiple asynchronous operations, such as read from two separate JSON files, and then do something only after *all of the operations complete*, then you can chain them together just like with the original Q library.  Lets demonstrate this by creating a songs2.json file in the data folder.  Add three new songs to the json file.  
+
+Then we can add a getMoreSongs function to our SongFactory
+```js
+getMoreSongs: function() {
+  return $q(function(resolve, reject){
+    $http.get('./data/songs2.json')
+      .then(function(objectFromJSONFile) {
+        resolve(objectFromJSONFile.data.songs);
+      }, function(error) {
+        reject(error);
+      });
+  });
+},
+```
+Then we will need to resolve both promises and concatinate the two arrays in the SongListCtrl:
+```js
+app.controller("SongListCtrl",[ "$scope", "SongFactory", function($scope, SongFactory) {
+  $scope.songs = [];
+  var fullSongList=[];
+
+  var allSongsPromise = SongFactory.getSongs().then(function (firstArrayOfSongs) {
+    fullSongList = fullSongList.concat( firstArrayOfSongs );
+    return SongFactory.getMoreSongs()
+  }, function (error) {
+    console.log("Failed");
+  }).then(function(secondArrayOfSongs){
+    fullSongList = fullSongList.concat( secondArrayOfSongs );
+  });
+
+  allSongsPromise.then(function () {
+    $scope.songs = fullSongList;
+  })
+}]);
+```
+
 # Angular Application Architecture Visualization
 
 ![Angular Architecture](angular-architecture.png)
