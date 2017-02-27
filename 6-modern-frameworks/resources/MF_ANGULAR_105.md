@@ -98,6 +98,24 @@ app.directive('songBrief', function() {
   };
 });
 ```
+Next lets add a little CSS to make our stars look better.  Create a styles/main.css file and add the link tag to your index.html.  Then add the following:
+
+```css
+.rating{
+  list-style: none;
+}
+
+.star--empty{
+  color: gray;
+}
+.star--filled{
+  color: yellow;
+}
+
+.star{
+  display: inline-block;
+}
+```
 
 Now you can include the custom directive in other partials.  Replace the contents of your song-list.html file with the following:
 
