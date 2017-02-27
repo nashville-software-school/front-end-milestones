@@ -23,10 +23,11 @@ Now you can use a custom DOM element to load the contents of `song-brief.html` i
 
 Let's look at a more powerful example of what directives can do for your code. Beyond being a way to include DOM anywhere in your code, which is itself a great feature, your directive can provide complex functionality based on attributes that are defined on the custom element.
 
-So let's start with the `song-brief` partial. This is the base DOM of our directive. It displays the artist and album name for each song, but also will show stars, based on the `rating` key on each song object. Here's a sample JSON representation of a song.
+So let's start with the `song-brief` partial. This is the base DOM of our directive. It displays the artist and album name for each song, but also will show stars, based on the `rating` key on each song object. Here's a sample JSON representation of a song.  Change the songs in your json files to match this structure.
 
 ```js
 {
+  "id": 0,
   "name": "Song",
   "artist": "Artist",
   "album": {
@@ -44,7 +45,7 @@ So let's start with the `song-brief` partial. This is the base DOM of our direct
   <div>
     By {{ selectedSong.artist }} on {{ selectedSong.album.name }}
     <ul class="rating">
-      <li class="{{star.class}}" ng-repeat="star in stars">&#9733;</li>
+      <li class="{{star.class}} star" ng-repeat="star in stars">&#9733;</li>
     </ul>
   </div>
 </section>
@@ -54,7 +55,7 @@ Notice that there is an `ng-repeat` for a `stars` property on the object, but th
 
 ##### **File:** app/directives/song-directive.js
 ```js
-app.directive("musicHistorySongBrief", function() {
+app.directive('songBrief', function() {
   return {
     restrict: "E", // Restrict directive to element
     scope: {
@@ -72,7 +73,7 @@ app.directive("musicHistorySongBrief", function() {
        */
       function setStars() {
         scope.stars = [];
-        var rating = parseInt(scope.selectedSong.rating;
+        var rating = parseInt(scope.selectedSong.rating);
         for (var i = 0; i < scope.maxRating; i++) {
           var clazz = (rating <= i) ? "star--empty" : "star--filled";
           scope.stars.push({class: clazz});
@@ -98,7 +99,7 @@ app.directive("musicHistorySongBrief", function() {
 });
 ```
 
-Now you can include the custom directive in other partials.
+Now you can include the custom directive in other partials.  Replace the contents of your song-list.html file with the following:
 
 ##### **File:** partials/song-list.html
 
@@ -109,22 +110,11 @@ Now you can include the custom directive in other partials.
   </div>
 
   <div class="c-song" ng-repeat="song in songs | filter: songSearchText">
-    <a href="#/songs/{{ song.$id }}">{{ song.name }}</span></a>
-    <x-music-history-song-brief song="song" max-rating="5"></x-music-history-song-brief>
+    <a href="#!/songs/{{ song.id }}">{{ song.name }}</span></a>
+    <song-brief song="song" max-rating="5"></song-brief>
   </div>
 
-  <a href="#/songs/new">Create New Song</a>
-</section>
-```
-
-##### **File:** partials/song-view.html
-
-```html
-<a href="#/songs">&lt; Back to song list</a>
-<section>
-  <h4>Song #{{songId}} - {{ selectedSong.name }}</h4>
-  <x-music-history-song-brief song="selectedSong" max-rating="5"></x-music-history-song-brief>
-  <span class="text--small">Released in {{selectedSong.album.year}}</span>
+  <a href="#!/songs/new">Create New Song</a>
 </section>
 ```
 
