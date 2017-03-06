@@ -8,7 +8,13 @@ When installing dependencies on an existing project (cloned or forked from GitHu
 
 Bower was initially used for front-end development only, and npm for server-side dependencies. Bower is used to install frameworks and libraries including jquery, angular, firebase and bootstrap. Since npm is _node_, it was typically used to install server-side dependencies including grunt, and jshint which are used in development.
 
-As `npm` becomes more and more robust, front-end dependencies can also be installed using npm. It is important to be aware of both `npm` and `bower` when entering the job market, as some workplaces will still use a combination of both. Almost all dependencies can now be installed through `npm` exclusively.
+As `npm` becomes more and more robust, front-end dependencies can also be installed using npm. It is important to be aware of both `npm` and `bower` when entering the job market, as some workplaces will still use a combination of both. Many professional development shops use npm exclusively, in conjunction with a tool like [Browserify](http://browserify.org/) which will [transpile](https://en.wikipedia.org/wiki/Source-to-source_compiler) a Node.js module for use in the browser.
+
+If you aren't using a transpiler tool, then Bower is still the best source for libraries, components and frameworks for use in the browser.
+
+--
+
+It is important to note that although you may be able to use npm to install front-end libraries and frameworks, *the implementation may be slightly different* in your app. For example, when installing `angular-route`, a bower-installed version will use `angular.module('myApp', ['ngRoute']);`, and a npm-installed version will use `angular.module('myApp', [require('angular-route')]);`. Be sure to read the docs closely when installing dependencies.
 
 ####npm
 * `npm init`
