@@ -20,5 +20,12 @@ Using one single line of JavaScript code, complete the following tasks on the ar
 1. Then output (either in the DOM or the console) the sum of all the resulting numbers.
 
 ```js
-var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
+const integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
+let sum = integers
+  .sort(...)
+  .filter(...)
+  .map(...)
+  .reduce(...);
+
+console.log(sum);
 ```
