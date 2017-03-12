@@ -116,9 +116,9 @@ What the function does have is a side effect, because its logic affects the DOM 
 
 # Higher Order Functions
 
-Functions that operate on other f zunctions, either by taking them as arguments or by returning them, are called *higher-order functions*.
+Functions that operate on *other* functions, either by taking them as arguments or by returning them, are called **higher-order functions**.
 
-Since functions are objects, you can pass them as arguments to other function, just like you would any other native JavaScript type. In the previous example for our `oven`, we passed a string value into the over, and got a string value back out of the oven.
+Since functions are objects (_remember, if it's not a native type, it's an object in JavaScript_), you can pass them as arguments to other function, just like you would any other JavaScript type. In the previous example for our `oven`, we passed a string value into the over, and got a string value back out of the oven.
 
 There's more to a meal than cooking the food in an oven. We first need to prepare the meal, and after it is cooked, we need to serve it. We also need to decide if the dish is going to be baked or broiled.
 
