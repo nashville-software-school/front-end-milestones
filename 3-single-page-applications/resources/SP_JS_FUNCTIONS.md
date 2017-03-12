@@ -12,11 +12,11 @@ In JavaScript, you use the word `function` to define such a task. Here's the cod
 
 ```js
 function oven (uncooked_food) {
-  const temperature = "450";
-  const time = "20";
-  const cooked_delicious_food = uncooked_food + (temperature * time);
+  const temperature = 450;
+  const time = 20;
+  const cooked_food = `${uncooked_food} @ ${temperature * time}`;
 
-  return cooked_delicious_food;
+  return cooked_food.replace(/(raw|uncooked)/g, "cooked");
 }
 ```
 
@@ -38,7 +38,32 @@ oven("raw fish");
 
 By putting the string of "raw fish" into the oven function, the `uncooked_food` argument that we defined in the parenthesis after the function name now has a value. Arguments are a mechanism that allow you to pass information to a function - like putting food into the oven. Without that input, nothing useful will happen.
 
-The last part of the process is to take out the cooked food. Since the function used the `return` statement, we can store that returned value in a variable.
+### Function Return Values
+
+The last part of the process is to take out the cooked food. Since the function used the `return` statement, we can store that returned value in a variable. It's the `return` keyword that determines what comes out of a function. More specifically, it determines what the JavaScript engine gives as the evaluation of the function execution.
+
+If a function doesn't have a `return` statement, when the JavaScript engine attempts to evaluate it, it will be `undefined`.
+
+```js
+function complex_task () {
+  const fun_variable = 1;
+  const important_variable = true;
+  const duck_variable = "quack";
+  /*
+    Imagine a world in which there is incredibly
+    well-written, complex JavaScript code here.
+
+    Notice the lack of `return` statement.
+   */
+}
+
+let evaluated_value = complex_task();
+console.log(evaluated_value) // undefined
+```
+
+![function structure](function_structure.png)
+
+Back to the oven. Let's take our cooked fish out of the oven. This works because in the function, we returned the variable that holds that value.
 
 ```js
 /*
@@ -46,7 +71,7 @@ The last part of the process is to take out the cooked food. Since the function 
   of what was returned from the function
 */
 const cooked_fish = oven("raw fish");
-console.log(cooked_fish); // raw fish9000
+console.log(cooked_fish); // cooked fish @ 9000
 ```
 
 You can try this out in Chrome. Press `Alt+Cmd+I` to open the Chrome development tools. At the top, click the section titled *Console*. Copy the `oven` function into the console, then press `Return`.
@@ -59,22 +84,22 @@ const cooked_fish = oven("some other food");
 
 Then type `cooked_fish` to see what its value is.
 
-![animation](./Met0ECu9qp.gif)
+![animation](./oven.gif)
 
 Again, the task that you defined in the function can now be performed as many times as you want, based on the needs of your application.
 
 ```js
 // Cook dinner
 const cooked_chicken = oven("raw chicken");
-const roasted_broccoli = oven("broccoli");
+const roasted_broccoli = oven("raw broccoli");
 
 // Bake dessert
-const baked_cake = oven("cake batter");
+const baked_cake = oven("uncooked cake batter");
 ```
 
 ### Function Side-Effects
 
-Not all functions need to return a value. Let's look at an example of a function that simply performs a specific task and ends.
+Let's look at an example of a function that simply performs a specific task, by interacting with the browser DOM, and ends.
 
 ```js
 // This function adds any series of character to the browser page.
