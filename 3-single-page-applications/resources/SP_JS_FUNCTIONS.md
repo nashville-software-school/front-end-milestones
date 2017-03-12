@@ -126,8 +126,11 @@ Let's define a function for each purpose.
 
 ```js
 /* 
-  The ellipses (...) will take ALL arguments and make 
-  an array out of them, stored in the ingredients argument
+  The ellipses (...) will take all arguments and make 
+  an array out of them, stored in the ingredients argument.
+
+  It's called the spread operator.
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator
 */
 function prepare_food (...ingredients) {
   const chopped = ingredients.map(ingredient => {
@@ -229,7 +232,9 @@ Time for you to practice writing some functions. You will be creating some funct
 1. Invoke the `buy` function, and define a value for each of the arguments. For example: `buy('tree', 'canvas')`
 1. Write logic in the `buy` function that specifies which other function should be invoked if the `material` variable holds the value of "wood", "canvas", or "cloth". Make sure you pass the material value, as an argument, to the appropriate function.
 1. The `carve`, `paint`, and `stitch` functions should each return a string in the format "a *{action} {theme}*". For example, if the `carve` function's theme argument value was "sailing boat", then  the function would return "a carved sailing boat".
-1. In the `buy` function, take the return value of the action function that was invoked and append the material. Then return that string. Builing on the example in the previous step, the `buy` function would return the value "a carved sailing boat made of wood".
+1. In the `buy` function, take the return value of the action function that was invoked and store it in a variable.
+1. Next, append the material - that was passed as an argument - to the value of the variable you created in the previous step.
+1. Then return that string. Building on the example in the previous step, the `buy` function would return the value "a carved sailing boat made of wood".
 1. Write that output into the `outcomes` element in the browser DOM.
 
 ```js
