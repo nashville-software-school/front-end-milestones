@@ -74,28 +74,12 @@ app.factory("AuthFactory", function($q, $http, $rootScope, FIREBASE_CONFIG) {
 
 //Firebase: Use input credentials to authenticate user.
   let authenticate = (credentials) => {
-    return $q((resolve, reject) => {
-      firebase.auth().signInWithEmailAndPassword(credentials.email, credentials.password)
-        .then((authData) =>{
-          resolve(authData);
-        })
-        .catch((error)=>{
-          reject(error);
-        });
-    });
+    return firebase.auth().signInWithEmailAndPassword(credentials.email, credentials.password);
   };
 
 //Firebase: Register a new user with email and password
   let registerWithEmail = (user) => {
-    return $q((resolve, reject) => {
-      firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
-        .then((authData) =>{
-          resolve(authData);
-        })
-        .catch((error)=>{
-          reject(error);
-        });
-    });
+    return firebase.auth().createUserWithEmailAndPassword(user.email, user.password);
   };
 
   return {isAuthenticated, getUser, logout, registerWithEmail, authenticate};
