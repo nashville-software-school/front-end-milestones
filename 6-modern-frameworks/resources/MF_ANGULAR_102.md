@@ -152,7 +152,7 @@ app.controller("SongCtrl", ["$scope",
     $scope.addSong = function() {
       $scope.songs.push({
         artist: $scope.newSong.artist,
-        songName: $scope.newSong.name,
+        name: $scope.newSong.name,
         album: $scope.newSong.album,
       });
     };

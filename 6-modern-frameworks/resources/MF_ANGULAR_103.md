@@ -98,7 +98,7 @@ app.factory("AuthFactory", function($q, $http, $rootScope, FIREBASE_CONFIG) {
     });
   };
 
-  return {isAuthenticated:isAuthenticated, getUser:getUser, logout:logout, registerWithEmail:registerWithEmail, authenticate:authenticate};
+  return {isAuthenticated, getUser, logout, registerWithEmail, authenticate};
 });
 ```
 
@@ -267,9 +267,9 @@ app.run(function($rootScope, $location, FIREBASE_CONFIG, AuthFactory) {
   //prevRoute is information about the route you came from
   $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute) {
     // checks to see if there is a current user
-    var logged = AuthFactory.isAuthenticated();
+    let logged = AuthFactory.isAuthenticated();
 
-    var appTo;
+    let appTo;
 
     // to keep error from being thrown on page refresh
     if (currRoute.originalPath) {
