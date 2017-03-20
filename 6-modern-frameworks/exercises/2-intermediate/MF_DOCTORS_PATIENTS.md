@@ -41,18 +41,22 @@ Since this application does not have forms for creating doctors and patients, cr
 ```js
 {
     "doctors": [
-        "killigrew": {
-            "first_name": "Johan",
-            "last_name": "Killigrew",
-            "speciality": "Pediatrics"
+        {
+            "killigrew": {
+                "first_name": "Johan",
+                "last_name": "Killigrew",
+                "speciality": "Pediatrics"
+            }
         }
     ],
     "patients": [
-        "svenson": {
-            "first_name": "Margot",
-            "last_name": "Svenson",
-            "ailment": "Arthritis",
-            "doctor_id": "killigrew"
+        {
+            "svenson": {
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "killigrew"
+            }
         }
     ]
 }
