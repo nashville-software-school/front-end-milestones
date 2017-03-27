@@ -10,7 +10,7 @@ touch articles.css
 
 ## Instructions
 
-:warning: This exercise requires you to have completed the HTML Blog Page exercise
+:warning: This exercise requires you to have completed the [HTML Blog Page](SW_HTML_BLOG.md) exercise
 
 Copy and paste your blog article HTML into the `index.html` file for this exercise. For each article on your blog page, you need to have the following things to be unique.
 
