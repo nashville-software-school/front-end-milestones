@@ -55,7 +55,7 @@ We're aiming for 100% of students to have 100% mastery of the material. This is 
   * Participate in class discussions and group projects
   * Complete the exercises for each  milestone, the individual challenge for each milestone, and top it all off with a capstone project
   * Timing is flexible, if  you need a little more time to completely understand a topic, take some time, ask for help and fill in any gaps in your understanding.
-1. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
+2. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
 1. Make sure you are putting in the time and effort to reach success.
 1. Work through the exercises for each milestone before you attempt the challenge. Skipping ahead to the challenge is the best way to cheat yourself out of understanding.
 
