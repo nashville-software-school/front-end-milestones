@@ -28,7 +28,9 @@ You are now ready to work in the `exercise` branch.
 
 Visit http://www.csszengarden.com/ and explore some of the designs.
 
-You will create your own version of the CSS Zen Garden. Download the HTML and CSS files.
+You will create your own version of the CSS Zen Garden.
+
+Download the HTML and CSS files.
 :paperclip: [HTML](http://www.csszengarden.com/examples/index)
 :paperclip: [CSS](http://www.csszengarden.com/examples/style.css)
 
