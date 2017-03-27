@@ -22,7 +22,7 @@ touch style.css
 mkdir images
 ```
 
-You are now ready to work in the `exercise` branch.
+> You are now ready to work in the `exercise` branch.
 
 ## Instructions
 
