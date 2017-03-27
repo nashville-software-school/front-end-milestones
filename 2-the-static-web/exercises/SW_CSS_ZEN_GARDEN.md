@@ -39,4 +39,4 @@ Copy the contents of the CSS file into your `styles.css`.
 
 When your work is complete, add, commit, and push up the branch (`git push origin exercise`). Then submit a pull request on Github.
 
-> :pencil: In an effort to keep this project like the Zen Garden website, this exercise does not have a styles folder.
+> :pencil2: In an effort to keep this project like the Zen Garden website, this exercise does not have a styles folder.
