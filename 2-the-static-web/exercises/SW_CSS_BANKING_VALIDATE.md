@@ -12,7 +12,7 @@ touch validation.css
 
 ## Instructions
 
-> This exercise requires that you have completed the HTML Banking Form exercise.
+> :warning: This exercise requires that you have completed the [HTML Banking Form](SW_HTML_BANKING_FORM.md) exercise.
 
 There are CSS selectors that you can use to check for the validity of the new HTML5 input types of email, tel, phone, etc. Your task is to enhance your Google Fu and find out what they are.
 
