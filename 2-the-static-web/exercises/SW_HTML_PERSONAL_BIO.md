@@ -11,7 +11,7 @@ touch index.html
 
 ## Instructions
 
-Create a two page site for your own personal branding. This is an HTML exercises, so while you may style this site to your heart's content, we will be focusing on the HTML structure and syntax of your code.
+Create a two page site for your own personal branding. This is an HTML exercise, so while you may style this site to your heart's content, we will be focusing on the HTML structure and syntax of your code.
 
 ### Pages
 
@@ -24,7 +24,7 @@ Basically an HTML version of your resume.
 1. Each article should contain at least one section that describes your position there.
 1. No footer required for these articles.
 
-#### Contact information page.
+#### Contact information page
 
 1. One article.
 1. A heading (e.g. "How to contact me").
