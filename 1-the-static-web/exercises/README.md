@@ -23,6 +23,7 @@
 1. [Counting coins](SW_JS_COINS.md) - loops, vars, object, function
 1. [Temperature converter](SW_JS_CONVERTER.md) - HTML input, functions, event handler 
 1. [Student grades](SW_JS_GRADES.md) - loop, array, conditional
+1. [AlphaStacker](SW_JS_ALPHASTACKER.md) -  function, loop, array
 1. [Music History 02](SW_MUSIC_HISTORY_02.md) - loop, array, innerHTML, string replace method, git merge
 
 # In-class Exercises
