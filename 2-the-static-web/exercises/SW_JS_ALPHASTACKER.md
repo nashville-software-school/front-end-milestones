@@ -27,7 +27,7 @@ For this exercise, you need to create a single JavaScript function named `stackL
         <title>Alpha Stacker</title>
     </head>
     <body>
-    
+
         <script src="alpha-stacker.js"></script>
     </body>
     </html>
@@ -41,17 +41,20 @@ For this exercise, you need to create a single JavaScript function named `stackL
 
 Create a `stackLetters` function that should `console.log()` rows of letters. It should take an array containing the letters of the alphabet and output them in the developer console.
 
-```
-a
-ab
-abc
-abcd
-abcde
-abcdef
-etc...
-```
+> **Example output:**
+>
+> a
+> ab
+> abc
+> abcd
+> abcde
+> abcdef
+> abcdefg
+> abcdefgh
+> abcdefghi
+> ...
 
-> Starter code for alpha-stackers.js
+Paste the following code into alpha-stackers.js
 
 ```js
 // Create an array that contains the letters of the alphabet
@@ -77,15 +80,15 @@ Your job is to read the following English statement and write the equivalent in 
 
 > If the current value of the [counter variable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) can be evenly divided by 3 - using the JavaScript [remainder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder) operator - then add a single space to the output.
 
-```
-a
-ab
-abc
-abc d
-abc de
-abc def
-abc def g
-abc def gh
-abc def ghi
-etc...
-```
+> **Example output:**
+>
+> a
+> ab
+> abc
+> abc d
+> abc de
+> abc def
+> abc def g
+> abc def gh
+> abc def ghi
+> ...
