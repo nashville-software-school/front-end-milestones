@@ -19,10 +19,10 @@ Use JavaScript to create a list of songs in the `index.html` file for your Music
 1. Find and replace the `>` character in each item with a `-` character.
 1. Add each string to the DOM in `index.html` in the main content area.
 
-> **Example output:**
->
-> {Song name} by {Artist} on the album {Album}
->
-> {Song name} by {Artist} on the album {Album}
->
+> **Example output:**  
+>  
+> {Song name} by {Artist} on the album {Album}  
+>  
+> {Song name} by {Artist} on the album {Album}  
+>  
 > ...
