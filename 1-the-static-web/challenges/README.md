@@ -9,6 +9,7 @@
 1. [Challenge #5](SW_INDIVIDUAL_CHALLENGES.md#challenge-5)
 1. [Challenge #6](SW_INDIVIDUAL_CHALLENGES.md#challenge-6)
 1. [Challenge #7](SW_INDIVIDUAL_CHALLENGES.md#challenge-7)
+1. [Challenge #8](SW_INDIVIDUAL_CHALLENGES.md#challenge-8)
 
 ---
 
