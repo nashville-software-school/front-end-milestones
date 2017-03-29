@@ -12,7 +12,7 @@ touch food.js
 
 ## Instructions
 
-You are working as a junior developer team for Acme, Inc. This company sells dog food. Each brand of dog food is represented by an object in an array you get back from the (fictional database) in JSON format.
+You are working as a junior developer for Acme, Inc. This company sells dog food. Each brand of dog food is represented by an object in an array you get back from the (fictional database) in JSON format.
 
 ```js
 {
