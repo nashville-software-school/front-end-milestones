@@ -11,6 +11,8 @@ git checkout -b version-3
 
 ## Instructions
 
+> :warning: This exercise requires that you have completed the [Music History 2](SW_MUSIC_HISTORY_02.md) exercise.
+
 Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
 
 1. In the navigation bar, make sure you have two links labeled "List Music", and "Add Music".
