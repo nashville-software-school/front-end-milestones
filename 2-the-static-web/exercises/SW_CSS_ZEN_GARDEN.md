@@ -30,12 +30,12 @@ Visit http://www.csszengarden.com/ and explore some of the designs.
 
 You will create your own version of the CSS Zen Garden.
 
-Download the HTML and CSS files.
-:paperclip: [HTML](http://www.csszengarden.com/examples/index)
-:paperclip: [CSS](http://www.csszengarden.com/examples/style.css)
+Download the HTML and CSS files.  
+:paperclip: [HTML](http://www.csszengarden.com/examples/index)  
+:paperclip: [CSS](http://www.csszengarden.com/examples/style.css)  
 
-Copy the contents of the HTML file into your `index.html`.
-Copy the contents of the CSS file into your `styles.css`.
+Copy the contents of the HTML file into your `index.html`.  
+Copy the contents of the CSS file into your `styles.css`.  
 
 > The only rule: you may only change the CSS; not the HTML.
 
