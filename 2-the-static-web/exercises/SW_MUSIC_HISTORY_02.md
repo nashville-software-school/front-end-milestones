@@ -4,7 +4,7 @@
 
 1. Create a branch in your `musichistory` repository named `version2`, and switch to that branch. `git checkout -b version2` will create and switch you into that branch.
 
-> This project is made up of several parts as you know from Music History 1, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?
+> This project is made up of several parts, and by creating a branch for each section you will be able to preserve the concepts you have learned on github as resources should you need them in the future. We have mentioned you should be commenting your code, right?
 
 ## Instructions
 
