@@ -1,9 +1,11 @@
 <a id="challenge-1"></a>
-## Challenge \#1 - Music History Part 2.5
+## Challenge \#1 - Music History with Flexbox
 
-### Create a new branch
+### Flexbox branch
 
-`git checkout -b version2-5`
+In your Music History repository folder, create a new branch for this challenge.
+
+`git checkout -b mh-flexbox`
 
 ### Requirements
 
@@ -15,8 +17,10 @@ Using your new CSS skills, you'll build even better looking music history pages.
 1. The first song container should have bold text.
 1. Set the navigation bar's position so that it's always on the top of the page, even if you scroll down. To ensure this works, you can just add some div tags at the bottom of the page that add enough text that would force you to scroll the browser.
 
-### Merging
-Remember to merge the `version2-5` branch back into `master` when you're done.
+### Resources
+
+* [Flexbox in GIFs](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.8ekxunyxu)
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Challenge \#2
 ### Whither the Weather? 

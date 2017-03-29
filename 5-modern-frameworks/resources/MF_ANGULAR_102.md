@@ -19,6 +19,11 @@ Next, you add the `ng-view` helper to an empty element on your page. Later, when
 <div ng-view></div>
 ```
 
+Next, add ng-route to your angular application.  Inside app.js add the following.
+```js
+var app = angular.module("SongApp", ['ngRoute']);
+```
+
 ### Partials
 
 Partials are just like the Handlebar files you created in the previous Music History version. You'll be creating (usually) small HTML files that will be responsible for doing one thing only. For example, one file for showing a list of songs, another to show a form for creating a song, and another for displaying the details of a song.
@@ -51,14 +56,12 @@ Next comment out all of your existing HTML in your `index.html` file. We're goin
 <head>
   <meta charset="utf-8">
   <title>NSS Starter Kit - Angular</title>
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 <body ng-app="SongApp">
 
   <div ng-view></div>
 
-  <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="lib/bower_components/angular/angular.min.js"></script>
   <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
 
@@ -76,7 +79,7 @@ Next, open the `song-list.html` file and create a *partial* for listing songs.
 </div>
 
 <div ng-repeat="song in songs | filter: query">
-  <a href="#/songs/{{ song.id }}">{{ song.name }}</a>
+  <a href="#!/songs/{{ song.id }}">{{ song.name }}</a>
 </div>
 ```
 
@@ -84,7 +87,7 @@ Notice anything strange about the anchor tag there? That's a strange looking URL
 
 ### Initial route
 
-Now that you have a partial, let's start using Angular routing to show it in the element with the `ng-view` attribute. First, we add an add in a new configuration object for our application, and set `$routeProvider` as a dependency.
+Now that you have a partial, let's start using Angular routing to show it in the element with the `ng-view` attribute. First, we add an add in a new configuration object for our application, and set `$routeProvider` as a dependency.  Add this into your app.js file.
 
 ```js
 app.config(['$routeProvider',
@@ -98,7 +101,7 @@ app.config(['$routeProvider',
 ]);
 ```
 
-What this does is make Angular now watch the values URL in the browser, and when it changes, it tries to match the pattern `/songs/list`. If it matches, it loads the HTML in our partial, and then binds that DOM to the `SongCtrl` controller. Try it out by putting this URL in your browser `http://localhost:8080/#/songs/list`.
+What this does is make Angular now watch the values URL in the browser, and when it changes, it tries to match the pattern `/songs/list`. If it matches, it loads the HTML in our partial, and then binds that DOM to the `SongCtrl` controller. Try it out by putting this URL in your browser `http://localhost:8080/#!/songs/list`.
 
 It should display your list of songs.
 
@@ -129,10 +132,7 @@ app.config(['$routeProvider',
     Song name: <input type="text" ng-model="newSong.name" />
   </div>
   <div>
-    Album Name: <input type="text" ng-model="newSong.albumName" />
-  </div>
-  <div>
-    Album Year: <input type="text" ng-model="newSong.albumYear" />
+    Album Name: <input type="text" ng-model="newSong.album" />
   </div>
   <div>
     Artist: <input type="text" ng-model="newSong.artist" />
@@ -146,17 +146,14 @@ app.config(['$routeProvider',
 ```js
 app.controller("SongCtrl", ["$scope",
   function($scope) {
-
-    /*
-      Add the following code
-    */
     $scope.newSong = { artist: "", album: "", name: ""};
+    $scope.songs =[{ artist: "Britney", album: "In The Zone", name: "Toxic"}];
 
     $scope.addSong = function() {
-      $scope.songs.$add({
+      $scope.songs.push({
         artist: $scope.newSong.artist,
         name: $scope.newSong.name,
-        album: $scope.newSong.album
+        album: $scope.newSong.album,
       });
     };
   }
@@ -168,22 +165,21 @@ app.controller("SongCtrl", ["$scope",
 If you want to redirect the user to a particular route if they enter one that you currently don't have a view for, you can use the `otherwise` method on the route provider.
 
 ```js
-app.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
-      when('/songs/list', {
-        templateUrl: 'partials/song-list.html',
-        controller: 'SongCtrl'
-      }).
-      when('/songs/new', {
-        templateUrl: 'partials/song-form.html',
-        controller: 'SongCtrl'
-      }).
-      otherwise('/songs/list');
-  }]);
+app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.
+    when('/songs/list', {
+      templateUrl: 'partials/song-list.html',
+      controller: 'SongCtrl'
+    }).
+    when('/songs/new', {
+      templateUrl: 'partials/song-form.html',
+      controller: 'SongCtrl'
+    }).
+    otherwise('/songs/list');
+}]);
 ```
 
-Now, if a route is visited at the URL `http://localhost/#/songs/garbage` then the song list view will be loaded instead.
+Now, if a route is visited at the URL `http://localhost/#!/songs/garbage` then the song list view will be loaded instead.
 
 ## Multiple controllers
 
@@ -197,11 +193,11 @@ Here's an example.
 
 Let's say that you have two controllers, `SongListCtrl`, which will contain all the logic needed to list your songs, and `SongDetailCtrl` which will contain all the logic for displaying the details of individual songs. You don't want to make an XHR call in each of those controllers to get the list of songs. That's duplicating code, and that's *bad*.
 
-You want one, common, mechanism that both controllers can use to get the list of songs. The factory is born. Let's look at a very simplistic construct, before we get to the XHR example.
+You want one, common, mechanism that both controllers can use to get the list of songs. The factory is born. Let's look at a very simplistic construct, before we get to the XHR example.  First we will create a factories folder in the app folder.  Then we will add a SongFactory.js file to that folder.  Inside that file we will add the following:
 
 ```js
-app.factory("simple-songs", function() {
-  var song_list = [
+app.factory("SongFactory", function() {
+  var songList = [
     { id: 1, name: "99 Problems", album: "Black", artist: "JayZ" },
     { id: 2, name: "Helter Skelter", album: "White", artist: "Beatles"  },
     { id: 3, name: "99 Problems", album: "Grey", artist: "DJ Danger Mouse"  }
@@ -209,16 +205,16 @@ app.factory("simple-songs", function() {
 
   return {
     getSongs: function() {
-      return song_list;
+      return songList;
     },
     getSong: function(id) {
-      return song_list.filter(function(song){
+      return songList.filter(function(song){
         return song.id === id;
       })[0];
     },
     addSong: function(song) {
-      song_list.push(song);
-      return song_list;
+      songList.push(song);
+      return songList;
     }
   }
 });
@@ -235,9 +231,9 @@ app.controller("SongListCtrl",
   // and have a matching argument in the callback function.
   [
     "$scope",
-    "simple-songs",
-    function($scope, simple_songs) {
-      $scope.song_list = simple_songs.getSongs();  // Returns all songs
+    "SongFactory",
+    function($scope, SongFactory) {
+      $scope.songs = SongFactory.getSongs();  // Returns all songs
     }
   ]
 );
@@ -249,9 +245,9 @@ app.controller("SongListCtrl",
 app.controller("SongDetailCtrl",
   [
     "$scope",
-    "simple-songs",
-    function($scope, simple_songs) {
-      $scope.song_list = simple_songs.getSong(1); // Returns the song with id:1
+    "SongFactory",
+    function($scope, SongFactory) {
+      $scope.song = SongFactory.getSong(1); // Returns the song with id:1
     }
   ]
 );
@@ -263,12 +259,12 @@ app.controller("SongDetailCtrl",
 app.controller("SongFormCtrl",
   [
     "$scope",
-    "simple-songs",
-    function($scope, simple_songs) {
+    "SongFactory",
+    function($scope, SongFactory) {
       $scope.newSong = { artist: "", album: "", name: ""};
 
       $scope.addSong = function() {
-        simple_songs.addSong({
+        SongFactory.addSong({
           artist: $scope.newSong.artist,
           name: $scope.newSong.name,
           album: $scope.newSong.album
@@ -278,148 +274,99 @@ app.controller("SongFormCtrl",
   ]
 );
 ```
-
-# Music History Refactoring Continues
-
-## Helpful concepts
-
-### Nested controllers
-
-Factories are incredibly useful for controllers to have a single store in which they can all add/read/delete data. However, factories don't emit events, so if one controller adds a song to a SongFactory, the other controllers have no idea that it happened.
-
-One way to solve this problem is through nested controllers.
-
-##### index.html
-
-```html
-<div ng-controller="OmniscientController">
-
-  <div class="sidebar" ng-controller="PersistentSidebarController">
-    <!--
-      The content in this element will always be visible, regardless
-      of which view in being rendered below
-      -->
-      <ul>
-        <li ng-repeat="currentSong in songs">
-          {{ song.title }}
-        </li>
-      </ul>
-  </div>
-
-  <div ng-view></div>
-</div>
-```
-
-##### app.js
-
+Next we will need to change the controllers on our routes to reflect the above changes.  In app.js change the $routeProvider to the following:
 ```js
-var app = angular.module("SongApp", ["ngRoute"]);
+  $routeProvider
+    .when('/songs/list', {
+      templateUrl: 'partials/song-list.html',
+      controller: 'SongListCtrl'
+    })
+    .when('/songs/new', {
+      templateUrl: 'partials/song-form.html',
+      controller: 'SongFormCtrl'
+    })
+    .otherwise('/songs/list');
+```
+Finally we will need to add script tags for our controllers and factory to index.html.  Always add factories before controllers.  You should now have the following script tags:
+```html
+  <script src="lib/bower_components/angular/angular.min.js"></script>
+  <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
 
-app.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
-      when('/songs/list', {
-        templateUrl: 'partials/songList.html',
-        controller: 'SongListCtrl'
-      }).
-      when('/songs/add', {
-        templateUrl: 'partials/songForm.html',
-        controller: 'SongFormCtrl'
-      }).
-      otherwise('/songs/list');
-  }
-]);
-
-/*
-  The other controllers, since they are bound to children of the
-  DOM element that this one is bound to, will both inherit the
-  `$scope.songArray` variable
- */
-app.controller("OmniscientController",
-["$scope", function($scope) {
-
-  $scope.songArray = [];
-
-}]);
-
-app.controller("PersistentSidebarController", ["$scope", function($scope) {
-  // Nothing to see here
-}]);
-
-/*
-  Note the use of `$scope.$parent` below, which will look for
-  the variable in OmniscientController
-*/
-app.controller("SongListCtrl", ["$scope", function($scope, SongFactory) {
-
-  $scope.newSong = {};
-
-  // Add a new song to the SongFactory
-  $scope.addSong = function () {
-    $scope.$parent.songs = SongFactory.addSong($scope.newSong);
-  };
-
-  // Wait for songs to be loaded via XHR request
-  SongFactory.loadSongs.then(function () {
-    // After promise resolves (data has been loaded), get the songs
-    $scope.$parent.songs = SongFactory.getSongs($scope.newSong);
-  });
-
-}]);
-
+  <script src="app/app.js"></script>
+  <script src="app/factories/SongFactory.js"></script>
+  <script src="app/controllers/SongDetailCtrl.js"></script>
+  <script src="app/controllers/SongListCtrl.js"></script>
+  <script src="app/controllers/SongFormCtrl.js"></script>
 ```
 
+## Connecting a JSON file
+We are now ready to add a $http call to our SongFactory instead of hard coding the songs array.  To do this we will need to change two files: SongFactory and SongListCtrl.  In Song Factory change the getSongs function to:
+```js
+getSongs: function() {
+  return $q(function(resolve, reject){
+    $http.get('./data/songs.json')
+      .then(function(objectFromJSONFile) {
+        resolve(objectFromJSONFile.data.songs);
+      }, function(error) {
+        reject(error);
+      });
+  });
+},
+```
+In the SongList Ctrl we will need to resolve the promise returned by $q.
+```js
+app.controller("SongListCtrl",
+  [
+    "$scope",
+    "SongFactory",
+    function($scope, SongFactory) {
+      $scope.songs = [];
+      SongFactory.getSongs().then(function (songs) {
+        $scope.songs = songs;
+      }, function (error) {
+        console.log("Failed");
+      });
+
+    }
+  ]
+);
+```
 ### Using chained promises
 
-If you want to perform mutiple asynchronous operations, such as read from two separate JSON files, and then do something only after *all of the operations complete*, then you can chain them together just like with the original Q library.
+If you want to perform mutiple asynchronous operations, such as read from two separate JSON files, and then do something only after *all of the operations complete*, then you can chain them together just like with the original Q library.  Lets demonstrate this by creating a songs2.json file in the data folder.  Add three new songs to the json file.  
 
+Then we can add a getMoreSongs function to our SongFactory
 ```js
-var first = $q( function( resolve, reject ) {
+getMoreSongs: function() {
+  return $q(function(resolve, reject){
+    $http.get('./data/songs2.json')
+      .then(function(objectFromJSONFile) {
+        resolve(objectFromJSONFile.data.songs);
+      }, function(error) {
+        reject(error);
+      });
+  });
+},
+```
+Then we will need to resolve both promises and concatinate the two arrays in the SongListCtrl:
+```js
+app.controller("SongListCtrl",[ "$scope", "SongFactory", function($scope, SongFactory) {
+  $scope.songs = [];
+  var fullSongList=[];
 
-  // XHR to get one set of songs
-  $http.get('./data/songs.json')
-  .success(
-    function(results) {
-      resolve(results);
-    }, function(error) {
-      reject(error);
-    }
-  );
+  var allSongsPromise = SongFactory.getSongs().then(function (firstArrayOfSongs) {
+    fullSongList = fullSongList.concat( firstArrayOfSongs );
+    return SongFactory.getMoreSongs()
+  }, function (error) {
+    console.log("Failed");
+  }).then(function(secondArrayOfSongs){
+    fullSongList = fullSongList.concat( secondArrayOfSongs );
+  });
 
-});
-
-var second = $q( function( resolve, reject ) {
-
-  // XHR to get another set of songs
-  $http.get('./data/more_songs.json')
-  .success(
-    function(results) {
-      resolve(results);
-    }, function(error) {
-      reject(error);
-    }
-  );
-
-});
-
-var fullSongList = [];
-
-// Chained promises, which in turn, results in another promise
-var allSongsPromise = first.then(function ( firstArrayOfSongs ) {
-  fullSongList = fullSongList.concat( firstArrayOfSongs );
-  return second;
-})
-.then(function ( secondArrayOfSongs ) {
-  fullSongList = fullSongList.concat( secondArrayOfSongs );
-});
-
-allSongsPromise.then(function () {
-  /*
-    This will only execute after both promises have been resolved,
-    so the array will be filled with both results
-   */
-  console.log("fullSongList", fullSongList);
-});
+  allSongsPromise.then(function () {
+    $scope.songs = fullSongList;
+  })
+}]);
 ```
 
 # Angular Application Architecture Visualization

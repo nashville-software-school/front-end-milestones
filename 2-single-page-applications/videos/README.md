@@ -2,16 +2,16 @@
 
 ## Array Methods
 
-1. Overview of the most common [array methods](https://s3.amazonaws.com/nss-lecture-videos/Array+Methods.mp4)
+1. NSS Learning Team video [JavaScript Array Methods](https://www.youtube.com/watch?v=y2LSiUm29hc&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=2)
 
 ## Functions and Modules
 
-1. Introduction to [callbacks](https://s3.amazonaws.com/nss-lecture-videos/callback-functions.mp4)
-1. Intro to [IIFE](https://s3.amazonaws.com/nss-lecture-videos/IIFE+Intro.mp4) pattern to modularize your code.
-1. [Augmented](https://s3.amazonaws.com/nss-lecture-videos/IIFE+Augmentation.mp4) IIFE pattern to make your modules follow the Single Responsibility Principle.
-1. Using [callbacks in the IIFE pattern](https://s3.amazonaws.com/nss-lecture-videos/XHR+and+Callbacks.mp4) to implement asynchronous operations.
+1. NSS Learning Team video [Introduction to JavaScript Callback Functions](https://www.youtube.com/watch?v=pKS9PcLdMDo&index=5&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC).
+1. NSS Learning Team video [JavaScript IIFE Intro](https://www.youtube.com/watch?v=DPB___uVRbc&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=9) which shows you the Immediately Invoked Function Expression software pattern.
+1. NSS Learning Team video [JavaScript IIFE Augmentation](https://www.youtube.com/watch?v=5UIPt1Ky-64&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=8) shows you how to encapsulation different functionality into separate files and augment an IIFE from one file to the next.
+1. NSS Learning Team video [JavaScript XHR and Callbacks](https://www.youtube.com/watch?v=2R28EX9QShI&index=6&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC) which shows you how to use callback functions, or lambas, to ensure that asynchronous operations execute in the right order.
 
 ## Event Listeners
 
-1. [Intro to event listeners](https://s3.amazonaws.com/nss-lecture-videos/Basic+Event+Listeners.mp4)
-1. [More event listener types](https://s3.amazonaws.com/nss-lecture-videos/Event+Listener+Types.mp4)
+1. NSS Learning Team video [Basic JavaScript Event Listeners](https://www.youtube.com/watch?v=4XvM096cQF4&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=3)
+1. NSS Learning Team video [JavaScript Event Listener Types](https://www.youtube.com/watch?v=5zlueGaybjc&index=4&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC)

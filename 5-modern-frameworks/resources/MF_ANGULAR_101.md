@@ -8,6 +8,13 @@ Create a new folder and do your base project setup with Bower, npm, and Grunt. H
 cd lib
 bower install angular --save
 ```
+Check your bower.json to make sure you are using a version of angular that is 1.6.x or greater.  Your bower.json dependencies should look like the following (instead of an x you will have some number between 0 and 9):
+
+```bash
+  dependencies: {
+    angular: '^1.6.x'
+  }
+```
 
 Then include Angular in your HTML file.
 
@@ -150,7 +157,7 @@ Angular, of course, provides their own XHR method, so instead of using `$.ajax()
 return $q(function(resolve, reject) {
   $http
     .get('./data/songs.json')
-    .success(
+    .then(
       function(objectFromJSONFile) {
         resolve(objectFromJSONFile.songs);
       },function(error) {
@@ -167,9 +174,9 @@ Angular has its own implementation of the Q library that we've been using.
 ```js
   var getSongs = $q(function(resolve, reject) {
       $http.get('./data/songs.json')
-      .success(
+      .then(
         function(objectFromJSONFile) {
-          resolve(objectFromJSONFile.songs);
+          resolve(objectFromJSONFile.data.songs);
         }, function(error) {
           reject(error);
         }
