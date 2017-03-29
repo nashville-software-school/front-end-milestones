@@ -12,7 +12,7 @@ touch grades.js
 
 ## Instructions
 
-Loop over an array of student grades (values from 50-100) and outputs how many of each grades there are. 
+Loop over an array of student grades (values from 50-100) and output how many of each grades there are.
 
 * A score of 50-60 is an F
 * A score of 61-70 is a D
