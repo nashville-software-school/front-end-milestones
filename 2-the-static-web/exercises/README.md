@@ -17,7 +17,7 @@
 ## JavaScript
 
 1. Practicing iteration with [for loops](SW_JS_FOR.md)
-1. [Colored reindeer](SW_JS_REINDEER.md)
+1. [Reindeer](SW_JS_REINDEER.md)
 1. [Boy bands & vegetables](SW_JS_BOYBANDS.md)
 1. [Counting coins](SW_JS_COINS.md)
 1. [Temperature converter](SW_JS_CONVERTER.md)
