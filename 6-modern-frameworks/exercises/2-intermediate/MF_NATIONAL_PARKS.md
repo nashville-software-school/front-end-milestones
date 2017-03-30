@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/modern-framework/national-parks && cd $_
 ```
 
-Ensure you have Angular, ng-route, and the Firebase libraries installed and linked in your HTML file.
+> :pencil2: Ensure you have Angular, ng-route, and the Firebase libraries installed and linked in your HTML file.
 
 ## Requirements
 
