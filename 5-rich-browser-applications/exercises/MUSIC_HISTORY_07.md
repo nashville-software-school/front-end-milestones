@@ -6,7 +6,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 
 ```bash
 cd ~/workspace/musichistory
-`git checkout -b version7`
+`git checkout -b version-7`
 ```
 > :pencil2: For this exercise you will need to update your `.gitignore` file
 
