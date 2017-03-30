@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 4](SP_JS_MUSIC_HISTORY_4.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 4](../../3-single-page-applications/exercises/SP_JS_MUSIC_HISTORY_4.md) exercise.
 
 ## Setup
 
