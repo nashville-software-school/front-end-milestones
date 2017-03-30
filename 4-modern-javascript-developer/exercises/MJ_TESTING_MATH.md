@@ -1,4 +1,4 @@
-## Writing Math Tests
+# Writing Math Tests
 
 ## Setup
 
