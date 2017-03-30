@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/modern-framework/mushroom-mania && cd $_
 ```
 
-## Instructions
+## Requirements
 
 For this exercise, you're going to create a basic application, with a single view. Your job is to load the JSON data below and display it in a list. Above the list, provide one text box, and two radio buttons.
 

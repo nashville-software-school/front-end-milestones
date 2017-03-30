@@ -11,7 +11,7 @@ touch wysiwyg.js
 touch wysiwyg.css
 ```
 
-## Instructions
+## Requirements
 
 1. Create an array of objects that represents famous people (see structure below).
 1. Create a text input in your DOM.

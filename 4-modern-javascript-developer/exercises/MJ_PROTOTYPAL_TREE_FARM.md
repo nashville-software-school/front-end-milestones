@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/mjd/orchard && cd $_
 ```
 
-## Instructions
+## Requirements
 
 1. Create a Plant function.
 1. Create a Tree function.

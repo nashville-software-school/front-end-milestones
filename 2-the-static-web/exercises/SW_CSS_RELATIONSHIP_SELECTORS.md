@@ -10,7 +10,7 @@ touch index.html
 touch selectors.css
 ```
 
-## Instructions
+## Requirements
 
 Paste the code below into your HTML document.
 

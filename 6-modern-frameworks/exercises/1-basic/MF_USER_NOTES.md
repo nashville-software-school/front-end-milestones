@@ -1,14 +1,16 @@
 # User Notes with Authentication
 
-In this exercise, you'll be requiring users to register and log into your application before they can use it. The user interface is very simple once they log in, because this is a basic application that will allow them to enter notes, and then view all notes.
-
 ## Setup
+
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
 ```
 mkdir -p ~/workspace/exercises/modern-framework/user-notes && cd $_
 ```
 
 ## Requirements
+
+In this exercise, you'll be requiring users to register and log into your application before they can use it. The user interface is very simple once they log in, because this is a basic application that will allow them to enter notes, and then view all notes.
 
 ### Firebase
 
@@ -37,9 +39,3 @@ Display a text field labeled `Enter note:` and a button labeled `Save`. When the
 ### Note List
 
 When the user visits the `/notes` URL, the user should see all of the notes that were entered by that user, and no others. Use the `orderBy` and `equalTo` parameters in the `$http` request to only return notes created by the current user.
-
-
-
-
-
-

@@ -24,7 +24,7 @@ mkdir images
 
 > You are now ready to work in the `exercise` branch.
 
-## Instructions
+## Requirements
 
 Visit http://www.csszengarden.com/ and explore some of the designs.
 

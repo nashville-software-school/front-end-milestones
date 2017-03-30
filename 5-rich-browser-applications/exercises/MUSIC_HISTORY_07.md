@@ -1,5 +1,9 @@
 # Music History 7
 
+## Prerequisite
+
+> :warning: This exercise requires that you have completed the [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_6.md) exercise.
+
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
@@ -8,6 +12,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 cd ~/workspace/musichistory
 `git checkout -b version-7`
 ```
+
 > :pencil2: For this exercise you will need to update your `.gitignore` file
 
 Add the following line to .gitignore
@@ -16,7 +21,7 @@ Add the following line to .gitignore
 .sass-cache
 ```
 
-## Instructions
+## Requirements
 
 ### Using SASS
 

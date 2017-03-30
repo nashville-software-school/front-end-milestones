@@ -10,7 +10,7 @@ touch index.html
 touch strings.js
 ```
 
-## Instructions
+## Requirements
 
 1. Copy the code below into the JavaScript file
 1. In your HTML, create an text input and a button.

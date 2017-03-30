@@ -1,15 +1,17 @@
 # Very Large Array - Muscle Memory Exercise
 
-## Setup
+## Prerequisite
 
 > :warning: This exercise requires that you have completed the [Music History 3](SW_MUSIC_HISTORY_3.md) exercise.
+
+## Setup
 
 1. Create a branch in your `musichistory` repository named `MM-arrays`, and switch to that branch. `git checkout -b MM-arrays`
 1. Pull down your Music History `version-3` branch. `git pull origin version-3`
 
 This will create a branch in your Music History repo called `MM-arrays` and pull down the `version-3` branch from github.
 
-## Instructions
+## Requirements
 
 `Muscle memory exercises are meant to improve your muscle memory for important javascript concepts. While doing these exercises try to minimize, if not completely eliminate copying and pasting.`
 

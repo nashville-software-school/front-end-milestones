@@ -12,7 +12,7 @@ mkdir -p ~/workspace/exercises/rich-browser/slideshow && cd $_
 ```
 ------
 
-### Instructions
+## Requirements
 
 Slideshows should have the following features:
 

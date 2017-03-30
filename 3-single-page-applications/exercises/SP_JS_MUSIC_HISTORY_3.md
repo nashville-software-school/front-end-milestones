@@ -1,5 +1,9 @@
 # Music History Part 3
 
+## Prerequisites
+
+> :warning: This exercise requires that you have completed the [Music History 2](SW_MUSIC_HISTORY_02.md) exercise.
+
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
@@ -9,9 +13,7 @@ cd ~/workspace/musichistory
 git checkout -b version-3
 ```
 
-## Instructions
-
-> :warning: This exercise requires that you have completed the [Music History 2](SW_MUSIC_HISTORY_02.md) exercise.
+## Requirements
 
 Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
 

@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/rich-browser/hbs-blog && cd $_
 ```
 
-## Instructions
+## Requirements
 
 In this exercise you will use the technology you've learned to this point ( Browserify, SASS, Grunt) to  
 create a blog page with three short articles (You can use placeholder text for the articles).  

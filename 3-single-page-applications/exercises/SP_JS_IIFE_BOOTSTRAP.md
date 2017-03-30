@@ -1,6 +1,14 @@
 # Walk-A-Thon Donations
 
-## Instructions
+## Setup
+
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
+
+```bash
+mkdir -p ~/workspace/exercises/spa/walkathon && cd $_
+```
+
+## Requirements
 
 Create a donation submission page for a Walk-A-Thon that allows donors to enter their name, email, dollar amount & whether their donation is lump sum or per lap.
 

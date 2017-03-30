@@ -11,7 +11,7 @@ touch iife-xhr.js
 touch Predator.js
 ```
 
-## Instructions
+## Requirements
 
 1. Create two JSON files. One should contain an array of carnivores, and the other should contain an array of herbivores.
 1. Create an IIFE with the name of `Predator`.

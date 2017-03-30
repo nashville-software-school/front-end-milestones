@@ -10,7 +10,7 @@ touch index.html
 touch array-methods.js
 ```
 
-## Instructions
+## Requirements
 
 1. Copy the code below into the JavaScript file, and follow the instructions in the comments.
 

@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/mjd/zoo && cd $_
 ```
 
-## Instructions
+## Requirements
 
 Create a three level prototype chain for identifying animals. Pick a couple of your favorite animals, and research their species and the genus that the species belongs to. Wikipedia is a great resource for this.
 

@@ -9,7 +9,7 @@ mkdir -p ~/workspace/exercises/the-static-web/blog && cd $_
 touch index.html
 ```
 
-## Instructions
+## Requirements
 
 Build a basic blog page that has 5 articles and any random topics you want to talk about. The text can be anything, even placeholder text ( look at this [lorem ipsum text generator](http://lorem-ipsum.perbang.dk/) for an example of the official unofficial gibberish of web developers everywhere ).
 

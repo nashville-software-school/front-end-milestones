@@ -10,7 +10,7 @@ touch index.html
 touch for-loops.js
 ```
 
-## Instructions
+## Requirements
 
 ### Increment by 10
 

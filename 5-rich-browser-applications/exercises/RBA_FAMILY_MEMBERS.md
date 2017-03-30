@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/rich-browser/family && cd $_
 ```
 
-## Instructions
+## Requirements
 
 1. Create a new Firebase application. Go to your dashboard and fill out the form. Application name should be "family", and provide a unique URL. (e.g. `nss-steve-family`)
 1. Using Browserify, build a modular application that:

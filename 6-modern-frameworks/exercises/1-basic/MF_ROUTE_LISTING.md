@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: It is recommended that you complete the [Route Routing](./MF_ROUTE_ROUTING.md) exercise before starting this one.
+> :warning: This exercise requires that you have completed the [Route Routing](./MF_ROUTE_ROUTING.md) exercise.
 
 ## Setup
 

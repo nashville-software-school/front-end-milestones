@@ -1,6 +1,6 @@
 # Alpha Stacker
 
-## Instructions
+## Requirements
 
 For this exercise, you need to create a single JavaScript function named `stackLetters` that will use `console.log()` to print out letters in the alphabet to the browser console.
 

@@ -10,6 +10,8 @@ touch index.html
 touch pseudo-classes.css
 ```
 
+## Requirements
+
 Copy and paste the code below into the `index.html` file for this exercise.
 
 > For this exercise you can't add any classes or ids

@@ -10,7 +10,7 @@ touch index.html
 touch navigation.css
 ```
 
-## Instructions
+## Requirements
 
 Create a navigation bar out of an unordered list element, and add the following interactivity.
 

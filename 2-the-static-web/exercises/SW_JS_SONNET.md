@@ -10,7 +10,7 @@ touch index.html
 touch sonnet.js
 ```
 
-## Instructions
+## Requirements
 
 1. Paste the code below into your HTML file.
 1. Take the contents of the sonnet div and place it in a variable.

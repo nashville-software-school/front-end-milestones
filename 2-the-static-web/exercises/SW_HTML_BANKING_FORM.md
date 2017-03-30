@@ -9,7 +9,7 @@ mkdir -p ~/workspace/exercises/the-static-web/banking-form && cd $_
 touch index.html
 ```
 
-## Instructions
+## Requirements
 
 Build a form that accepts a loan application. It must have the following fields.
 

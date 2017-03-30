@@ -25,7 +25,7 @@ You are now ready to work in the `exercise` branch.
 
 When your work is complete, push up the branch (`git push origin exercise`) and submit the pull request on Github.
 
-## Instructions
+## Requirements
 
 Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards.
 

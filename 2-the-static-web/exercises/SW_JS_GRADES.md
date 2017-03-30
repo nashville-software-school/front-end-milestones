@@ -10,7 +10,7 @@ touch index.html
 touch grades.js
 ```
 
-## Instructions
+## Requirements
 
 Loop over an array of student grades (values from 50-100) and output how many of each grades there are.
 

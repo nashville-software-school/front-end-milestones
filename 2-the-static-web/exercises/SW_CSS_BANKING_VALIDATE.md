@@ -1,5 +1,9 @@
 # CSS validation classes
 
+## Prerequisites
+
+> :warning: This exercise requires that you have completed the [HTML Banking Form](SW_HTML_BANKING_FORM.md) exercise.
+
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
@@ -10,9 +14,7 @@ touch index.html
 touch validation.css
 ```
 
-## Instructions
-
-> :warning: This exercise requires that you have completed the [HTML Banking Form](SW_HTML_BANKING_FORM.md) exercise.
+## Requirements
 
 There are CSS selectors that you can use to check for the validity of the new HTML5 input types of email, tel, phone, etc. Your task is to enhance your Google Fu and find out what they are.
 

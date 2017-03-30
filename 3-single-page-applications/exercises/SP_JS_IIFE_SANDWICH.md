@@ -11,7 +11,7 @@ mkdir javascripts && cd javascripts
 touch SandwichMaker.js
 ```
 
-## Instructions
+## Requirements
 
 Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Create a `Sandwich` module, then create the following as individual modules, using IIFE syntax, to augment `Sandwich`:  
 

@@ -1,5 +1,9 @@
 # Music History Part 6
 
+## Prerequisites
+
+> :warning: This exercise requires that you have completed the [Music History 5](MJ_JQUERY_MUSIC_HISTORY_5.md) exercise.
+
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
@@ -9,7 +13,7 @@ cd ~/workspace/musichistory
 git checkout -b version-6
 ```
 
-## Instructions
+## Requirements
 
 Now is the time to make Music History a fully functional, single page, modular, asychronous, application.
 
