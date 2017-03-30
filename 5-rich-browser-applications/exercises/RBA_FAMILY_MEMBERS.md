@@ -1,12 +1,14 @@
+# Family Members
+
 ## Setup
 
-### Create Exercise Directory
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
 ```bash
 mkdir -p ~/workspace/exercises/rich-browser/family && cd $_
 ```
 
-## Requirements
+## Instructions
 
 1. Create a new Firebase application. Go to your dashboard and fill out the form. Application name should be "family", and provide a unique URL. (e.g. `nss-steve-family`)
 1. Using Browserify, build a modular application that:
@@ -14,8 +16,8 @@ mkdir -p ~/workspace/exercises/rich-browser/family && cd $_
     1. Lets you add new family members.
     1. Lets you delete family members (like that annoying nephew you can't stand).
 1. At the minimum, you should create the following modules:
-    1. Main module
-    1. Module that handles adding family members to Firebase
+    1. Main module.
+    1. Module that handles adding family members to Firebase.
     1. Module that handles deleting family members from Firebase.
     1. Module that handles listing family members.
 1. Use the JSON structure shown below when adding a family member.  For the skills array, have a `<textarea>` field in your form where the user can enter in a comma-delimited list of skills that you will convert into an array.
@@ -40,4 +42,3 @@ mkdir -p ~/workspace/exercises/rich-browser/family && cd $_
 >   ]
 > }
 > ```
-> 
