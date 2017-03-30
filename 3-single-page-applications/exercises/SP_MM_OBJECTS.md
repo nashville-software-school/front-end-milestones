@@ -5,7 +5,7 @@
 1. Create a branch in your `musichistory` repository named `MM-objects`, and switch to that branch. `git checkout -b MM-objects`
 1. Pull down your Music History `version-4` and `MM-arrays` branches. `git pull origin version-4 MM-arrays`
 
-This will create a branch in your Music History repo called `MM-objects` and pull down both `version-4` and `MM-arrays` branches from github and merge them.
+This will create a branch in your Music History repo called `MM-objects`, pull down both `version-4` and `MM-arrays` branches from github and merge them.
 
 ## Instructions
 
