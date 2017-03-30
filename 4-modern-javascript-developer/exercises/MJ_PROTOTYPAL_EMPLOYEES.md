@@ -32,11 +32,8 @@ Create a two-level prototype chain for creating departments in your business. St
     1. Department name
     1. Expertise/responsibility
 
-##### sample output
-
-```js
-Deborah Harris works as a clinician, in the Baltimore field office, and is a phrenologist.
-Michael Slazinski works in operations, in headquarters, and is responsible for compliance.
-Margaret Johnson works as a clinician, in the Indianapolis field office, and is a physical therapist.
-```
-
+> **Example output:**  
+>  
+> Deborah Harris works as a clinician, in the Baltimore field office, and is a phrenologist.  
+> Michael Slazinski works in operations, in headquarters, and is responsible for compliance.  
+> Margaret Johnson works as a clinician, in the Indianapolis field office, and is a physical therapist.
