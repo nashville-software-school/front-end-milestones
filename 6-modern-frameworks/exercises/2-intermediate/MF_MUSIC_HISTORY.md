@@ -1,8 +1,17 @@
+# Music History 10
+
+## Prerequisite
+
+> :warning: This exercise requires that you have completed the [Music History 9](MUSIC_HISTORY_09.md) exercise.
+
 ## Setup
 
-### Create a new branch
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
-`git checkout -b version10`
+```bash
+cd ~/workspace/musichistory
+git checkout -b version-10
+```
 
 ## Requirements
 
@@ -20,39 +29,37 @@ Refactor Music History, or choose to rebuild from scratch (whichever you deem mo
 Remove the filter form that you've used on previous versions, and just provide a text box above the song list that will use whatever the user types in to filter the list on song title, album or artist name.
 
 ```
- -----------------------------------------------------------------------------
-|                    _________________________________________                |
-|    Filter songs:  |_________________________________________|               |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|         My Favorite Song                                                    |
-|         The Grey Album (1998)                                               |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|         All Those Things                                                    |
-|         Albatross (1976)                                                    |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|         Man on the Corner                                                   |
-|         Abacab (1981)                                                       |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|         O.P.P                                                               |
-|         Naughty by Nature (1991)                                            |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
- -----------------------------------------------------------------------------
-
-
-
+> **Example output:**
+>  -----------------------------------------------------------------------------
+> |                    _________________________________________                |
+> |    Filter songs:  |_________________________________________|               |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |         My Favorite Song                                                    |
+> |         The Grey Album (1998)                                               |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |         All Those Things                                                    |
+> |         Albatross (1976)                                                    |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |         Man on the Corner                                                   |
+> |         Abacab (1981)                                                       |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |         O.P.P                                                               |
+> |         Naughty by Nature (1991)                                            |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+> |                                                                             |
+>  -----------------------------------------------------------------------------
 ```
 
 ### Song Detail View
