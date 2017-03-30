@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_6.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 6](../../4-modern-javascript-developer/exercises/MJ_BROWSERIFY_MUSIC_HISTORY_6.md) exercise.
 
 ## Setup
 
