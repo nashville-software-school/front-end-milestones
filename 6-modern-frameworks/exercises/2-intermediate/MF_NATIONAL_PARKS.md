@@ -1,12 +1,8 @@
 # National Park Service
 
-For this project, you must use Angular controllers, Angular factories and Firebase storage and Firebase authentication. You will be creating an  application that lets users keep track of National Parks that they would like to visit.
-
-![bitterroot](http://wac.450f.edgecastcdn.net/80450F/klyq.com/files/2011/07/paradisesign-300x225.jpg)
-<img src="http://www.forestcamping.com/dow/graphics/nant.jpg" height="225">
-
-
 ## Setup
+
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
 ```
 mkdir -p ~/workspace/exercises/modern-framework/national-parks && cd $_
@@ -15,6 +11,11 @@ mkdir -p ~/workspace/exercises/modern-framework/national-parks && cd $_
 Ensure you have Angular, ng-route, and the Firebase libraries installed and linked in your HTML file.
 
 ## Requirements
+
+For this project, you must use Angular controllers, Angular factories and Firebase storage and Firebase authentication. You will be creating an  application that lets users keep track of National Parks that they would like to visit.
+
+![bitterroot](http://wac.450f.edgecastcdn.net/80450F/klyq.com/files/2011/07/paradisesign-300x225.jpg)
+<img src="http://www.forestcamping.com/dow/graphics/nant.jpg" height="225">
 
 ### Firebase
 
@@ -61,9 +62,3 @@ Display the name and description of the forest - and any other details you are s
 ### Favorites
 
 When the user visits the `/forests/favorite` URL, the user should see all of the forests that were favorited. There should be a function returned from the forest factory that queries the `visitor_favorites` collection, and uses the `orderBy` and `equalTo` parameters to only return items created by the current user.
-
-
-
-
-
-
