@@ -4,7 +4,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 
 ```bash
 cd ~/workspace/musichistory
-`git checkout -b version09`
+`git checkout -b version-9`
 ```
 
 ## Instructions
