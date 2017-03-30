@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 9](../../5-rich-browser-applications/MUSIC_HISTORY_09.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 9](../../../5-rich-browser-applications/MUSIC_HISTORY_09.md) exercise.
 
 ## Setup
 
