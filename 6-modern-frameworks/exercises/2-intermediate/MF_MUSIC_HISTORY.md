@@ -28,7 +28,7 @@ Refactor Music History, or choose to rebuild from scratch (whichever you deem mo
 
 Remove the filter form that you've used on previous versions, and just provide a text box above the song list that will use whatever the user types in to filter the list on song title, album or artist name.
 
-```
+> ```
 > **Example output:**
 >  -----------------------------------------------------------------------------
 > |                    _________________________________________                |
@@ -60,7 +60,7 @@ Remove the filter form that you've used on previous versions, and just provide a
 > |                                                                             |
 > |                                                                             |
 >  -----------------------------------------------------------------------------
-```
+> ```
 
 ### Song Detail View
 
