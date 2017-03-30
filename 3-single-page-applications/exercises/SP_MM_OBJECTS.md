@@ -1,16 +1,15 @@
 # Objective Reasoning - Muscle Memory Exercise
 
-## Prerequisite
-Students should have [Music History 4](SP_JS_MUSIC_HISTORY_4.md) & [For The Love Of Loops](SP_MM_FOR.md) completed before attempting this muscle memory exercise.
+> :warning: This exercise requires that you have completed the [Music History 4](SP_MUSIC_HISTORY_4.md) & [For The Love Of Loops](SP_MM_FOR.md) exercises.
 
-## Setup
+1. Create a branch in your `musichistory` repository named `MM-objects`, and switch to that branch. `git checkout -b MM-objects`
+1. Pull down your Music History `version-4` and `MM-arrays` branches. `git pull origin version-4 MM-arrays`
 
-1. Create a branch in your `musichistory` repository named `MM-objects`.
-1. Switch to that branch.
+This will create a branch in your Music History repo called `MM-objects` and pull down both `version-4` and `MM-arrays` branches from github and merge them.
 
-## Requirements
+## Instructions
 
-`Muscle memory exercises are meant to improve your muscle memory for important javascript concepts. While doing these exercises try to minimize, if not eliminate copying and pasting.`
+`Muscle memory exercises are meant to improve your muscle memory for important javascript concepts. While doing these exercises try to minimize, if not completely eliminate copying and pasting.`
 
 Use JavaScript objects, for loops and innerHTML to show the music you love.
 
@@ -31,14 +30,3 @@ Students must use JavaScript to filter objects, modify them, and output lists to
 
 #### Bonus
 *   Refactor your code to accomplish the same results using only one function and one for loop.
-
-
-## Merging your branch
-
-After you've got all of the requirements completed, follow these steps.
-
-1. In your `musichistory` directory, enter the command `git checkout master`. This switches you back to the master branch.
-1. `git merge -X theirs MM-objects`
-1. If you see a vim screen with a default message in it just `:x` to save and exit.
-
-Your branch is now merged into the master branch and you can push the master branch up to Github with `git push origin master`.

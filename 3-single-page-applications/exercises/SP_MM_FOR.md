@@ -5,7 +5,7 @@
 > :warning: This exercise requires that you have completed the [Very Large Array](SP_MM_ARRAYS.md) exercise.
 
 1. Create a branch in your `musichistory` repository named `MM-for`, and switch to that branch. `git checkout -b MM-for`
-1. Pull down your Music History `MM-array` branch. `git pull origin MM-array`
+1. Pull down your Music History `MM-arrays` branch. `git pull origin MM-arrays`
 
 This will create a branch in your Music History repo called `MM-for` and pull down the `MM-arrays` branch from github.
 
