@@ -310,6 +310,13 @@ input:invalid {
 }
 ```
 
-# Resources
+# Exercises
+
+1. [Relationship Selectors](../exercises/SW_CSS_RELATIONSHIP_SELECTORS.md)
+1. [Pseudoclasses](../exercises/SW_CSS_PSEUDOCLASSES.md)
+1. [Zen Garden](../exercises/SW_CSS_ZEN_GARDEN.md)
+1. [Product Cards](../exercises/SW_CSS__PRODUCT_CARDS.md)
+
+## Resources
 
 [CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips)
