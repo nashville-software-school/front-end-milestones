@@ -149,3 +149,7 @@ Now all you have to do is use the special `{{@key}}` decorator in your Handlebar
 >   return y;
 > });
 > ```
+
+# Exercises
+
+1. [Weather API](../exercises/RBA_API_WEATHER_APP.md)
