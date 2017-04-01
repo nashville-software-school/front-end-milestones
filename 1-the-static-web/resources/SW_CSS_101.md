@@ -88,9 +88,13 @@ input:invalid {
 }
 ```
 
----
+# Exercises
 
-# Want to learn more?
+1. [Article Styling](../SW_CSS_ARTICLE_STYLES.md)
+1. [Interactive Navigation](../SW_CSS_INTERACTIVE_NAVIGATION.md)
+1. [Banking Validation](../SW_CSS_BANKING_VALIDATE.md)
+
+## Want to learn more?
 
 1. A cool [CSS game](https://flukeout.github.io/)
 1. **Generate and use a cool tooltip**. Visit the [CSS Tooltip Generator](http://www.cssportal.com/css-tooltip-generator/) and create the CSS you need. Then, see if you can get a tooltip to display when you hover a link in your profile page.
