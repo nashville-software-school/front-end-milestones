@@ -196,3 +196,6 @@ promiseStorage.then(
   );
  });
 ```
+# Exercises
+
+1. [ACME Explosives](../exercises/MJ_PROMISES_ACME_EXPLOSIVES.md)
