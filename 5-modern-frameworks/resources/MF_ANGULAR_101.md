@@ -227,7 +227,8 @@ Check out this bad boy. Angular can automatically group option elements in the s
 
 # Exercises
 
-1. [Mushrooms](../exercises/MF_MUSHROOMS.md)
+1. [Mushrooms](../exercises/1-basic/MF_MUSHROOMS.md)
+1. [World Wide Travel](../exercises/1-basic/MF_WORLD_WIDE_TRAVEL.md)
 
 # More reading
 
