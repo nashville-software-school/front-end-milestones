@@ -81,6 +81,11 @@ function add (one, two) {
 
 Reload your browser and you'll see that 1 less test failed. Now, implement code to make all the tests pass.
 
+# Exercises
+
+1. [Testing Math](../exercises/MJ_TESTING_MATH.md)
+1. [Word Checker](../exercises/MJ_TESTING_WORD_CHECKER.md)
+
 # Resources
 
 * A basic [Jasmine tutorial](http://evanhahn.com/how-do-i-jasmine/)
