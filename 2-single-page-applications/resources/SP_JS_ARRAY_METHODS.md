@@ -192,3 +192,9 @@ for( var i = 0; i < numbers.length; i++ ) {
 }
 console.log(sum);
 ```
+
+# Exercises
+
+1. [Chaining Arrays](../exercises/SP_JS_ARRAYS_CHAINING.md)
+1. [String Manipulation](../exercises/SP_JS_ARRAYS_STRING_MANIPULATION.md)
+1. [Solar System](../exercises/SP_JS_ARRAYS_SOLAR_SYSTEM.md)
