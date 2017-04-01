@@ -90,9 +90,9 @@ input:invalid {
 
 # Exercises
 
-1. [Article Styling](../SW_CSS_ARTICLE_STYLES.md)
-1. [Interactive Navigation](../SW_CSS_INTERACTIVE_NAVIGATION.md)
-1. [Banking Validation](../SW_CSS_BANKING_VALIDATE.md)
+1. [Article Styling](../exercises/SW_CSS_ARTICLE_STYLES.md)
+1. [Interactive Navigation](../exercises/SW_CSS_INTERACTIVE_NAVIGATION.md)
+1. [Banking Validation](../exercises/SW_CSS_BANKING_VALIDATE.md)
 
 ## Want to learn more?
 
