@@ -318,6 +318,6 @@ input:invalid {
 1. [Music History 1](../exercises/SW_MUSIC_HISTORY_01.md)
 1. [Product Cards](../exercises/SW_CSS__PRODUCT_CARDS.md)
 
-## Resources
+# Resources
 
 [CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips)

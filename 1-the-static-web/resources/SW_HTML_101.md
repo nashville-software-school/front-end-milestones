@@ -142,7 +142,7 @@ The HTML you write is parsed by the browser and turned into the DOM. But your HT
 1. [Personal Bio](../exercises/SW_HTML_PERSONAL_BIO.md)
 1. [Banking Form](../exercises/SW_HTML_BANKING_FORM.md)
 
-## Dive Deeper into HTML
+# Dive Deeper into HTML
 
 ### Required Reading
 
