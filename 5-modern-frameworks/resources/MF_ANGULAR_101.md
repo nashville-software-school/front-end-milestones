@@ -225,6 +225,9 @@ Check out this bad boy. Angular can automatically group option elements in the s
 </div>
 ```
 
+# Exercises
+
+1. [Mushrooms](../exercises/MF_MUSHROOMS.md)
 
 # More reading
 
