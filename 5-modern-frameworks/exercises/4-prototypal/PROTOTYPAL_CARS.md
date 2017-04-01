@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/prototypal/cars && cd $_
 ```
 
-## Instructions
+## Requirements
 
 Follow the instructions in the comments below.
 

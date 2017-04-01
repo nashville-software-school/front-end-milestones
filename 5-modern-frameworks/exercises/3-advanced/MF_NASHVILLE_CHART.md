@@ -1,10 +1,8 @@
 # Nashville Data
 
-## Angular, APIs, and Charts
-
-For this project, you must use Angular, and the [Angular Google Chart](http://angular-google-chart.github.io/angular-google-chart/docs/latest/guides/getting-started/) library to create a chart based on data from [data.Nashville.gov](http://data.nashville.gov).
-
 ## Setup
+
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
 ```
 mkdir -p ~/workspace/exercises/rich-browser/nashvilledata && cd $_
@@ -16,7 +14,9 @@ Use *npm* to install Angular and charting library.
 npm install angular angular-route angular-google-chart@0.1.0 --save
 ```
 
-## Instructions
+## Requirements
+
+For this project, you must use Angular, and the [Angular Google Chart](http://angular-google-chart.github.io/angular-google-chart/docs/latest/guides/getting-started/) library to create a chart based on data from [data.Nashville.gov](http://data.nashville.gov).
 
 1. Use Angular routing to create two partials for the application.
     1. A chart partial that shows the different types of community resources available (listed under the contact_type in the JSON resource) and the number of resources available of each type.

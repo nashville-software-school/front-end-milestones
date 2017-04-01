@@ -4,7 +4,7 @@
 
 ## Prerequisite
 
-It is recommended that you complete the [first Wide World Travel](./MF_WIDE_WORLD_TRAVEL.md) exercise before starting this one.
+> :warning: This exercise requires that you have completed the [Wide World Travel](./MF_WIDE_WORLD_TRAVEL.md) exercise.
 
 ## Setup
 
@@ -30,9 +30,8 @@ world_wide_travel
  |_ index.html
 ```
 
-## Instructions
+## Requirements
 
 1. Make a new branch called `guide-factory`  
 1. Separate the database interactions from the DOM interactions, and make your guidebook data available to your controller (and other, future controllers) by moving the http call for `guides.json` from `bookCtrl.js` into `guideFactory.js`
 1. Inject your factory into `bookCtrl.js` as a dependency
-

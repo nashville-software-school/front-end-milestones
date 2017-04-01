@@ -11,7 +11,7 @@ mkdir -p ~/workspace/exercises/mjd/solar-system && cd $_
 1. Use `npm` to install Browserify, and any other packages you need to compile your modules.
 2. Make sure you have the Grunt task running that will build the distribution bundle file.
 
-## Instructions
+## Requirements
 
 You'll be creating a web page that will display important scientific data about all eight planets in our solar system. The information about each planet will be separate modules.
 

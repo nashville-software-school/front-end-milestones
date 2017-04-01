@@ -10,22 +10,22 @@ touch index.html
 touch sonnet.js
 ```
 
-## Instructions
+## Requirements
 
 1. Paste the code below into your HTML file.
-1. Take the contents of the sonnet div and place it in a variable
-1. Find and output the starting position of the word "orphans"
-1. Output the number of characters in the sonnet
-1. Replace the first occurance of the string "winter" with "yuletide"
-1. Replace all occurances of the string "the" with "a large"
-1. Set the content of the sonnet div with the new string
+1. Take the contents of the sonnet div and place it in a variable.
+1. Find and output the starting position of the word "orphans".
+1. Output the number of characters in the sonnet.
+1. Replace the first occurance of the string "winter" with "yuletide".
+1. Replace all occurances of the string "the" with "a large".
+1. Set the content of the sonnet div with the new string.
 
 ```
 <div id="sonnet">
 How like a winter hath my absence been
 From thee, the pleasure of the fleeting year!
 What freezings have I felt, what dark days seen!
-What old December's bareness everywhere! 
+What old December's bareness everywhere!
 And yet this time removed was summer's time;
 The teeming autumn, big with rich increase,
 Bearing the wanton burden of the prime,

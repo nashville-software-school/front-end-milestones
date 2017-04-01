@@ -10,7 +10,7 @@ touch index.html
 touch boybands.js
 ```
 
-## Instructions
+## Requirements
 
 Paste the following code into the `<body>` of the HTML file.
 

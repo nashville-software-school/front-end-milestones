@@ -1,4 +1,4 @@
-## Writing Math Tests
+# Writing Math Tests
 
 ## Setup
 
@@ -8,7 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/mjd/calculator && cd $_
 ```
 
-## Instructions
+## Requirements
 
 Your task is to download the stand-alone version of Jasmine and author failing unit tests for each of the functions listed below and then make each one pass.
 

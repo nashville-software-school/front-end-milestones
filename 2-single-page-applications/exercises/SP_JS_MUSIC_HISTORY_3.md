@@ -1,5 +1,9 @@
 # Music History Part 3
 
+## Prerequisites
+
+> :warning: This exercise requires that you have completed the [Music History 2](../../2-the-static-web/exercises/SW_MUSIC_HISTORY_02.md) exercise.
+
 ## Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
@@ -9,7 +13,7 @@ cd ~/workspace/musichistory
 git checkout -b version-3
 ```
 
-## Instructions
+## Requirements
 
 Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
 
@@ -22,7 +26,3 @@ Time to make Music History into a single page application. Before you begin plea
 1. When the user clicks on "Add Music" in the navigation bar, the *List Music View* should be hidden, and the *Add Music View* should be shown ([see example wireframe](https://moqups.com/chortlehoort/1E8LJX7r/p:a0cf17f7b)).
 1. When the user clicks on "List Music" in the navigation bar, the *Add Music View* should be hidden, and the *List Music View* should be shown ([see example wireframe](https://moqups.com/chortlehoort/1E8LJX7r/p:a8d99d401)).
 1. Once the user fills out the song form and clicks the add button, you should collect all values from the input fields, add the song to your array of songs, and update the song list in the DOM.
-
-## Merging
-
-Remember to merge the `version-3` branch back into `master` when you're done.

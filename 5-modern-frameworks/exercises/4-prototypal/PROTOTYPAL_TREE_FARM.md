@@ -8,26 +8,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/prototypal/orchard && cd $_
 ```
 
-## Instructions
-
-Use Jasmine to write your unit tests before you begin writing **any** implementation code.
-
-### Unit Tests
-
-1. There should be a `Plant` function defined.
-1. There should be a `Tree` function defined.
-1. There should be a function named `increaseHeight` on the prototype of Plant.
-1. There should be a function named `decreaseHeight` on the prototype of Plant.
-1. There should be a `height` property on Plant.
-1. There should be a function named `grow` on the prototype of Tree.
-1. There should be a function named `trim` on the prototype of Tree.
-1. When you invoke the `trim` method on Tree, the height of the Tree should be reduced by the integer value that is passed as an argument (e.g. `PearTree.trim(2)`)
-1. When you invoke the `trim` method on Tree, the values of the `branches` property should be decreased by one.
-1. When you invoke the `grow` method on Tree, the height of the Tree should be increased by the integer value that is passed as an argument (e.g. `PearTree.grow(2)`)
-
-### Requirements & Behavior
-
-> Reference: Checkout the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval) and [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval) functions in JavaScript
+## Requirements
 
 1. Create a Plant function.
 1. Create a Tree function.
@@ -66,4 +47,10 @@ Use Jasmine to write your unit tests before you begin writing **any** implementa
 1. Every tenth time the trees are grown, invoke the `trim` method. Pass one value to the method for the pear tree, and a larger value to the method on the oak tree.
 1. Stop growing the trees after they have grown 30 times.
 
-![Orchard Simulation](orchard.gif)
+> **Example output:**  
+>  
+> ![Orchard Simulation](orchard.gif)
+
+## Resources
+
+> Reference: Checkout the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval) and [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval) functions in JavaScript

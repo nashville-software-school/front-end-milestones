@@ -1,16 +1,18 @@
 # Doctors and Patients
 
-For this project, you must use Angular and Firebase. You will be creating a basic application that lists all of the doctors in a medical practice, and then provide a link that shows all the patients for a doctor.
-
 ## Setup
 
-```
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
+
+```bash
 mkdir -p ~/workspace/exercises/modern-framework/doctor-patients && cd $_
 ```
 
-Ensure you have Angular, ng-route, and the Firebase libraries installed and linked in your HTML file.
+> Ensure you have Angular, ng-route, and the Firebase libraries installed and linked in your HTML file.
 
-## Instructions
+## Requirements
+
+For this project, you must use Angular and Firebase. You will be creating a basic application that lists all of the doctors in a medical practice, and then provide a link that shows all the patients for a doctor.
 
 ### Doctors View
 
@@ -62,6 +64,3 @@ Since this application does not have forms for creating doctors and patients, cr
 1. Upload your JSON file into the new application
 1. Use the Firebase REST API to query the list of doctors.
 1. Use the Firebase REST API to query the list of patients for each doctor using the `orderby` and `equalto` URL parameters.
-
-
-

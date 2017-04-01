@@ -9,7 +9,7 @@ These commands are a helpful quick start. You may choose to ignore them complete
 mkdir -p ~/workspace/exercises/rich-browser/battleship && cd $_
 ```
 
-## Instructions
+## Requirements
 
 Create a working 2 player battleship game.
 

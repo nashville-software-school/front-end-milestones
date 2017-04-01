@@ -1,5 +1,15 @@
 # Local Weather Application
 
+## Setup
+
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
+
+```bash
+mkdir -p ~/workspace/exercises/rich-browser/weather && cd $_
+```
+
+## Requirements
+
 Use the [OpenWeatherMap](http://openweathermap.org/API) API to build an application that meets the following criteria.
 
 **given** a user wants to view weather information<br/>

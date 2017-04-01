@@ -10,7 +10,7 @@ touch index.html
 touch calculator.js
 ```
 
-## Instructions
+## Requirements
 
 1. Create an HTML file that has two input fields to accept the two numbers to perform operations on.
 1. Create 4 buttons to perform each of the basic mathematical functions (add, subtract, multiply, divide).

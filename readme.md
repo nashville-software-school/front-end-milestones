@@ -1,10 +1,10 @@
 # Mastery Learning
 
-Welcome to an experiment in education. Learning software development isn't like learning anything else, so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class, or your college intro to philosophy.
+Welcome to an experiment in education. Learning software development isn't like learning anything else, so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class or your college intro to philosophy.
 
 ## How is mastery learning different from what I've experienced before?
 
-We're aiming for 100% of students to have 100% mastery of the material. This is an ambitous plan and we're plannning on reaching it by allowing students to work at their own pace, providing students with lots of instructor guidance, and giving students access to all the resources they will need to succeed.
+We're aiming for 100% of students to have 100% mastery of the material. This is an ambitous plan, and we're plannning on reaching it by allowing students to work at their own pace, providing students with lots of instructor guidance, and giving students access to all the resources they will need to succeed.
 
 
 ## Differences between traditional education and mastery learning
@@ -51,34 +51,18 @@ We're aiming for 100% of students to have 100% mastery of the material. This is 
 ## What responsibilities are on the student?
 
 1. Owning your experience, which includes:
-  * Show up to class 
-  * Participate in class discussions and group projects 
-  * Complete the exercises for each  milestone, the individual challenge for each milestone, and top it all off with a capstone project 
+  * Show up to class
+  * Participate in class discussions and group projects
+  * Complete the exercises for each  milestone, the individual challenge for each milestone, and top it all off with a capstone project
   * Timing is flexible, if  you need a little more time to completely understand a topic, take some time, ask for help and fill in any gaps in your understanding.
-1. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
+2. Ask questions! Even if the question is a "huh, I don't know where to start," it is absolutely imperative that students take responsibility for their own understanding and clarify any questions right away.
 1. Make sure you are putting in the time and effort to reach success.
 1. Work through the exercises for each milestone before you attempt the challenge. Skipping ahead to the challenge is the best way to cheat yourself out of understanding.
 
 
 > **Bottom Line:** We will give you all of the ingredients, but it's up to you to bake the cake.
 
-###So, why do things this way?
- First, and most importantly, in software development, each concept builds upon the previous concept, so absolute mastery of each concept is necessary before moving on. Second, teaching adults over the course of 6 months is a unique situation and the adults we accept into the program are expected to have the work ethic needed to forge their own path.
+### So, why do things this way?
+ First, and most importantly, in software development, each concept builds upon the previous concept, so absolute mastery of each concept is necessary before moving on. Second, teaching adults over the course of 6 months is a unique situation, and the adults we accept into the program are expected to have the work ethic needed to forge their own path.
 
 For a more in-depth vision of mastery learning at NSS you can read the article [An Alternative for Teaching Software Development](http://www.stevebrownlee.com/alternative-teaching-software-development/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -10,7 +10,7 @@ touch index.html
 touch chaining.js
 ```
 
-## Instructions
+## Requirements
 
 Using one single line of JavaScript code, complete the following tasks on the array of integers below.
 

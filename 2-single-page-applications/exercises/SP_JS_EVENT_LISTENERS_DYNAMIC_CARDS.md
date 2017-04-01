@@ -11,7 +11,7 @@ touch cards.js
 touch cards.css
 ```
 
-## Instructions
+## Requirements
 
 1. Create an HTML page that contains a text area and a button labeled *Create*.
 1. When the user enters in text into the text area and then clicks the create button, create a new card element in the DOM that includes it's own delete button. You decide the height/width of the card.

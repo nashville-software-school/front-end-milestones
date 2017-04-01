@@ -4,8 +4,6 @@
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
-### Host machine
-
 ```bash
 mkdir -p ~/workspace/exercises/spa/wysiwyg && cd $_
 touch index.html
@@ -13,7 +11,7 @@ touch wysiwyg.js
 touch wysiwyg.css
 ```
 
-## Instructions
+## Requirements
 
 1. Create an array of objects that represents famous people (see structure below).
 1. Create a text input in your DOM.

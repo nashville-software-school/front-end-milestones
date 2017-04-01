@@ -1,10 +1,17 @@
 # Music History 8
 
+## Prerequisite
+
+> :warning: This exercise requires that you have completed the [Music History 7](MUSIC_HISTORY_07.md) exercise.
+
 ## Setup
 
-### Create a new branch
+These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
-`git checkout -b version8`
+```bash
+cd ~/workspace/musichistory
+`git checkout -b version-8`
+```
 
 ## Requirements
 
@@ -30,8 +37,7 @@ for (var key in existingSongObjectFromFirebase.songs) {
 
 ## Post promises requirements
 
-These requirements only apply after we cover promises in class.
+> :pencil2: These requirements only apply after we cover promises in class.
 
 1. When you add, or delete, a song, the modules that perform the XHRs should return promises.
 1. After the promise is resolved, you should display a [Bootstrap modal](http://getbootstrap.com/javascript/#modals) window to provide feedback on if the operation was successful, or not.
-

@@ -4,8 +4,7 @@
 
 ## Prerequisite
 
-It is recommended that you complete the [Wide World Travel factory exercise](./MF_WIDE_WORLD_TRAVEL.md) before starting this one.
-   
+> :warning: This exercise requires that you have completed the [Wide World Travel Factory](./MF_WIDE_WORLD_TRAVEL.md) exercise.
 
 ## Setup
 
@@ -34,8 +33,7 @@ world_wide_travel
  |_ index.html
 ```
 
-
-## Instructions
+## Requirements
 
 You are going to use `ngRoute` to load the HTML for diplaying guide books from a partial into `index.html`
 
@@ -44,4 +42,3 @@ You are going to use `ngRoute` to load the HTML for diplaying guide books from a
 1. Inject it into your app as a dependency: `var myApp = angular.module("MyAppName", ['ngRoute']);`
 1. Setup routing in app.js using the config method: `app.config(['$routeProvider'....etc`
 1. Remember to remove `ng-controller` references from index.html. Angular-route will now handle binding controllers to partials.
-

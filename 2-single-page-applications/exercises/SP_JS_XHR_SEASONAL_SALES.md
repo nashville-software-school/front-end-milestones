@@ -10,7 +10,7 @@ touch index.html
 touch seasonal-sales.js
 ```
 
-## Instructions
+## Requirements
 
 You work as a developer for a big box store. Here is a JSON representation of a small sample of the products you sell.
 
@@ -112,7 +112,7 @@ Your job is to build a web page that lists all of the products, the name of the 
 
 For example, when _Spring_ is chosen, all products in the corresponding Household category should have their prices updated with a 15% discount off the base price.
 
-The two JSON representations above should be in two files: `products.json`, and `categories.json`. You should load both file via XHRs and store the contents in two different JavaScript variables in your code.
+The two JSON representations above should be in two files: `products.json`, and `categories.json`. You should load both files via XHRs and store the contents in two different JavaScript variables in your code.
 
 # Resources
 
