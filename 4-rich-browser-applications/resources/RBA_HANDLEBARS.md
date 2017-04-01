@@ -453,6 +453,10 @@ render.load('solarSystem', solarSystemData, function (output) {
 });
 ```
 
+# Exercises
+
+1. [Handlebars Blog](../exercises/RBA_HANDLESBARS_BLOG.md)
+
 # Music History with Handlebars
 
 ## Using Handlebars in a Require app
