@@ -180,3 +180,9 @@ Now just include your bundled file in your HTML and run it in your browser.
 # Exploring Browserify Further
 
 Once you've worked on the Browserify exercises, if you want to learn about more transforms that it can accomplish, beyond JsHint, SASS, and modules, then visit the [list of transforms](https://github.com/substack/node-browserify/wiki/list-of-transforms) on Github. Find a transform that interests you and see if you can get it to work.
+
+# Exercises
+
+1. [Planets](../exercises/MJ_BROWSERIFY_PLANETS.md)
+1. [Sandwich Maker Redux](../exercises/MJ_BROWSERIFY_SANDWICH_MAKER.md)
+1. [Music History 6](../exercises/MJ_BROWSERIFY_MUSIC_HISTORY_6.md)
