@@ -103,3 +103,7 @@ modifyThing(elephant, makeYoung);
  */
 console.log(elephant); // { bellyIs: "full", age: "young", color: "red" }
 ```
+
+# Exercises
+
+1. [Calculator](../exercises/SW_JS_ADVANCED_FUNCTIONS_CALCULATOR.md)
