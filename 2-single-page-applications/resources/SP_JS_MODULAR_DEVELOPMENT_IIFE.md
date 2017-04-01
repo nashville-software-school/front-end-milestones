@@ -175,6 +175,10 @@ console.log(Sedan);
 console.log(Sedan.setOccupancy(9));
 ```
 
+# Exercises
 
-###Read more about modules:
+1. [Sandwich Maker](../exercises/SP_JS_IIFE_SANDWICH.md)
+1. [Walk-A-Thon](../exercises/SP_JS_IIFE_BOOTSTRAP.md)
+
+# Read more about modules:
 [Eloquent Javascript: Chapter 10, Modules](http://eloquentjavascript.net/10_modules.html)
