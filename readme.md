@@ -59,6 +59,7 @@ We're aiming for 100% of students to have 100% mastery of the material. This is 
 1. Make sure you are putting in the time and effort to reach success.
 1. Work through the exercises for each milestone before you attempt the challenge. Skipping ahead to the challenge is the best way to cheat yourself out of understanding.
 
+
 > **Bottom Line:** We will give you all of the ingredients, but it's up to you to bake the cake.
 
 ### So, why do things this way?
