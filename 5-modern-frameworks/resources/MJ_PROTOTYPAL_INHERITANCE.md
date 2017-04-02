@@ -160,6 +160,13 @@ gameDayOrder.beverage = pepsi;
 console.log("My game day order: ", gameDayOrder);
 ```
 
+# Exercises
+
+1. [Cars](../exercises/4-prototypal/PROTOTYPAL_CARS.md)
+1. [Zoo](../exercises/4-prototypal/PROTOTYPAL_ZOO.md)
+1. [Employees](../exercises/4-prototypal/PROTOTYPAL_EMPLOYEES.md)
+1. [Tree Farm](../exercises/4-prototypal/PROTOTYPAL_TREE_FARM.md)
+
 # External Resources
 
 1. [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.2le5vxm7w)
