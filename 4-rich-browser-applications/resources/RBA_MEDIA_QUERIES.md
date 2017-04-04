@@ -134,7 +134,7 @@ body {
 
 # Exercises
 
-1. [Music History 7](../exercises/MUSIC_HISTORY_07.md)
+1. [Music History 7](../exercises/RBA_MUSIC_HISTORY_07.md)
 
 # Resources
 
