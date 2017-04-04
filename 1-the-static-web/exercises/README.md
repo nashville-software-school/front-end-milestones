@@ -3,7 +3,7 @@
 
 1. [Blog page](SW_HTML_BLOG.md)
 1. [Banking application form](SW_HTML_BANKING_FORM.md)
-1. [HTML CSS Product Cards](SW_HTML_CSS__PRODUCT_CARDS.md)
+1. [HTML CSS Product Cards](SW_HTML_CSS_PRODUCT_CARDS.md)
 
 ## CSS
 
