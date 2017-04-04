@@ -1,3 +1,7 @@
+# Exercises
+
+1. [Music History 5](../exercises/MJ_JQUERY_MUSIC_HISTORY_5.md)
+
 # Introduction to jQuery
 
 jQuery is about to make your life a bit easier as a developer. You've learned how to do some amazing things with vanilla JavaScript, which you will continue to use, but jQuery can make some of the more complex tasks simple.
@@ -226,7 +230,3 @@ $(document).ready(function() {
   });
 });
 ```
-
-# Exercises
-
-1. [Music History 5](../exercises/MJ_JQUERY_MUSIC_HISTORY_5.md)

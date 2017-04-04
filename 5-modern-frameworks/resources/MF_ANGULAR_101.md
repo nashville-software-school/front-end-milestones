@@ -1,3 +1,8 @@
+# Exercises
+
+1. [Mushrooms](../exercises/1-basic/MF_MUSHROOMS.md)
+1. [Wide World Travel](../exercises/1-basic/MF_WIDE_WORLD_TRAVEL.md)
+
 # Angular101
 
 ## Installation
@@ -224,11 +229,6 @@ Check out this bad boy. Angular can automatically group option elements in the s
   </select>
 </div>
 ```
-
-# Exercises
-
-1. [Mushrooms](../exercises/1-basic/MF_MUSHROOMS.md)
-1. [Wide World Travel](../exercises/1-basic/MF_WIDE_WORLD_TRAVEL.md)
 
 # More reading
 

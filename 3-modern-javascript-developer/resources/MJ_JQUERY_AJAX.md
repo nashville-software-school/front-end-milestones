@@ -1,3 +1,7 @@
+# Exercises
+
+1. [Slideshow](../exercises/MJ_JQUERY_SLIDESHOW.md)
+
 # jQuery: AJAX
 
 1. What is asynchronous execution vs. synchronous execution?
@@ -64,7 +68,3 @@ $(document).ready(function() {
 ```
 
 Now that you know the basics of using the `ajax()` method to make XHR calls, it's time to move on to the Music History 5 module where your job will be to use JSON and XHR to load your songs from separate files and then convert the raw JSON data to HTML for display in your page.
-
-# Exercises
-
-1. [Slideshow](../exercises/MJ_JQUERY_SLIDESHOW.md)

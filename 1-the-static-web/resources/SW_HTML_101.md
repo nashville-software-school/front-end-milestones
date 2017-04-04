@@ -1,3 +1,9 @@
+# Exercises
+
+1. [Blog](../exercises/SW_HTML_BLOG.md)
+1. [Personal Bio](../exercises/SW_HTML_PERSONAL_BIO.md)
+1. [Banking Form](../exercises/SW_HTML_BANKING_FORM.md)
+
 # HTML
 
 **H**yper**t**ext **M**arkup **L**anguage: The Building Blocks of the Web
@@ -135,12 +141,6 @@ The Document Object Model is a platform- and language-neutral interface that wil
 <img src="http://www.w3.org/TR/DOM-Level-2-Core/images/table.gif">
 
 The HTML you write is parsed by the browser and turned into the DOM. But your HTML is not the DOM. Mistakes/omissions can be 'fixed' by the browser, such as when you add a `<table>` element in your HTML and leave out the required `<tbody>` element. The browser will just insert that `<tbody>` for you. The Javscript you write can also really change what's rendered far beyond the original markup.
-
-# Exercises
-
-1. [Blog](../exercises/SW_HTML_BLOG.md)
-1. [Personal Bio](../exercises/SW_HTML_PERSONAL_BIO.md)
-1. [Banking Form](../exercises/SW_HTML_BANKING_FORM.md)
 
 # Dive Deeper into HTML
 

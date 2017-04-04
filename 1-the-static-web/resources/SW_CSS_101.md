@@ -1,3 +1,9 @@
+# Exercises
+
+1. [Article Styling](../exercises/SW_CSS_ARTICLE_STYLES.md)
+1. [Interactive Navigation](../exercises/SW_CSS_INTERACTIVE_NAVIGATION.md)
+1. [Banking Validation](../exercises/SW_CSS_BANKING_VALIDATE.md)
+
 # CSS 101
 
 **C**ascading **S**tyle **S**heets
@@ -87,12 +93,6 @@ input:invalid {
   background-color: #ffdddd;
 }
 ```
-
-# Exercises
-
-1. [Article Styling](../exercises/SW_CSS_ARTICLE_STYLES.md)
-1. [Interactive Navigation](../exercises/SW_CSS_INTERACTIVE_NAVIGATION.md)
-1. [Banking Validation](../exercises/SW_CSS_BANKING_VALIDATE.md)
 
 # Want to learn more?
 

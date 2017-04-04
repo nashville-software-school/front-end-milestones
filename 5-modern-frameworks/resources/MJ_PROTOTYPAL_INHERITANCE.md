@@ -1,3 +1,10 @@
+# Exercises
+
+1. [Cars](../exercises/4-prototypal/PROTOTYPAL_CARS.md)
+1. [Zoo](../exercises/4-prototypal/PROTOTYPAL_ZOO.md)
+1. [Employees](../exercises/4-prototypal/PROTOTYPAL_EMPLOYEES.md)
+1. [Tree Farm](../exercises/4-prototypal/PROTOTYPAL_TREE_FARM.md)
+
 # Prototypal Inheritance and Composition
 
 ## is-a vs. has-a
@@ -159,13 +166,6 @@ gameDayOrder.beverage = pepsi;
 
 console.log("My game day order: ", gameDayOrder);
 ```
-
-# Exercises
-
-1. [Cars](../exercises/4-prototypal/PROTOTYPAL_CARS.md)
-1. [Zoo](../exercises/4-prototypal/PROTOTYPAL_ZOO.md)
-1. [Employees](../exercises/4-prototypal/PROTOTYPAL_EMPLOYEES.md)
-1. [Tree Farm](../exercises/4-prototypal/PROTOTYPAL_TREE_FARM.md)
 
 # External Resources
 
