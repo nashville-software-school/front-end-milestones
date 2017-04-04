@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Cars](../exercises/4-prototypal/PROTOTYPAL_CARS.md)
 1. [Zoo](../exercises/4-prototypal/PROTOTYPAL_ZOO.md)
