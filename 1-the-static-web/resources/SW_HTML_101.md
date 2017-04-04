@@ -142,7 +142,7 @@ The Document Object Model is a platform- and language-neutral interface that wil
 
 The HTML you write is parsed by the browser and turned into the DOM. But your HTML is not the DOM. Mistakes/omissions can be 'fixed' by the browser, such as when you add a `<table>` element in your HTML and leave out the required `<tbody>` element. The browser will just insert that `<tbody>` for you. The Javscript you write can also really change what's rendered far beyond the original markup.
 
-# Dive Deeper into HTML
+# Resources
 
 ### Required Reading
 

@@ -94,7 +94,7 @@ input:invalid {
 }
 ```
 
-# Want to learn more?
+# Resources
 
 1. A cool [CSS game](https://flukeout.github.io/)
 1. **Generate and use a cool tooltip**. Visit the [CSS Tooltip Generator](http://www.cssportal.com/css-tooltip-generator/) and create the CSS you need. Then, see if you can get a tooltip to display when you hover a link in your profile page.

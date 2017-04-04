@@ -230,7 +230,7 @@ Check out this bad boy. Angular can automatically group option elements in the s
 </div>
 ```
 
-# More reading
+# Resources
 
 ## Read these articles first
 [Angular for beginners](http://medialoot.com/blog/angularjs-for-absolute-beginners/)

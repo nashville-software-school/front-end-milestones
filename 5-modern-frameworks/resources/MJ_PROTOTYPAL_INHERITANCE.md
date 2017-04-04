@@ -167,7 +167,7 @@ gameDayOrder.beverage = pepsi;
 console.log("My game day order: ", gameDayOrder);
 ```
 
-# External Resources
+# Resources
 
 1. [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.2le5vxm7w)
 1. [JavaScript is object oriented](https://medium.com/just-javascript/javascript-is-object-oriented-a6f5e0f440f3#)

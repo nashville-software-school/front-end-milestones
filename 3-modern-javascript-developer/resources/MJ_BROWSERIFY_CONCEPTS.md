@@ -183,6 +183,6 @@ Now just include your bundled file in your HTML and run it in your browser.
 </html>
 ```
 
-# Exploring Browserify Further
+# Resources
 
 Once you've worked on the Browserify exercises, if you want to learn about more transforms that it can accomplish, beyond JsHint, SASS, and modules, then visit the [list of transforms](https://github.com/substack/node-browserify/wiki/list-of-transforms) on Github. Find a transform that interests you and see if you can get it to work.
