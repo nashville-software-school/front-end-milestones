@@ -229,4 +229,4 @@ $(document).ready(function() {
 
 # Exercises
 
-1. [Music History 5](../exercises/MJ_JQUERY_MUSIC_HISTORY_5.md)
+1. [Music History 5](../exercises/MJ_JQUERY_MUSIC_HISTORY_05.md)

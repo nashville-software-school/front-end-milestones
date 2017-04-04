@@ -185,4 +185,4 @@ Once you've worked on the Browserify exercises, if you want to learn about more 
 
 1. [Planets](../exercises/MJ_BROWSERIFY_PLANETS.md)
 1. [Sandwich Maker Redux](../exercises/MJ_BROWSERIFY_SANDWICH_MAKER.md)
-1. [Music History 6](../exercises/MJ_BROWSERIFY_MUSIC_HISTORY_6.md)
+1. [Music History 6](../exercises/MJ_BROWSERIFY_MUSIC_HISTORY_06.md)
