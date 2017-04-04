@@ -1,6 +1,6 @@
 # :pushpin: Exercises
 
-1. [User Notes](../exercises/1-basic/MF_USER_NOTES.md)
+1. [User Notes](../exercises/MF_USER_NOTES.md)
 
 # Angular 103
 

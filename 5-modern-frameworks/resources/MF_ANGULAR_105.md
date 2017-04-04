@@ -1,10 +1,10 @@
 # :pushpin: Exercises
 
-1. [Doctors & Patients](../exercises/2-intermediate/MF_DOCTORS_PATIENTS.md)
-1. [Music History 10](../exercises/2-intermediate/MF_MUSIC_HISTORY.md)
-1. [National Parks](../exercises/2-intermediate/MF_NATIONAL_PARKS.md)
-1. [Music History 11](../exercises/3-advanced/MF_MUSIC_HISTORY.md)
-1. [Nashville Chart](../exercises/3-advanced/MF_MF_NASHVILLE_CHART.md)
+1. [Doctors & Patients](../exercises/MF_DOCTORS_PATIENTS.md)
+1. [Music History 10](../exercises/MF_MUSIC_HISTORY.md)
+1. [National Parks](../exercises/MF_NATIONAL_PARKS.md)
+1. [Music History 11](../exercises/MF_MUSIC_HISTORY.md)
+1. [Nashville Chart](../exercises/MF_MF_NASHVILLE_CHART.md)
 
 # Angular 105
 

@@ -1,7 +1,7 @@
 # :pushpin: Exercises
 
-1. [Mushrooms](../exercises/1-basic/MF_MUSHROOMS.md)
-1. [Wide World Travel](../exercises/1-basic/MF_WIDE_WORLD_TRAVEL.md)
+1. [Mushrooms](../exercises/MF_MUSHROOMS.md)
+1. [Wide World Travel](../exercises/MF_WIDE_WORLD_TRAVEL.md)
 
 # Angular101
 

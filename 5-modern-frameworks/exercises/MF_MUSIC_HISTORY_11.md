@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 10](../2-intermediate/MF_MUSIC_HISTORY.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 10](MF_MUSIC_HISTORY.md) exercise.
 
 ## Setup
 

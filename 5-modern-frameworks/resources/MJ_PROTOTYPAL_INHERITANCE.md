@@ -1,9 +1,9 @@
 # :pushpin: Exercises
 
-1. [Cars](../exercises/4-prototypal/PROTOTYPAL_CARS.md)
-1. [Zoo](../exercises/4-prototypal/PROTOTYPAL_ZOO.md)
-1. [Employees](../exercises/4-prototypal/PROTOTYPAL_EMPLOYEES.md)
-1. [Tree Farm](../exercises/4-prototypal/PROTOTYPAL_TREE_FARM.md)
+1. [Cars](../exercises/PROTOTYPAL_CARS.md)
+1. [Zoo](../exercises/PROTOTYPAL_ZOO.md)
+1. [Employees](../exercises/PROTOTYPAL_EMPLOYEES.md)
+1. [Tree Farm](../exercises/PROTOTYPAL_TREE_FARM.md)
 
 # Prototypal Inheritance and Composition
 
