@@ -1,4 +1,5 @@
-## Modern Frameworks
+# Modern Frameworks Exercises
+
 ### Basic
 1. [Part 1: Wide World Travel](MF_WIDE_WORLD_TRAVEL.md)
 1. [Part 2: Wide World Travel, Factory](MF_WIDE_WORLD_TRAVEL_FACTORY.md)
@@ -15,13 +16,18 @@
 1. [Music History with Angular](MF_MUSIC_HISTORY.md)
 1. [Angular controllers and factories with Firebase storage and authentication](MF_NATIONAL_PARKS.md)
 
+
 ### Advanced
 1. [Add Filtering Form to Music History](MF_MUSIC_HISTORY.md)
 1. [Angular, APIs, and Charts](MF_NASHVILLE_CHART.md)
 
 
-## Prototypal Inheritance
+### Prototypal Inheritance
 1. [Car Manufactory](PROTOTYPAL_CARS.md)
 1. [Tree Orchard](PROTOTYPAL_TREE_FARM.md)
-2. [Zoo Animals](PROTOTYPAL_ZOO.md)
-3. [Employee List](PROTOTYPAL_EMPLOYEES.md)
+1. [Zoo Animals](PROTOTYPAL_ZOO.md)
+1. [Employee List](PROTOTYPAL_EMPLOYEES.md)
+
+
+## Group Project
+1. Gauntlet
