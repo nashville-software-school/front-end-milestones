@@ -6,14 +6,6 @@ To be filled in by Steve later. If you're here and want to learn more, check out
 
 Then ask questions.
 
-# Exercises
-
-1. [Doctors & Patients](../exercises/2-intermediate/MF_DOCTORS_PATIENTS.md)
-1. [Music History 10](../exercises/2-intermediate/MF_MUSIC_HISTORY.md)
-1. [National Parks](../exercises/2-intermediate/MF_NATIONAL_PARKS.md)
-1. [Music History 11](../exercises/3-advanced/MF_MUSIC_HISTORY.md)
-1. [Nashville Chart](../exercises/3-advanced/MF_MF_NASHVILLE_CHART.md)
-
 # Resources
 
 + [AngularJS And Browserify — The Dream Team For Single Page Applications](https://blog.codecentric.de/en/2014/08/angularjs-browserify/)

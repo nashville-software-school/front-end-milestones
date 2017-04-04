@@ -136,6 +136,14 @@ Now you can include the custom directive in other partials.  Replace the content
 </section>
 ```
 
+# Exercises
+
+1. [Doctors & Patients](../exercises/2-intermediate/MF_DOCTORS_PATIENTS.md)
+1. [Music History 10](../exercises/2-intermediate/MF_MUSIC_HISTORY.md)
+1. [National Parks](../exercises/2-intermediate/MF_NATIONAL_PARKS.md)
+1. [Music History 11](../exercises/3-advanced/MF_MUSIC_HISTORY.md)
+1. [Nashville Chart](../exercises/3-advanced/MF_MF_NASHVILLE_CHART.md)
+
 # More Reading
 [Angular directives tutorial](http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/)
 [Create a tree hierarchy with ng-include](http://gurustop.net/blog/2014/07/15/angularjs-using-templates-ng-include-create-infinite-tree/)
