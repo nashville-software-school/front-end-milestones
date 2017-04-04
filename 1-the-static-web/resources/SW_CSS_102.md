@@ -315,7 +315,7 @@ input:invalid {
 1. [Relationship Selectors](../exercises/SW_CSS_RELATIONSHIP_SELECTORS.md)
 1. [Pseudoclasses](../exercises/SW_CSS_PSEUDOCLASSES.md)
 1. [Zen Garden](../exercises/SW_CSS_ZEN_GARDEN.md)
-1. [Music History 1](../exercises/SW_MUSIC_HISTORY_01.md)
+1. [Music History 1](../exercises/SW_CSS_MUSIC_HISTORY_01.md)
 1. [Product Cards](../exercises/SW_CSS__PRODUCT_CARDS.md)
 
 # Resources

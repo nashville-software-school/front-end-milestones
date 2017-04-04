@@ -12,7 +12,7 @@
 1. [Validate your banking form](SW_CSS_BANKING_VALIDATE.md)
 1. [Interactive navigation bar](SW_CSS_INTERACTIVE_NAVIGATION.md)
 1. [CSS Pseudo-classes](SW_CSS_PSEUDOCLASSES.md)
-1. [Music History 01](SW_MUSIC_HISTORY_01.md) - HTML/CSS, git
+1. [Music History 01](SW_CSS_MUSIC_HISTORY_01.md) - HTML/CSS, git
 1. [CSS Zen Garden Challenge](SW_CSS_ZEN_GARDEN.md) - CSS
 
 ## JavaScript
@@ -24,7 +24,7 @@
 1. [Temperature converter](SW_JS_CONVERTER.md) - HTML input, functions, event handler 
 1. [Student grades](SW_JS_GRADES.md) - loop, array, conditional
 1. [AlphaStacker](SW_JS_ALPHASTACKER.md) -  function, loop, array
-1. [Music History 02](SW_MUSIC_HISTORY_02.md) - loop, array, innerHTML, string replace method, git merge
+1. [Music History 02](SW_JS_MUSIC_HISTORY_02.md) - loop, array, innerHTML, string replace method, git merge
 
 # In-class Exercises
 

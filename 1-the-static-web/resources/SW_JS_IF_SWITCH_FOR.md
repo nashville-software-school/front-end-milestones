@@ -74,7 +74,7 @@ You can perform any mathematical operation on the `count` variable that you want
 1. [Boy Bands](../exercises/SW_JS_BOYBANDS.md)
 1. [Reindeer](../exercises/SW_JS_REINDEER.md)
 1. [Grades](../exercises/SW_JS_GRADES.md)
-1. [Music History 2](../exercises/SW_MUSIC_HISTORY_02.md)
+1. [Music History 2](../exercises/SW_JS_MUSIC_HISTORY_02.md)
 
 # Want to learn more?
 
