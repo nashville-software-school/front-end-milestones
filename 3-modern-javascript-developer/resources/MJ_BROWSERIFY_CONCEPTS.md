@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Planets](../exercises/MJ_BROWSERIFY_PLANETS.md)
 1. [Sandwich Maker Redux](../exercises/MJ_BROWSERIFY_SANDWICH_MAKER.md)

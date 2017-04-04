@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Music History 7](../exercises/MUSIC_HISTORY_07.md)
 

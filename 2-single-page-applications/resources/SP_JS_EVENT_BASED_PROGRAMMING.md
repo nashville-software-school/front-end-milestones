@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Guinea Pig](../exercises/SW_JS_EVENT_LISTENERS_GUINEA_PIG.md)
 1. [Dynamic Cards](../exercises/SW_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)

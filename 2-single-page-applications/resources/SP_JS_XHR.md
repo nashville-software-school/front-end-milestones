@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Mind Melting](../exercises/SP_JS_XHR/MIND_MELTING.md)
 1. [Pet Food](../exercises/SP_JS_XHR_FOOD.md)

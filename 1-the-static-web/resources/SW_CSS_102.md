@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Relationship Selectors](../exercises/SW_CSS_RELATIONSHIP_SELECTORS.md)
 1. [Pseudoclasses](../exercises/SW_CSS_PSEUDOCLASSES.md)

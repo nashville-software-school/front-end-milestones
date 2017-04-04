@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Handlebars Blog](../exercises/RBA_HANDLESBARS_BLOG.md)
 

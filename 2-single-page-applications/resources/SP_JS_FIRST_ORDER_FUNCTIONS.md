@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Calculator](../exercises/SW_JS_ADVANCED_FUNCTIONS_CALCULATOR.md)
 

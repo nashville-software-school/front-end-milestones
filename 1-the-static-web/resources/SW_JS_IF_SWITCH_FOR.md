@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [For](../exercises/SW_JS_FOR.md)
 1. [Alphastacker](../exercises/SW_JS_ALPHASTACKER.md)

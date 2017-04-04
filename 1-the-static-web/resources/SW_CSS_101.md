@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Article Styling](../exercises/SW_CSS_ARTICLE_STYLES.md)
 1. [Interactive Navigation](../exercises/SW_CSS_INTERACTIVE_NAVIGATION.md)

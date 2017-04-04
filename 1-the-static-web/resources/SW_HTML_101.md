@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Blog](../exercises/SW_HTML_BLOG.md)
 1. [Personal Bio](../exercises/SW_HTML_PERSONAL_BIO.md)

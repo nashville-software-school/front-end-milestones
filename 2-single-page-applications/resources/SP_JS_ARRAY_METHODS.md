@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Chaining Arrays](../exercises/SP_JS_ARRAYS_CHAINING.md)
 1. [String Manipulation](../exercises/SP_JS_ARRAYS_STRING_MANIPULATION.md)

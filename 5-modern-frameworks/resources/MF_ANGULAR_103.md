@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [User Notes](../exercises/1-basic/MF_USER_NOTES.md)
 

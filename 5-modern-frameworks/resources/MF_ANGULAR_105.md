@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Doctors & Patients](../exercises/2-intermediate/MF_DOCTORS_PATIENTS.md)
 1. [Music History 10](../exercises/2-intermediate/MF_MUSIC_HISTORY.md)

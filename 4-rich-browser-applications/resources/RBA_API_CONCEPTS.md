@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Weather API](../exercises/RBA_API_WEATHER_APP.md)
 

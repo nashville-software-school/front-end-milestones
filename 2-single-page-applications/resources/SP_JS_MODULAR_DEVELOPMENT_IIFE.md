@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Sandwich Maker](../exercises/SP_JS_IIFE_SANDWICH.md)
 1. [Walk-A-Thon](../exercises/SP_JS_IIFE_BOOTSTRAP.md)
