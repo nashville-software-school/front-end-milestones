@@ -15,7 +15,7 @@
 1. [Guinea pig](SP_JS_EVENT_LISTENERS_GUINEA_PIG.md)
 1. [Dynamic cards](SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)
 1. [WYSIWYG](SP_JS_EVENT_LISTENERS_WYSIWYG.md)
-1. [Music History 3](SP_JS_MUSIC_HISTORY_3.md)
+1. [Music History 3](SP_JS_MUSIC_HISTORY_03.md)
 1. [TSA](SP_JS_EVENT_LISTENERS_TSA.md)
 
 #### IIFE
@@ -25,7 +25,7 @@
 
 #### XHRs
 
-1. [Music History 4](SP_JS_MUSIC_HISTORY_4.md)
+1. [Music History 4](SP_JS_MUSIC_HISTORY_04.md)
 1. [Seasonal sales](SP_JS_XHR_SEASONAL_SALES.md)
 1. [IIFE, XHRs and Callbacks, Oh My](SP_JS_XHR_MIND_MELTING.md)
 1. [Pet food](SP_JS_XHR_FOOD.md)
