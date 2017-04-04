@@ -102,4 +102,4 @@ addLink.addEventListener("click", function() {
 
 # Exercises
 
-1. [Music History 3](../exercises/SP_JS_MUSIC_HISTORY_3.md)
+1. [Music History 3](../exercises/SP_JS_EVENT_LISTENERS_MUSIC_HISTORY_03.md)

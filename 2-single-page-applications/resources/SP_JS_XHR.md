@@ -71,7 +71,7 @@ myRequest.send();
 1. [Mind Melting](../exercises/SP_JS_XHR/MIND_MELTING.md)
 1. [Pet Food](../exercises/SP_JS_XHR_FOOD.md)
 1. [Seasonal Sales](../exercises/SP_JS_XHR_SEASONAL_SALES.md)
-1. [Music History 4](../exercises/SP_JS_XHR_MUSIC_HISTORY_4.md)
+1. [Music History 4](../exercises/SP_JS_XHR_MUSIC_HISTORY_04.md)
 
 # Resources
 
