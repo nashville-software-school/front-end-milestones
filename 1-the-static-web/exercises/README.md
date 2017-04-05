@@ -18,14 +18,14 @@
 
 
 ### JavaScript
-1. [For](../exercises/SW_JS_FOR.md)
+1. [For](../exercises/SW_JS_FOR.md) - Iteration practice
 1. [Alphastacker](../exercises/SW_JS_ALPHASTACKER.md)
 1. [Boy Bands](../exercises/SW_JS_BOYBANDS.md)
 1. [Reindeer](../exercises/SW_JS_REINDEER.md)
 1. [Grades](../exercises/SW_JS_GRADES.md)
 1. [Music History 2](../exercises/SW_MUSIC_HISTORY_02.md)
-1. [Counting coins](SW_JS_COINS.md) - loops, vars, object, function
-1. [Temperature converter](SW_JS_CONVERTER.md) - HTML input, functions, event handler
+1. [Counting coins](SW_JS_COINS.md)
+1. [Temperature converter](SW_JS_CONVERTER.md)
 
 
 ## In-class Exercises

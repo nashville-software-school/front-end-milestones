@@ -21,16 +21,16 @@
 1. [Music History 3](SP_JS_MUSIC_HISTORY_3.md)
 
 
-### IIFE
-1. [Sandwich maker](SP_JS_IIFE_SANDWICH.md)
-1. [Walk-A-Thon](SP_JS_IIFE_BOOTSTRAP.md)
-
-
 ### XHRs
 1. [IIFE, XHRs and Callbacks, Oh My](SP_JS_XHR_MIND_MELTING.md)
 1. [Pet food](SP_JS_XHR_FOOD.md)
 1. [Seasonal sales](SP_JS_XHR_SEASONAL_SALES.md)
 1. [Music History 4](SP_JS_MUSIC_HISTORY_4.md)
+
+
+### IIFE
+1. [Sandwich maker](SP_JS_IIFE_SANDWICH.md)
+1. [Walk-A-Thon](SP_JS_IIFE_BOOTSTRAP.md)
 
 
 ## In-class Exercises
