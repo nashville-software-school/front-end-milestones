@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Slideshow](../exercises/MJ_JQUERY_SLIDESHOW.md)
+
 # jQuery: AJAX
 
 1. What is asynchronous execution vs. synchronous execution?

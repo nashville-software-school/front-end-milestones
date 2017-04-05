@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Music History 3](../exercises/SP_JS_MUSIC_HISTORY_3.md)
+
 # Javascript: Simple SPA using events and CSS
 
 Let's look at a very basic implementation of a single page application.

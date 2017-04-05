@@ -40,7 +40,7 @@ Show students how they can tweak the design of their webpages right in the brows
  + Large/small row types
  + Timeline overview
 
-# Want to learn more?
+# Resources
 
 1. Have more than one file open at a time in SublimeText. Look in the View > Layout menu.
 1. Create a [SublimeText snippet](http://docs.sublimetext.info/en/latest/extensibility/snippets.html) that allows you to type in `log`, which can then output `console.log('', )` and which lets you enter in a value inside the quotes, and then hit tab to enter a value after the comma. Try to create other snippets that make useful shortcuts for how you code.

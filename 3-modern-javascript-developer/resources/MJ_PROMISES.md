@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [ACME Explosives](../exercises/MJ_PROMISES_ACME_EXPLOSIVES.md)
+
 # Promises and deferred actions
 
 We'll be using Promises to control the order of execution in our asynchronous code. Up to this point, we've been using callbacks to handle when the status of an asynchronous operation is updated.

@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Music History 7](../exercises/MUSIC_HISTORY_07.md)
+
 # CSS 201
 
 ## Mobile first CSS

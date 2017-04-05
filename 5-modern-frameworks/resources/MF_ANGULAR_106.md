@@ -6,6 +6,6 @@ To be filled in by Steve later. If you're here and want to learn more, check out
 
 Then ask questions.
 
-## Resources
+# Resources
 
 + [AngularJS And Browserify — The Dream Team For Single Page Applications](https://blog.codecentric.de/en/2014/08/angularjs-browserify/)

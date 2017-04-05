@@ -1,3 +1,8 @@
+# :pushpin: Exercises
+
+1. [Mushrooms](../exercises/MF_MUSHROOMS.md)
+1. [Wide World Travel](../exercises/MF_WIDE_WORLD_TRAVEL.md)
+
 # Angular101
 
 ## Installation
@@ -225,8 +230,7 @@ Check out this bad boy. Angular can automatically group option elements in the s
 </div>
 ```
 
-
-# More reading
+# Resources
 
 ## Read these articles first
 [Angular for beginners](http://medialoot.com/blog/angularjs-for-absolute-beginners/)

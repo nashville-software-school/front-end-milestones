@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Calculator](../exercises/SW_JS_ADVANCED_FUNCTIONS_CALCULATOR.md)
+
 # Javascript: First Order Functions
 
 ## More about first order functions

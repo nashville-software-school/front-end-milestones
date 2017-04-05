@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Handlebars Blog](../exercises/RBA_HANDLESBARS_BLOG.md)
+
 # Modular applications
 
 You've learned the basics of making modules in JavaScript in order to make an application more flexible, more maintainable, and more extensible. Application developers love modularity, and you can also apply the same concept to your HTML markup.
