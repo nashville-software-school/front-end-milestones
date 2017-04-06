@@ -13,12 +13,12 @@
 
 
 ### [Firebase](../resources/RBA_FIREBASE_CONCEPTS.md)
-[Family Members](RBA_FAMILY_MEMBERS.md) - Firebase, Browserify
-[Music History 8](MUSIC_HISTORY_08.md) - JQUERY, Firebase, Promises
+[Family Members](RBA_FAMILY_MEMBERS.md) - Firebase, Browserify 
+[Music History 8](MUSIC_HISTORY_08.md) - JQUERY, Firebase, Promises 
 
 
 ### [Authentication](../resources/RBA_AUTHENTICATION.md)
-[Battleship](RBA_BATTLESHIP.md) - Firebase, Authentication, SASS
+[Battleship](RBA_BATTLESHIP.md) - Firebase, Authentication, SASS 
 [Music History 9](MUSIC_HISTORY_09.md) - Firebase reference, Authentication
 
 
