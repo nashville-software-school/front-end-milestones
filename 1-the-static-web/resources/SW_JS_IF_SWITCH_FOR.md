@@ -6,6 +6,8 @@
 1. [Reindeer](../exercises/SW_JS_REINDEER.md)
 1. [Grades](../exercises/SW_JS_GRADES.md)
 1. [Music History 2](../exercises/SW_MUSIC_HISTORY_02.md)
+1. [Counting coins](../exercises/SW_JS_COINS.md)
+1. [Temperature converter](../exercises/SW_JS_CONVERTER.md)
 
 # Javascript: If/else, Switch & For
 
