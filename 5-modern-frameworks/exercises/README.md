@@ -33,4 +33,4 @@
 
 
 ## Group Project
-1. Gauntlet
+1. Pinterest
