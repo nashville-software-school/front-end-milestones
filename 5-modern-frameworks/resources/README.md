@@ -1,4 +1,4 @@
-# Resources
+# Modern Frameworks Resources
 
 ### [Angular 101](MF_ANGULAR_101.md)
 

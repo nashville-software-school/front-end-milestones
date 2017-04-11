@@ -17,3 +17,5 @@
 ### [Javascript: String Manipulation](SW_JS_STRING_MANIPULATION.md)
 
 ### [Project Planning](SW_PLANNING.md)
+
+### [Github Projects](SW_GITHUB_PROJECTS.md)
