@@ -1,4 +1,4 @@
-# Exercises
+# :pushpin: Exercises
 
 1. [Battleship](../exercises/RBA_BATTLESHIP.md)
 1. [Music History 9](../exercises/MUSIC_HISTORY_09.md)
