@@ -4,7 +4,7 @@
 1. [Blog page](SW_HTML_BLOG.md)
 1. [Banking application form](SW_HTML_BANKING_FORM.md)
 1. [HTML CSS Product Cards](SW_HTML_CSS_PRODUCT_CARDS.md)
-1. [Personal Bio Part 1](SW_HTML_PERSONAL_BIO_01.md)
+1. [Personal Bio](SW_HTML_PERSONAL_BIO.md)
 
 ## CSS
 
