@@ -1,3 +1,9 @@
+# :pushpin: Exercises
+
+1. [Planets](../exercises/MJ_BROWSERIFY_PLANETS.md)
+1. [Sandwich Maker Redux](../exercises/MJ_BROWSERIFY_SANDWICH_MAKER.md)
+1. [Music History 6](../exercises/MJ_BROWSERIFY_MUSIC_HISTORY_6.md)
+
 # About Browserify
 
 At the most basic level, [Browserify](http://browserify.org/) is used to create modular JavaScript applications for the browser. It uses the [`require()`](https://nodejs.org/api/all.html#all_require) syntax from the Node.js tools to pull in dependencies that are written in other modules.
@@ -177,12 +183,6 @@ Now just include your bundled file in your HTML and run it in your browser.
 </html>
 ```
 
-# Exploring Browserify Further
+# Resources
 
 Once you've worked on the Browserify exercises, if you want to learn about more transforms that it can accomplish, beyond JsHint, SASS, and modules, then visit the [list of transforms](https://github.com/substack/node-browserify/wiki/list-of-transforms) on Github. Find a transform that interests you and see if you can get it to work.
-
-# Exercises
-
-1. [Planets](../exercises/MJ_BROWSERIFY_PLANETS.md)
-1. [Sandwich Maker Redux](../exercises/MJ_BROWSERIFY_SANDWICH_MAKER.md)
-1. [Music History 6](../exercises/MJ_BROWSERIFY_MUSIC_HISTORY_06.md)

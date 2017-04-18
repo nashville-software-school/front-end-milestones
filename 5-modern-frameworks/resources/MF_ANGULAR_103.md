@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [User Notes](../exercises/MF_USER_NOTES.md)
+
 # Angular 103
 
 ## Handling authentication in Angular/Firebase application
@@ -271,7 +275,3 @@ app.run(function($rootScope, $location, FIREBASE_CONFIG, AuthFactory) {
   });
 });
 ```
-
-# Exercises
-
-1. [User Notes](../exercises/1-basic/MF_USER_NOTES.md)

@@ -1,3 +1,10 @@
+# :pushpin: Exercises
+
+1. [Guinea Pig](../exercises/SW_JS_EVENT_LISTENERS_GUINEA_PIG.md)
+1. [Dynamic Cards](../exercises/SW_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)
+1. [WYSIWYG](../exercises/SW_JS_EVENT_LISTENERS_WYSIWYG.md)
+1. [TSA](../exercises/SW_JS_EVENT_LISTENERS_TSA.md)
+
 # Javascript: Event Based Programming
 
 ## Event based programming
@@ -104,9 +111,3 @@ document.querySelector("body").addEventListener("click", function(event) {
 
 });
 ```
-# Exercises
-
-1. [Guinea Pig](../exercises/SW_JS_EVENT_LISTENERS_GUINEA_PIG.md)
-1. [Dynamic Cards](../exercises/SW_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)
-1. [WYSIWYG](../exercises/SW_JS_EVENT_LISTENERS_WYSIWYG.md)
-1. [TSA](../exercises/SW_JS_EVENT_LISTENERS_TSA.md)

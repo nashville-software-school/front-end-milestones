@@ -1,3 +1,8 @@
+# :pushpin: Exercises
+
+1. [Sandwich Maker](../exercises/SP_JS_IIFE_SANDWICH.md)
+1. [Walk-A-Thon](../exercises/SP_JS_IIFE_BOOTSTRAP.md)
+
 # Javascript:  Modular JavaScript Development
 
 Now it's time to start making you a modern, web application developer. The most important skill is not knowing JavaScript, but understanding how to make a modular application, regardless of the language used. You may end up working for a team that likes CoffeeScript, or TypeScript, or any other meta-language that compiles into vanilla JavaScript.
@@ -175,10 +180,6 @@ console.log(Sedan);
 console.log(Sedan.setOccupancy(9));
 ```
 
-# Exercises
+# Resources
 
-1. [Sandwich Maker](../exercises/SP_JS_IIFE_SANDWICH.md)
-1. [Walk-A-Thon](../exercises/SP_JS_IIFE_BOOTSTRAP.md)
-
-# Read more about modules:
 [Eloquent Javascript: Chapter 10, Modules](http://eloquentjavascript.net/10_modules.html)

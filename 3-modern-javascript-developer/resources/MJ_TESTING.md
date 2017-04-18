@@ -1,3 +1,8 @@
+# :pushpin: Exercises
+
+1. [Testing Math](../exercises/MJ_TESTING_MATH.md)
+1. [Word Checker](../exercises/MJ_TESTING_WORD_CHECKER.md)
+
 # Unit testing your code
 
 We're going to be using the [Jasmine](https://jasmine.github.io/2.4/introduction.html).
@@ -80,11 +85,6 @@ function add (one, two) {
 ```
 
 Reload your browser and you'll see that 1 less test failed. Now, implement code to make all the tests pass.
-
-# Exercises
-
-1. [Testing Math](../exercises/MJ_TESTING_MATH.md)
-1. [Word Checker](../exercises/MJ_TESTING_WORD_CHECKER.md)
 
 # Resources
 

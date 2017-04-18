@@ -1,3 +1,14 @@
+# :pushpin: Exercises
+
+1. [For](../exercises/SW_JS_FOR.md)
+1. [Alphastacker](../exercises/SW_JS_ALPHASTACKER.md)
+1. [Boy Bands](../exercises/SW_JS_BOYBANDS.md)
+1. [Reindeer](../exercises/SW_JS_REINDEER.md)
+1. [Grades](../exercises/SW_JS_GRADES.md)
+1. [Music History 2](../exercises/SW_MUSIC_HISTORY_02.md)
+1. [Counting coins](../exercises/SW_JS_COINS.md)
+1. [Temperature converter](../exercises/SW_JS_CONVERTER.md)
+
 # Javascript: If/else, Switch & For
 
 ## Conditions with *if* and *else*
@@ -67,16 +78,7 @@ for (var count = 1; count < 10; count = count + 1) {
 
 You can perform any mathematical operation on the `count` variable that you want. Increment by 1, decrement by 5, multiply by 3, divide by 10... whatever you need for the problem you're trying to solve.
 
-# Exercises
-
-1. [For](../exercises/SW_JS_FOR.md)
-1. [Alphastacker](../exercises/SW_JS_ALPHASTACKER.md)
-1. [Boy Bands](../exercises/SW_JS_BOYBANDS.md)
-1. [Reindeer](../exercises/SW_JS_REINDEER.md)
-1. [Grades](../exercises/SW_JS_GRADES.md)
-1. [Music History 2](../exercises/SW_JS_MUSIC_HISTORY_02.md)
-
-# Want to learn more?
+# Resources
 
 1. You've learned how to use a boolean condition check with *if..else* statements, but what if a condition has more than just a true/false state? Learn how to use a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 1. Learn how to catch exceptions (errors) in your code and handle them gracefully with a [*try..catch..finally*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block.

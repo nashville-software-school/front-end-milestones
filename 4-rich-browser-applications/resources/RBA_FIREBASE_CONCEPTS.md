@@ -1,3 +1,8 @@
+# :pushpin: Exercises
+
+1. [Family Members](../exercises/RBA_FAMILY_MEMBERS.md)
+1. [Music History 8](../exercises/MUSIC_HISTORY_08.md)
+
 # Using Firebase references for real-time updates
 
 Install the Firebase library via Bower.

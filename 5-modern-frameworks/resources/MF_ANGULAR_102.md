@@ -1,3 +1,11 @@
+# :pushpin: Exercises
+
+1. [Routing](../exercises/MF_ROUTE_ROUTING.md)
+1. [Listing](../exercises/MF_ROUTE_LISTING.md)
+1. [Mushroom Factory](../exercises/MF_MUSHROOM_FACTORY.md)
+1. [Wide World Travel Factory](../exercises/MF_WIDE_WORLD_TRAVEL_FACTORY.md)
+1. [WIDE WORLD TRAVEL ROUTING](../exercises/MF_WIDE_WORLD_TRAVEL_ROUTING.md)
+
 # Angular102
 
 ## Angular route
@@ -372,11 +380,3 @@ app.controller("SongListCtrl",[ "$scope", "SongFactory", function($scope, SongFa
 # Angular Application Architecture Visualization
 
 ![Angular Architecture](angular-architecture.png)
-
-# Exercises
-
-1. [Routing](../exercises/1-basic/MF_ROUTE_ROUTING.md)
-1. [Listing](../exercises/1-basic/MF_ROUTE_LISTING.md)
-1. [Mushroom Factory](../exercises/1-basic/MF_MUSHROOM_FACTORY.md)
-1. [Wide World Travel Factory](../exercises/1-basic/MF_WIDE_WORLD_TRAVEL_FACTORY.md)
-1. [WIDE WORLD TRAVEL ROUTING](../exercises/1-basic/MF_WIDE_WORLD_TRAVEL_ROUTING.md)

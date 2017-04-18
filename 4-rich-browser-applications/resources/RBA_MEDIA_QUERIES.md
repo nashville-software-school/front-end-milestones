@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Music History 7](../exercises/MUSIC_HISTORY_07.md)
+
 # CSS 201
 
 ## Mobile first CSS
@@ -131,10 +135,6 @@ body {
 ```
 
 1. Run `grunt` and it will compile the `sass/main.scss` file as regular CSS in the `styles/main.css` file.
-
-# Exercises
-
-1. [Music History 7](../exercises/RBA_MUSIC_HISTORY_07.md)
 
 # Resources
 

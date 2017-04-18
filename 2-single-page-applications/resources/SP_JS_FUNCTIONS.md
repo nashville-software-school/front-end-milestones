@@ -61,4 +61,3 @@ function alphabetical(originalString) {
 var result = performOperationOnString("The lazy brown dog", alphabetical);
 console.log(result);
 ```
-

@@ -60,7 +60,7 @@ Here's a simple example of how you could use BEM conventions in an application l
 ```
 
 
-## External Resources
+## Resources
 
 The first few links are specifically about BEM conventions, but you may also be interested in trying other conventions for your CSS. Feel free to explore the other ones.
 

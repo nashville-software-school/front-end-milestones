@@ -1,3 +1,7 @@
+# :pushpin: Exercises
+
+1. [Weather API](../exercises/RBA_API_WEATHER_APP.md)
+
 # Accessing your first API
 
 You'll be hitting you first API and manually creating new resources, deleting them, and viewing them as you go. It is a simple introduction to using the four major HTTP verbs of GET, POST, PUT, DELETE.
@@ -149,7 +153,3 @@ Now all you have to do is use the special `{{@key}}` decorator in your Handlebar
 >   return y;
 > });
 > ```
-
-# Exercises
-
-1. [Weather API](../exercises/RBA_API_WEATHER_APP.md)
