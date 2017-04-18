@@ -29,6 +29,7 @@
 1. [Seasonal sales](SP_JS_XHR_SEASONAL_SALES.md)
 1. [IIFE, XHRs and Callbacks, Oh My](SP_JS_XHR_MIND_MELTING.md)
 1. [Pet food](SP_JS_XHR_FOOD.md)
+1. [Blog Part 2](SP_JS_XHR_BLOG_02.md)
 
 # In-class Exercises
 
