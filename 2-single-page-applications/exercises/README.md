@@ -26,6 +26,7 @@
 1. [Pet food](SP_JS_XHR_FOOD.md)
 1. [Seasonal sales](SP_JS_XHR_SEASONAL_SALES.md)
 1. [Music History 4](SP_JS_MUSIC_HISTORY_4.md)
+1. [Blog Part 2](SP_JS_XHR_BLOG_02.md)
 
 
 ### [IIFE](../resources/SP_JS_MODULAR_DEVELOPMENT_IIFE.md)

@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-> :warning: This exercise requires that you have completed the [Music History 5](MJ_JQUERY_MUSIC_HISTORY_5.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 5](MJ_JQUERY_MUSIC_HISTORY_05.md) exercise.
 
 ## Setup
 

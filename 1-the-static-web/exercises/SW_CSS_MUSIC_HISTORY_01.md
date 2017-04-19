@@ -1,4 +1,4 @@
-# Music History Part 01
+# Music History Part 1
 
 This is the project that you will be working for your individual work throughout the entire front end course. Don't worry, you'll be building lots of other applications, but when you learn a new technique, library or language, you'll be cutting your teeth with it on Music History.
 

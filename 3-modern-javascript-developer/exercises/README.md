@@ -6,7 +6,7 @@
 
 
 ### [AJAX](../resources/MJ_JQUERY_AJAX.md)
-2. [Slideshow](MJ_JQUERY_SLIDESHOW.md)
+1. [Slideshow](MJ_JQUERY_SLIDESHOW.md)
 
 
 ### [Promises](../resources/MJ_PROMISES.md)

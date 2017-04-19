@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 7](MUSIC_HISTORY_07.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 7](RBA_SASS_MUSIC_HISTORY_07.md) exercise.
 
 ## Setup
 

@@ -1,4 +1,4 @@
-# Personal bio site
+# Personal Bio Site
 
 ## Setup
 

@@ -1,7 +1,7 @@
 # The Static Web Exercises
 
 ### [HTML](../resources/SW_HTML_101.md)
-1. [Blog](SW_HTML_BLOG.md)
+1. [Blog](SW_HTML_BLOG_01.md)
 1. [Personal Bio](SW_HTML_PERSONAL_BIO.md)
 1. [Banking Form](SW_HTML_BANKING_FORM.md)
 
@@ -17,7 +17,7 @@
 1. [Pseudoclasses](SW_CSS_PSEUDOCLASSES.md)
 1. [Zen Garden](SW_CSS_ZEN_GARDEN.md)
 1. [Music History 1](SW_MUSIC_HISTORY_01.md)
-1. [Product Cards](SW_CSS__PRODUCT_CARDS.md)
+1. [Product Cards](SW_CSS_PRODUCT_CARDS.md)
 
 
 ### [JavaScript](../resources/SW_JS_IF_SWITCH_FOR.md)

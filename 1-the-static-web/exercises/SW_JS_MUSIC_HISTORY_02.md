@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-> :warning: This exercise requires that you have completed the [Music History 1](SW_MUSIC_HISTORY_01.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 1](SW_CSS_MUSIC_HISTORY_01.md) exercise.
 
 ## Setup
 

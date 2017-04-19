@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-> :warning: This exercise requires that you have completed the [Music History 4](SP_MUSIC_HISTORY_4.md) & [For The Love Of Loops](SP_MM_FOR.md) exercises.
+> :warning: This exercise requires that you have completed the [Music History 4](SP_MUSIC_HISTORY_04.md) & [For The Love Of Loops](SP_MM_FOR.md) exercises.
 
 ## Setup
 
