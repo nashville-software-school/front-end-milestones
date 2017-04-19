@@ -26,7 +26,7 @@
 1. [Boy Bands](SW_JS_BOYBANDS.md)
 1. [Reindeer](SW_JS_REINDEER.md)
 1. [Grades](SW_JS_GRADES.md)
-1. [Music History 2](SW_MUSIC_HISTORY_02.md)
+1. [Music History 2](SW_JS_MUSIC_HISTORY_02.md)
 1. [Counting coins](SW_JS_COINS.md)
 1. [Temperature converter](SW_JS_CONVERTER.md)
 
