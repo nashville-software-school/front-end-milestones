@@ -28,7 +28,7 @@ Time to make Your blog into a single page application. Before you begin please [
 
 ### Part Two
 
-1. Create a JSON file with for your blog entries.
+1. Create a JSON file for your blog entries.
 1. Read from local JSON file with an XHR.
 1. Loop over results and inject into *Blog List View*.
 1. Add delete button to each blog entry and, when it is clicked, delete the entire entry in the DOM.
