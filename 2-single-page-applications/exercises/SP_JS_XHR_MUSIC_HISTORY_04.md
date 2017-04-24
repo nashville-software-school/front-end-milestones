@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-> :warning: This exercise requires that you have completed the [Music History 3](SP_JS_XHR_MUSIC_HISTORY_03.md) exercise.
+> :warning: This exercise requires that you have completed the [Music History 3](SP_JS_EVENT_LISTENERS_MUSIC_HISTORY_03.md) exercise.
 
 ## Setup
 

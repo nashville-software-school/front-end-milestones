@@ -2,7 +2,7 @@
 
 ### [jQuery](../resources/MJ_JQUERY_INTRODUCTION.md)
 1. Chatty Revisited - Create your own branch from your group project and use jQuery for all XHRs, DOM querying & manipulation, and CSS manipulation.
-1. [Music History 5](MJ_JQUERY_MUSIC_HISTORY_5.md)
+1. [Music History 5](MJ_JQUERY_MUSIC_HISTORY_05.md)
 
 
 ### [AJAX](../resources/MJ_JQUERY_AJAX.md)
@@ -16,7 +16,7 @@
 ### [Browserify](../resources/MJ_CONCEPTS.md)
 2. [Planets](MJ_BROWSERIFY_PLANETS.md)
 1. [Sandwich Maker upgrade with Browserify](MJ_BROWSERIFY_SANDWICH_MAKER.md)
-1. [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_6.md)
+1. [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_06.md)
 
 
 ### [Testing](../resources/MJ_TESTING.md)

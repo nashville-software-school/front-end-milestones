@@ -16,7 +16,7 @@
 1. [Relationship Selectors](SW_CSS_RELATIONSHIP_SELECTORS.md)
 1. [Pseudoclasses](SW_CSS_PSEUDOCLASSES.md)
 1. [Zen Garden](SW_CSS_ZEN_GARDEN.md)
-1. [Music History 1](SW_MUSIC_HISTORY_01.md)
+1. [Music History 1](SW_CSS_MUSIC_HISTORY_01.md)
 1. [Product Cards](SW_CSS_PRODUCT_CARDS.md)
 
 
