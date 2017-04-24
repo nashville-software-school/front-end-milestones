@@ -18,14 +18,14 @@
 
 
 ### [Single Page Applications](../resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md)
-1. [Music History 3](SP_JS_MUSIC_HISTORY_3.md)
+1. [Music History 3](SP_JS_EVENT_LISTENERS_MUSIC_HISTORY_03.md)
 
 
 ### [XHRs](../resources/SP_JS_XHR.md)
 1. [IIFE, XHRs and Callbacks, Oh My](SP_JS_XHR_MIND_MELTING.md)
 1. [Pet food](SP_JS_XHR_FOOD.md)
 1. [Seasonal sales](SP_JS_XHR_SEASONAL_SALES.md)
-1. [Music History 4](SP_JS_MUSIC_HISTORY_4.md)
+1. [Music History 4](SP_JS_XHR_MUSIC_HISTORY_04.md)
 1. [Blog Part 2](SP_JS_XHR_BLOG_02.md)
 
 
