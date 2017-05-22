@@ -1,6 +1,6 @@
 # :pushpin: Exercises
 
-1. [Blog](../exercises/SW_HTML_BLOG.md)
+1. [Blog](../exercises/SW_HTML_BLOG_01.md)
 1. [Personal Bio](../exercises/SW_HTML_PERSONAL_BIO.md)
 1. [Banking Form](../exercises/SW_HTML_BANKING_FORM.md)
 
