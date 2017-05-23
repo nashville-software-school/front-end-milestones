@@ -18,3 +18,7 @@
 1. Cmd+F (_Find_)
 1. Cmd+Shift+F (_Advanced find_)
 1. Ctrl+Cmd+G for selecting all occurances
+
+# Additional Resources
+
+ [__Sublime Tutor__](https://github.com/jaipandya/SublimeTutor) - The best way to get comfortable with these shortcuts is to use them. Outside of implementing them while writing code for exercises/projects, a great tool you can utilize is Sublime Tutor. The instructions to install/launch Sublime Tutor are located on the project's GitHub repository. 
