@@ -321,3 +321,6 @@ input:invalid {
 # Resources
 
 [CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips)
+[Flexbox Froggy](http://flexboxfroggy.com/)
+[Learn How To Create Drop Cap Letters In CSS](https://paulund.co.uk/learn-how-to-create-drop-cap-letters-in-css)
+[Amazing CSS examples on CodePen](http://codepen.io/search/pens?q=css&limit=all&type=type-pens)
