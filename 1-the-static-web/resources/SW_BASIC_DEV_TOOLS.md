@@ -10,6 +10,8 @@
   + [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel)
   + [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime#readme)
 
+1. [Creating an alias for Sublime Text](./SW_SUBLIME_ALIAS.md)
+
 ---
 
 ## Google Chrome Dev Tools
