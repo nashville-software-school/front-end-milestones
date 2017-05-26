@@ -2,10 +2,6 @@
 
 A distributed version control system for keeping a history of your code.
 
-# Github
-
-A software as a service (SASS) that allows your to back up your repository to the cloud and share it with other software developers.
-
 ## Create a repository
 + Log in to your account on GitHub
 + In the upper right hand corner, look for the plus sign. Click the `plus` sign to create a new repository (i.e. `my-blog`)
@@ -93,6 +89,17 @@ The code between the `<<<<<<<<` decorator and the `========` decorator is the co
 Once the code looks good, you will need to add and commit the resolved file.
 
 > **Note:** Sometimes when you commit after you resolve merge conflicts, you'll get thrown into vim with a default merge message. You can just accept the default message and press `:x` and then press the enter key.
+
+# Github
+
+A software as a service (SASS) that allows your to back up your repository to the cloud and share it with other software developers.
+
+## The Github Workflow
+
+Refer to this whiteboard drawing when working in group projects and follow the workflow.
+
+![Github Workflow](./github-workflow.png)
+
 
 # Resources
 
