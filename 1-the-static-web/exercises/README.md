@@ -22,7 +22,7 @@
 
 ### [JavaScript](../resources/SW_JS_IF_SWITCH_FOR.md)
 1. [For](SW_JS_FOR.md) - Iteration practice
-1. [Alphastacker](SW_JS_ALPHASTACKER.md)
+1. [Overly Excited](SW_JS_OVERLYEXCITED.md)
 1. [Boy Bands](SW_JS_BOYBANDS.md)
 1. [Reindeer](SW_JS_REINDEER.md)
 1. [Grades](SW_JS_GRADES.md)
