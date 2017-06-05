@@ -103,4 +103,5 @@ Refer to this whiteboard drawing when working in group projects and follow the w
 
 # Resources
 
-[Comparing Git Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [Comparing Git Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [git - the simple guide](http://rogerdudler.github.io/git-guide/)
