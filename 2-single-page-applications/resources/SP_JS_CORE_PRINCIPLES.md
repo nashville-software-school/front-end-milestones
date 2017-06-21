@@ -65,8 +65,7 @@ function goodFunc() {
 
   // Awesome code using those variables...
 }
-```
-
+g
 You can also have one `var` declaration, and then have each variables separated by commas. The `var` applies to all of them.
 
 ```js
@@ -93,3 +92,7 @@ function maybe(numB) {
 
 callMe(5, maybe);
 ```
+
+## Resources
+
+[CodeBurst.io: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
