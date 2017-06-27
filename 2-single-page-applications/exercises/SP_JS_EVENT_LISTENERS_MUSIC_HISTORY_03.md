@@ -15,7 +15,7 @@ git checkout -b version-3
 
 ## Requirements
 
-Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/3-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
+Time to make Music History into a single page application. Before you begin please [review the sample code](https://github.com/nashville-software-school/front-end-milestones/blob/master/2-single-page-applications/resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md) I provided in JavaScript 103 about building a simple SPA.
 
 1. In the navigation bar, make sure you have two links labeled "List Music", and "Add Music".
 1. Add a DOM element that contains some input fields for the user to enter in the name of a song, the artist for the song, and the album. You do not need to enclose them in a `<form>` element because we're not actually submitting this form anywhere.
