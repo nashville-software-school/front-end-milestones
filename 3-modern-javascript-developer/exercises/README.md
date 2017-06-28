@@ -13,7 +13,7 @@
 1. [Acme Explosive](MJ_PROMISES_ACME_EXPLOSIVES.md)
 
 
-### [Browserify](../resources/MJ_CONCEPTS.md)
+### [Browserify](../resources/MJ_BROWSERIFY_CONCEPTS.md)
 1. [Planets](MJ_BROWSERIFY_PLANETS.md)
 1. [Sandwich Maker upgrade with Browserify](MJ_BROWSERIFY_SANDWICH_MAKER.md)
 1. [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_06.md)
