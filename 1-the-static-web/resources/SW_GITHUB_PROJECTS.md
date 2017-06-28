@@ -1,6 +1,6 @@
 # Github Projects
 
-## :pushpin: With each group project you work on your team will need to have a github projects board.
+## :pushpin: With each group project you work on your team will need to have a Github projects board.
 
 ### About project boards
 
@@ -8,7 +8,7 @@ Project boards help you organize and prioritize your workflow. These boards are 
 
 ### Creating project boards
 
-To create a project board you must have write access to the repository. Click the `Projects` header tab, then `Create a Project`. Once the project is created you will need three columns. They should be titled `Backlog`, `Doing` and `Complete`. You may also want to have a `Review` column wto organize your pull requests, but it isn't a requirement.
+To create a project board you must have write access to the repository. Click the `Projects` header tab, then `Create a Project`. Once the project is created you will need three columns. They should be titled `Backlog`, `Doing` and `Complete`. You may also want to have a `Review` column to organize your pull requests, but it isn't a requirement.
 
 # Resources
 Learn more about [Github Projects](https://help.github.com/articles/about-project-boards/).
