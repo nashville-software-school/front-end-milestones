@@ -17,7 +17,7 @@
 1. [Pseudoclasses](SW_CSS_PSEUDOCLASSES.md)
 1. [Zen Garden](SW_CSS_ZEN_GARDEN.md)
 1. [Music History 1](SW_CSS_MUSIC_HISTORY_01.md)
-1. [Product Cards](SW_CSS_PRODUCT_CARDS.md)
+1. [Product Cards](SW_HTML_CSS_PRODUCT_CARDS.md)
 
 
 ### [JavaScript](../resources/SW_JS_IF_SWITCH_FOR.md)
