@@ -4,7 +4,7 @@
 1. [Pseudoclasses](../exercises/SW_CSS_PSEUDOCLASSES.md)
 1. [Zen Garden](../exercises/SW_CSS_ZEN_GARDEN.md)
 1. [Music History 1](../exercises/SW_MUSIC_HISTORY_01.md)
-1. [Product Cards](../exercises/SW_CSS__PRODUCT_CARDS.md)
+1. [Product Cards](../exercises/SW_CSS_PRODUCT_CARDS.md)
 
 # CSS 102
 
