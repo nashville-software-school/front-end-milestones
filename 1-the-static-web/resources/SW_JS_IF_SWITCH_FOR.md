@@ -80,5 +80,6 @@ You can perform any mathematical operation on the `count` variable that you want
 
 # Resources
 
+1. Now you know about conditional statements, but what exactly is the difference between double and triple equals? For a broader understanding of javascript comparisons, browse through this [equality table](https://dorey.github.io/JavaScript-Equality-Table/)
 1. You've learned how to use a boolean condition check with *if..else* statements, but what if a condition has more than just a true/false state? Learn how to use a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 1. Learn how to catch exceptions (errors) in your code and handle them gracefully with a [*try..catch..finally*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block.
