@@ -23,6 +23,7 @@
 1. [National Parks](MF_NATIONAL_PARKS.md)
 1. [Music History 11](MF_MUSIC_HISTORY_11.md)
 1. [Nashville Charts](MF_NASHVILLE_CHART.md)
+1. [Blog 5](MF_BLOG_05.md)
 
 
 ### [Prototypal Inheritance](../resources/MF_PROTOTYPAL_INHERITANCE.md)
