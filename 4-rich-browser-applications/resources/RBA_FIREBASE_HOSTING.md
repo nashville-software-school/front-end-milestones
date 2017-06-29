@@ -1,6 +1,6 @@
-#Firebase Hosting
+# Firebase Hosting
 
-##Install the Firebase CLI
+## Install the Firebase CLI
 
 ```
 npm install -g firebase-tools
@@ -28,11 +28,11 @@ The `public` property is required while the `ignore` is optional.
 
 If you don't already have an `index.html` file in your public root directory, one is created for you.
 
-##Deploy your website
+## Deploy your website
 
 Run `firebase deploy`
 
 Your app will be deployed to the domain `<YOUR-FIREBASE-APP>.firebaseapp.com`
 
-##Manage and rollback deploys
+## Manage and rollback deploys
 From the Hosting panel in the Firebase Console you can see a full history of your deploys. To rollback to a previous deploy, hover over its entry in the list, click the overflow menu icon, then click "Rollback".

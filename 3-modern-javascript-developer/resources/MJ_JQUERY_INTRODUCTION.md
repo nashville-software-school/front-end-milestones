@@ -230,3 +230,7 @@ $(document).ready(function() {
   });
 });
 ```
+
+## Resources
+
+* Jquery Introduction [Slides](https://docs.google.com/presentation/d/1qFah7FONXEGXpOLbYONfGKdd2RC1kHtMIu2cw7btEIY/edit?usp=sharing)

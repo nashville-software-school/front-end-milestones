@@ -33,7 +33,7 @@ cd lib
 npm init  # Initialize directory with a package.json file
 ```
 
-This will create a pretty standard `package.json` file in your `lib` folder. This file is what Node Package Manager (npm) uses to record all of the 3rd-party Node.js libraries that your application will use. For now, we're only going to install the packages needed to make Grunt run.
+This will create a pretty standard `package.json` file in your `lib` folder. This file is what Node Package Manager (npm) uses to record all of the 3rd-party Node.js libraries that your application will use. For now, we're only going to install the packages needed to make Grunt run. More good stuff about the `package.json`; the basics, what you absolutely need, and how to customize. https://docs.npmjs.com/getting-started/using-a-package.json 
 
 Replace the contents of `package.json` file with the following configuration code. Simply copy from here, delete all of the current contents, and paste this in.
 

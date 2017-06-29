@@ -14,8 +14,8 @@
 1. [Blog 3](MJ_PROMISES_BLOG_03.md)
 
 
-### [Browserify](../resources/MJ_CONCEPTS.md)
-2. [Planets](MJ_BROWSERIFY_PLANETS.md)
+### [Browserify](../resources/MJ_BROWSERIFY_CONCEPTS.md)
+1. [Planets](MJ_BROWSERIFY_PLANETS.md)
 1. [Sandwich Maker upgrade with Browserify](MJ_BROWSERIFY_SANDWICH_MAKER.md)
 1. [Music History 6](MJ_BROWSERIFY_MUSIC_HISTORY_06.md)
 
@@ -26,4 +26,4 @@
 
 
 ## Group Project
-1. TBD
+1. Theme Park

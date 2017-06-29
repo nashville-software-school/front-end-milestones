@@ -1,11 +1,5 @@
 # Single Page Applications Exercises
 
-### [Array Functions](../resources/SP_JS_ARRAY_METHODS.md)
-1. [Array method chaining](SP_JS_ARRAYS_CHAINING.md)
-1. [String manipulation](SP_JS_ARRAYS_STRING_MANIPULATION.md)
-1. [Solar system](SP_JS_ARRAYS_SOLAR_SYSTEM.md)
-
-
 ### [Advanced Functions](../resources/SP_JS_FIRST_ORDER_FUNCTIONS.md)
 1. [Calculator](SP_JS_ADVANCED_FUNCTIONS_CALCULATOR.md)
 
@@ -15,6 +9,12 @@
 1. [Dynamic cards](SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)
 1. [WYSIWYG](SP_JS_EVENT_LISTENERS_WYSIWYG.md)
 1. [TSA](SP_JS_EVENT_LISTENERS_TSA.md)
+
+
+### [Array Functions](../resources/SP_JS_ARRAY_METHODS.md)
+1. [Array method chaining](SP_JS_ARRAYS_CHAINING.md)
+1. [String manipulation](SP_JS_ARRAYS_STRING_MANIPULATION.md)
+1. [Solar system](SP_JS_ARRAYS_SOLAR_SYSTEM.md)
 
 
 ### [Single Page Applications](../resources/SP_JS_SINGLE_PAGE_APPLICATIONS.md)
