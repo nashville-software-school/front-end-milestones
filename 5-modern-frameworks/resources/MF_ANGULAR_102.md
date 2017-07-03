@@ -13,12 +13,7 @@
 Install the Angular Route module. This library allows you to easily build a SPA (Single Page Application) where you switch out one view for another - without ever refreshing the browser - and break up your HTML into what are called *partials*.
 
 ```bash
-bower install angular-route --save
-```
-
-Include the JavaScript file.
-```html
-<script src="lib/bower_components/angular-route/angular-route.js"></script>
+npm install angular-route --save
 ```
 
 Next, you add the `ng-view` helper to an empty element on your page. Later, when you create your partials and have configured Angular Route when to show each one, the HTML in those partials will be injected into this DOM element.
@@ -29,7 +24,7 @@ Next, you add the `ng-view` helper to an empty element on your page. Later, when
 
 Next, add ng-route to your angular application.  Inside app.js add the following.
 ```js
-var app = angular.module("SongApp", ['ngRoute']);
+var app = angular.module("SongApp", [require('angular-route']);
 ```
 
 ### Partials
@@ -70,9 +65,7 @@ Next comment out all of your existing HTML in your `index.html` file. We're goin
 
   <div ng-view></div>
 
-  <script src="lib/bower_components/angular/angular.min.js"></script>
-  <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
-
+  <script src="lib/node_modules/angular/angular.min.js"></script>
   <script src="app/app.js"></script>
   <script src="app/controllers/SongCtrl.js"></script>
 </body>
@@ -297,9 +290,7 @@ Next we will need to change the controllers on our routes to reflect the above c
 ```
 Finally we will need to add script tags for our controllers and factory to index.html.  Always add factories before controllers.  You should now have the following script tags:
 ```html
-  <script src="lib/bower_components/angular/angular.min.js"></script>
-  <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
-
+  <script src="lib/node_modules/angular/angular.min.js"></script>
   <script src="app/app.js"></script>
   <script src="app/factories/SongFactory.js"></script>
   <script src="app/controllers/SongDetailCtrl.js"></script>

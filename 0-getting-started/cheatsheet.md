@@ -6,16 +6,6 @@
     cd newProject
 ```
 
-### If using any bower components (e.g. jquery & bootstrap):
-```
-    bower init    (answer several questions)
-    bower install jquery --save (or --save-dev?)*
-    bower install bootstrap --save (or --save-dev?)*
-
-    * --save: This is used to save the package required for the application to run.
-    * --save-dev: This is used to save the package for development purpose. Example: unit tests, minification.
-```
-
 ### If using any npm components (grunt/jshint/watch):\
 ```
     npm init    (answer several questions)
@@ -71,7 +61,6 @@ git checkout -b <my-branch>
 ### Add to .gitignore:
 ```
     .DS_Store
-    bower_components
     node_modules
 ```
 

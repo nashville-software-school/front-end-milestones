@@ -34,8 +34,11 @@ touch index.html
 mkdir javascripts
 touch javascripts/main.js
 
-bower install jquery
-bower install handlebars
+mkdir lib
+cd lib
+npm init //or create a package.json file manually 
+npm install jquery --save
+npm install handlebars --save
 ```
 
 ## Setup
@@ -76,8 +79,8 @@ First, write some DOM in your `index.html` file.
     </ul>
   </script>
 
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="bower_components/handlebars/handlebars.min.js"></script>
+  <script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/node_modules/handlebars/handlebars.min.js"></script>
   <script type="text/javascript" src="javascripts/main.js"></script>
 
 </body>
@@ -362,8 +365,8 @@ Include it in your HTML file.
   <div id="articlesOutput"></div>
   <div id="ssOutput"></div>
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/handlebars/handlebars.min.js"></script>
+  <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="lib/node_modules/handlebars/handlebars.min.js"></script>
   <script src="javascripts/HandlebarRenderer.js"></script>
   <script src="javascripts/dynamic.js"></script>
 </body>
@@ -456,17 +459,3 @@ render.load('solarSystem', solarSystemData, function (output) {
   $("#ssOutput").html(output);
 });
 ```
-
-# Music History with Handlebars
-
-## Using Handlebars in a Require app
-
-1. Install the `require-handlebars-plugin` Bower components and show students how to call their Handlebar file in the the Require application with the `hbs!` prepend to the file path.
-
-## Create a Handlebar template for your songs
-
-1. Walk students through how to create a template directory and their first Handlebar file.
-
-## Create handlebar templates for your filter form
-
-Create two new templates to populate the artist and album dropdowns in the filter form.
