@@ -4,7 +4,6 @@ If you are on OSX or Linux, install and configure [Oh My Zsh](https://github.com
 
 ## Useful plugins
 
- * [Bower](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#bower)
  * [Autojump](https://github.com/joelthelion/autojump)
  * [common-aliases](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#common-aliases)
  * [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git)
