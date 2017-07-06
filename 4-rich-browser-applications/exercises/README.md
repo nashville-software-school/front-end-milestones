@@ -5,7 +5,7 @@
 
 
 ### [Handlebars](../resources/RBA_HANDLEBARS.md)
-1. [Best Blog Every](RBA_HANDLEBARS_BLOG.md) - Handlebars, GRUNT, SASS, Browserify
+1. [Best Blog Ever](RBA_HANDLEBARS_BLOG.md) - Handlebars, GRUNT, SASS, Browserify
 
 
 ### [API](../resources/RBA_API_CONCEPTS.md)
