@@ -2,52 +2,54 @@
 
 Firebase allows you to upload data to a remote server and then use an API to perform CRUD (Create, Read, Update, Destroy) actions on that data.
 
-To quickly get up and running with some data to experiement with, you can import a JSON file into your Firebase. This format -- an object with a single property that holds an array of objects -- allows you to save related data in a 'collection'. This way, if we also wanted to save some information about albums, artists, genres, etc, each of those could be saved in their own collections. 
+To quickly get up and running with some data to experiement with, you can import a JSON file into your Firebase. This format -- an object with a single property that an object of objects -- allows you to save related data in a 'collection'. This way, if we also wanted to save some information about albums, artists, genres, etc, each of those could be saved in their own collections.  
+
+Firebase will store items in this same format even when you start saving things directly to it with XHRs. The difference will be that instead of having to add keys to every object yourself, like "songSharp", Firebase will autogenerate a key as a unique identifier that will look something like this: `-KXw6pl9XZRGYaX4vLzJ`. That's good, since naming things is hard, and naming things accidentally the same thing is too easy. 
 
 ```
 {
-  "songs": [
-    {
+  "songs": {
+    "songSharp": {
       "name": "Sharp Dressed Man",
       "artist": "ZZ Top",
       "album": "Eliminator"
     },
-    {
+    "songBreakfast": {
       "name": "Breakfast in America",
       "artist": "Supertramp",
       "album": "Breakfast in America"
     },
-    {
+    "songGoodbye": {
       "name": "Goodbye Mary",
       "artist": "Supertramp",
       "album": "Breakfast in America"
     },
-    {
+    "songCarry": {
       "name": "Carry on My Wayward Son",
       "artist": "Kansas",
       "album": "Overture"
     },
-    {
+    "songGimme": {
       "name":"Gimme All Your Lovin",
       "album": "Eliminator",
       "artist": "ZZ Top"
     },
-    {
+    "songJungle": {
       "name":"Welcome To The Jungle",
       "album": "Appetite For Destruction",
       "artist": "Guns & Roses"
     },
-    {
+    "songRather": {
       "name":"Rather Be",
       "album": "Rather Be",
       "artist": "Silent Bandit"
     },
-    {
+    "songWalk": {
       "name":"The Walk",
       "album": "How Do You Do",
       "artist": "Mayer Hawthorne"
     }
-  ]
+  }
 }
 ```
 
