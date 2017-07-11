@@ -7,13 +7,13 @@
 
 ## Installation
 
-Create a new folder and do your base project setup with Bower, npm, and Grunt. However, this time, instead of making a `javascripts` folder, make an `app` folder which will hold all of your JavaScript files. Make sure you update your Gruntfile accordingly.
+Create a new folder and do your base project setup with npm and Grunt. However, this time, instead of making a `javascripts` folder, make an `app` folder which will hold all of your JavaScript files. Make sure you update your Gruntfile accordingly.
 
 ```bash
 cd lib
-bower install angular --save
+npm install angular --save
 ```
-Check your bower.json to make sure you are using a version of angular that is 1.6.x or greater.  Your bower.json dependencies should look like the following (instead of an x you will have some number between 0 and 9):
+Check your bower.json to make sure you are using a version of angular that is 1.6.x or greater.  Your package.json dependencies should look like the following (instead of an x you will have some number between 0 and 9):
 
 ```bash
   dependencies: {
@@ -24,7 +24,7 @@ Check your bower.json to make sure you are using a version of angular that is 1.
 Then include Angular in your HTML file.
 
 ```html
-<script src="lib/bower_components/angular/angular.min.js"></script>
+<script src="lib/node_modules/angular/angular.min.js"></script>
 ```
 
 Next, create the file `app/Todo.js` and set up your Angular application with the following code.

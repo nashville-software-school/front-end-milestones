@@ -70,7 +70,7 @@ We'll be using [Bootstrap](http://getbootstrap.com/getting-started/) for our app
 1. [Skeleton](http://getskeleton.com/)
 1. [Frameless](https://github.com/jonikorpi/Frameless)
 
-Start a new playground directory named `responsive` and use Bower to install Bootstrap, and get the JavaScript and CSS linked in to the HTML file.
+Start a new playground directory named `responsive` and use npm to install Bootstrap, and get the JavaScript and CSS linked in to the HTML file.
 
 
 ### Flexible images and media

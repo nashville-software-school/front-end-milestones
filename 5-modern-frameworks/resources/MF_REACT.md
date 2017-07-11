@@ -8,6 +8,7 @@ You're going to be following along with the standard [React tutorial](https://fa
 cd lib
 npm install -g babel-cli
 npm install babel-preset-react
+<!-- Not sure of the npm equal to this. Possibly whole exercise needs updating, anyway(?): JoeShep -->
 bower install babel react
 
 ```
