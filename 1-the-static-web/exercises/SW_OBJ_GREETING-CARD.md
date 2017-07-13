@@ -1,7 +1,7 @@
 >Linking objects together to share properties and delegate behavior
 
 # Greeting Card Maker
-The existing `cardMaker` object below contains a single method that returns a greeting. Your job is to 
+The existing `CardMaker` object below contains a single method that returns a greeting. Your job is to 
 add one or more methods to it, then use it as a prototype for at least three other objects using `Object.create()`
 
 ## Minimum requirement
