@@ -16,7 +16,7 @@ Time to Angularize your blog and add it to your personal site. At this point you
 
 ### Part One
 
-1. Angularize your blog.
+1. Convert your blog from Handlebars & vanilla JavaScript to a complete Angular-based application.
 
 ### Part Two
 

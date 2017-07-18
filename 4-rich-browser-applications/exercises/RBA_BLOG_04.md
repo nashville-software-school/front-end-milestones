@@ -16,11 +16,11 @@ Time to make your blog fully functional. At this point you should have a minimum
 
 ### Part One
 
-1. Using the previous controller and factory add CRUD functionality to your blog using restful requests.
+1. Using the RESTful Firebase interface (GET, POST, PUT, DELETE) add CRUD functionality to your blog.
     - Remember: Only the factory should access Firebase.
-1. All views for the blog should be utilizing handlebars templates.
+1. Create a Handlebars template for every view of your blog.
 
 ### Part Two
 
-1. Add authentication to post, delete, and edit.
+1. Add one of the Firebase-provided OAuth authentication mechanisms to post, delete, and edit.
 1. Anyone should be able to view blog posts.

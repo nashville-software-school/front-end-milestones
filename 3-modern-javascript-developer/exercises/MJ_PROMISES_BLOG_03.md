@@ -16,7 +16,7 @@ Time to modularize your blog and access your posts from Firebase. At this point 
 
 ### Part One
 
-1. Install Grunt to at least watch and lint your javascript files.
+1. Install Grunt to watch and lint your javascript files.
 1. Refactor your code to utilize the jQuery library.
 
 ### Part Two
@@ -27,4 +27,4 @@ Time to modularize your blog and access your posts from Firebase. At this point 
 1. The blog_controller module should contain all of the DOM interaction.
 1. The blog_factory should contain only calls to Firebase.
 1. Upload the json file you created for the Blog 2 exercise to Firebase.
-1. When the index page loads, get the posts from Firebase via ajax using promises.
+1. When the index page loads, GET the posts from Firebase via an XHR wrapped in a Promise.
