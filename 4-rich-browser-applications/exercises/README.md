@@ -20,6 +20,7 @@
 ### [Authentication](../resources/RBA_AUTHENTICATION.md)
 1. [Battleship](RBA_BATTLESHIP.md) - Firebase, Authentication, SASS
 1. [Music History 9](RBA_MUSIC_HISTORY_09.md) - Firebase reference, Authentication
+1. [Blog 4](RBA_BLOG_04.md) - Firebase, Handlebars, Authentication
 
 
 ## Group Project

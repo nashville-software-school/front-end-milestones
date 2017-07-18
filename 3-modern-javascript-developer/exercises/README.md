@@ -11,6 +11,7 @@
 
 ### [Promises](../resources/MJ_PROMISES.md)
 1. [Acme Explosive](MJ_PROMISES_ACME_EXPLOSIVES.md)
+1. [Blog 3](MJ_PROMISES_BLOG_03.md)
 
 
 ### [Browserify](../resources/MJ_BROWSERIFY_CONCEPTS.md)
