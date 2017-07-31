@@ -34,13 +34,13 @@ Visit the [Codepen sign up page](https://codepen.io/signup), and scroll all the 
 
 ## Windows users
 
-###Git powershell
+### Git powershell
 
 Visit the [Git powershell](http://www.git-scm.com/downloads) download page click the "Download for Windows" button, and once complete, install the software. Powershell is a command line utility that allows you to run most Unix command inside a Windows environment. This will help you have the same vernacular as the rest of the class, since having a *nix environment is preferred and is how the class is taught.
 
 Git is a program that allows software developers to efficiently manage how their code is versioned, shared, and archived. You will be learning how to use it during class.
 
-###Chocolatey package manager (*optional*)
+### Chocolatey package manager (*optional*)
 
 Windows, like OSX, does not have a built in package manager (a fancy term for a piece of software that lets you easily install other software that you need as a developer). There will be times, many weeks into class, as you gain confidence and skill, that you will want to use a package manager. Therefore, if you feel up to the task - meaning, you were able to install all the required software easily - you may want to install Chocolately.
 
