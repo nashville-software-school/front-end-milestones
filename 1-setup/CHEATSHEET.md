@@ -1,89 +1,78 @@
-
 # Steps for New Project Setup
 
 ```
-    mkdir newProject
-    cd newProject
+mkdir newProject
+cd newProject
 ```
 
-### If using any bower components (e.g. jquery & bootstrap):
-```
-    bower init    (answer several questions)
-    bower install jquery --save (or --save-dev?)*
-    bower install bootstrap --save (or --save-dev?)*
+## Installing npm components
 
-    * --save: This is used to save the package required for the application to run.
-    * --save-dev: This is used to save the package for development purpose. Example: unit tests, minification.
 ```
-
-### If using any npm components (grunt/jshint/watch):\
-```
-    npm init    (answer several questions)
-    npm install grunt --save-dev
-    npm install jshint --save-dev
-    npm install grunt-contrib-jshint --save-dev
-    npm install jshint-stylish --save-dev
-    npm install grunt-contrib-watch --save-dev
-```
----
-### Git setup:
-#### Create repo on github.com and copy remote url. Then use that url in the commands below
-```
-    git init
-    git remote add origin http://<githubURL>
-    touch .gitignore
-    touch README.md
+npm init    (answer several questions)
+npm install grunt --save-dev
+npm install jshint --save-dev
+npm install grunt-contrib-jshint --save-dev
+npm install jshint-stylish --save-dev
+npm install grunt-contrib-watch --save-dev
 ```
 
-#### Add to README.md
+## Git Setup
+
+First, create a new repository on Github, and copy the SSH URL for connecting.
+
 ```
-    What your program does
-    How to pull it down from github and run it
-```
-##### Or at the very least:
-```
-    The name of the app
+git init
+git remote add origin http://<githubURL>
+touch .gitignore
+touch README.md
 ```
 
-##### IMPORTANT: Add and commit the README before switching to a new branch to begin creating other files
+### Minimum contents of .gitignore:
+
+```
+.DS_Store
+bower_components
+node_modules
+```
+
+### What to put in the README
+
+1. What your program does
+1. What, if any, prerequisite software needs to be installed before running your code
+1. Steps the user needs to follow to run the code
+1. A description of the main features
+
+> **IMPORTANT:** `git add` and `git commit` the README before switching to a new branch to begin creating other files
+
 ```
 git add README.md
 git commit -m "Add README"
 git push -u origin master
 ```
-##### This will assure that the master branch doesn't "disappear" when you switch to your new branch
-##### Now switch to a new branch. _Never work on `master`_
-```
-git checkout -b <my-branch>
-```
----
 
-### Standard files/dirs:
+### Branches
+
+Always do your work on a branch. **Never work on the master branch**.
+
 ```
-    touch index.html
-    mkdir styles
-    mkdir scripts
-    touch js & css files
-    touch Gruntfile.js
-    touch .jshintrc (note the ".")
+git checkout -b <descsriptive-branch-name>
 ```
 
-### Add to .gitignore:
-```
-    .DS_Store
-    bower_components
-    node_modules
-```
+## Standard files and directories
 
-### Add to Gruntfile.js:
 ```
-    Example code in Notes
-    Change files watched in 2 places to "scripts/*.js"
+touch index.html
+mkdir styles
+mkdir scripts
+touch js & css files
+touch Gruntfile.js
+touch .jshintrc (note the ".")
 ```
 
 ### At the top of all js files:
+
 ```
-    "use strict";
+"use strict";
 ```
 
 ### Add the basics to .jshintrc:
@@ -95,8 +84,11 @@ git checkout -b <my-branch>
 }
 ```
 
-### Open your Gruntfile.js and paste in the following code:
-```
+### Sample Gruntfile.js
+
+Open your Gruntfile.js and paste in the following code:
+
+```js
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -116,12 +108,16 @@ module.exports = function(grunt) {
 };
 ```
 
-### In another Terminal tab run Grunt to run your registered default tasks:
+## Starting the processes
+
+Open a terminal session and run Grunt to execute the defined tasks.
+
 ```
-    grunt
+grunt
 ```
 
-### On the command line
+Open another terminal session and start your file server.
+
 ```
-    http-server
+http-server
 ```
