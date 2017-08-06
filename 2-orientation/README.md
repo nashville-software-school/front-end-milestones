@@ -1,3 +1,3 @@
-# The Static Web Milestone
+# Orientation to CSS and the JavaScript Language
 
-![The Static Web](./static_web.png)
+

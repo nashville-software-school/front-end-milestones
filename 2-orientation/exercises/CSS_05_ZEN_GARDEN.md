@@ -5,7 +5,7 @@
 Run the following command in your terminal:
 
 ```bash
-mkdir -p ~/workspace/exercises/the-static-web/zen-garden && cd $_
+mkdir -p ~/workspace/javascript/exercises/zen-garden && cd $_
 ```
 > This will create a project folder and cd you into it.
 

@@ -1,4 +1,77 @@
-# Overly Excited
+# Functions in JavaScript
+
+Functions are reusable code. JavaScript written without functions executes one line of code at a time until complete.
+
+```js
+// Display the first and last name of the following people
+let first_name = "Jamal";
+let last_name = "Haynes";
+
+console.log(`${first_name} ${last_name}`);
+
+let first_name = "Debra";
+let last_name = "Gordon";
+
+console.log(`${first_name} ${last_name}`);
+
+let first_name = "Svetlana";
+let last_name = "Irinov";
+
+console.log(`${first_name} ${last_name}`);
+
+let first_name = "Sequina";
+let last_name = "Rodriguez";
+
+console.log(`${first_name} ${last_name}`);
+```
+
+The inefficiencies of this code are obvious - from needlessly repeating the same code, to the high probability of human error as we increase the number of times we need to perform the operation.
+
+```js
+let first_name = "Jessawynne";
+let last_name = "Parker";
+
+// Oops, I misspelled first_name. My program now has an error, or bug, in it.
+console.log(`${fist_name} ${last_name}`); 
+```
+
+When the same lines of code need to be repeated, even just once, then you put those lines of code in a function. You provide a name for a function, and it needs to be descriptive enough to understand what its purpose is.
+
+```js
+function displayName (first_name, last_name) {
+  /*
+    Since the code needed to display a person's name is written
+    only once, we never have to worry about a developer 
+    misspelling a word, or missing a character because she
+    needed to write the code for the 34th time.
+  */
+  console.log(`${first_name} ${last_name}`);
+}
+
+displayName("Jamal", "Haynes");
+displayName("Debra", "Gordon");
+displayName("Svetlana", "Irinov");
+displayName("Sequina", "Rodriguez");
+displayName("Jessawynne", "Parker");
+```
+
+# Videos to Watch
+
+1. [Functions Introduction to JavaScript Learn JavaScript](https://www.youtube.com/watch?v=cX4tVeJXp3Y)
+1. [Javascript Tutorial For Beginners - #3 Javascript Functions Tutorial](https://www.youtube.com/watch?v=AY6X5jZZ_JE)
+1. [What the Function: Introduction to Javascript Functions - 1 of 3
+](https://www.youtube.com/watch?v=hVHl20w0glE)
+1. [What the Function: Writing Your Own JavaScript Functions - 2 of 3
+](https://www.youtube.com/watch?v=Q_GZtTwhjFQ)
+1. [What the Function: Higher Order Functions - 3 of 3
+](https://www.youtube.com/watch?v=jE7MAh2EgSQ)
+1. [ES6 Arrow Functions in JavaScript tutorial](https://www.youtube.com/watch?v=_pfXEv9cFGE)
+1. [Understanding Closures (In Under 10 Minutes!)
+](https://www.youtube.com/watch?v=rBBwrBRoOOY)
+1. [Javascript Closures Tutorial - What makes Javascript Weird...and Awesome Pt 3
+](https://www.youtube.com/watch?v=ZqGFKcCcO-Y)
+
+# Overly Excited Function Exercises
 
 ## Requirements
 
@@ -16,8 +89,8 @@ For this exercise, you need to create a single JavaScript function named `addExc
     cd ~/workspace/exercises/overly-excited
     ```
 
-1. Create an `index.html` file with the [touch](http://www.linfo.org/touch.html) command.
-1. Create an `overly-excited.js` file with the touch command.
+1. Create an `index.html` file in this directory with the [touch](http://www.linfo.org/touch.html) command.
+1. Create an `overly-excited.js` file in this directory with the touch command.
 1. Copy the following code and paste it into the `index.html` file. Notice that the `overly-excited.js` file is properly linked so that when you load this HTML file in a web browser, the logic in that file will be executed.
 
     ```
@@ -72,7 +145,7 @@ function addExcitement (theWordArray) {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence)
+addExcitement(sentence);
 ```
 
 ## Adding Conditions to the Loop
@@ -100,7 +173,7 @@ Your job is to read the following English statement and write the equivalent in 
 > ...
 
 
-## Challenge
+## Even More Excited
 
 Add logic in the `addExcitement` function to the increase the number of exclamation points after every third word. The number of exclamation points (!) will be determined by how many times the counter variable can be divided by 3. 
 
@@ -120,3 +193,44 @@ Add logic in the `addExcitement` function to the increase the number of exclamat
 > The walrus danced! through the trees!! in the light!!! of the             
 > The walrus danced! through the trees!! in the light!!! of the moon!!!!            
 > ...
+
+## Function Arguments
+
+Add a new argument to the function so that a developer can specify which character should be displayed instead of it always being an exclamation point.
+
+```js
+// I want to use a question mark
+addExcitement(sentence, "?");
+```
+
+> **Example output:**  
+>  
+> The                   
+> The walrus            
+> The walrus danced?            
+> The walrus danced? through            
+> The walrus danced? through the            
+> The walrus danced? through the trees?? 
+>
+> etc.. 
+
+## Another Sentence
+
+Now you should define another variable that will hold an array of different words than your existing sentence. Perhaps name the variable `betterSentence`, or `nextSentence`.
+
+Invoke your function for a second time, passing in the new sentence variable and a different special character.
+
+```js
+// Example
+addExcitement(nextSentence, "&");
+```
+
+## Arrow Functions
+
+Watch the video about arrow functions, and see if you can rewrite `addExcitement` using that syntax.
+
+```js
+// Complete this arrow function template to make your
+// function work with it.
+addExcitement = () => { };
+```
