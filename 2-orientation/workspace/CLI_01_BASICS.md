@@ -111,3 +111,21 @@ It will create the directory and then immeidate `cd` to it.
 1. `cd` back up to the `cli` directory.
 1. Remove the `practice` directory and all of its contents.
 
+## Aliases
+
+1. To make a new branch with git, you use the command `git checkout -b branchName`. Make an alias for yourself to save on typing.
+1. Likely the most used git command is `git status`. Alias it as `gs`.
+
+## Functions
+
+1. Another process that is done many times during the course is initializing a new git repo on your machine.
+
+    ```
+    git init
+    git remote add origin GithubRemoteURL
+    touch .gitignore
+    ```
+
+    Make a function that automates this for you, where you simply type in the function name followed by the new repo URL.
+2. Once you have that working, augment the function to autopopulate the `.gitignore` with standard files and functions that should be ignored with the `echo` command.
+
