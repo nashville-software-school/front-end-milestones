@@ -57,6 +57,7 @@ displayName("Jessawynne", "Parker");
 
 # Videos to Watch
 
+1. NSS Learning Team video showing the usage of [functions as sub-programs](https://www.youtube.com/watch?v=XBVombfX-lQ&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=1)
 1. [Functions Introduction to JavaScript Learn JavaScript](https://www.youtube.com/watch?v=cX4tVeJXp3Y)
 1. [Javascript Tutorial For Beginners - #3 Javascript Functions Tutorial](https://www.youtube.com/watch?v=AY6X5jZZ_JE)
 1. [What the Function: Introduction to Javascript Functions - 1 of 3
