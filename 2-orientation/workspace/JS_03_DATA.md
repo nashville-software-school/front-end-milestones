@@ -1,5 +1,10 @@
 # Working with Data
 
+## Arrays
+
+## Objects Representing Actors
+
+## Nested Collections
 
 
 # Videos to Watch
