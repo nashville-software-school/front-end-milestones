@@ -12,7 +12,7 @@ Classes? Sure, just fancy object definitions.
 
 Want to see what JavaScript defines as an [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)? Open Chrome, open the Developer Tools, go to the Console tab, type in `{}` and see what gets displayed. These functions will be available to any custom object that you define in your system that is linked to the base Object.
 
-![](2oKwHtFH0d.gif)
+![javascript object](./images/2oKwHtFH0d.gif)
 
 # Videos to Watch
 
