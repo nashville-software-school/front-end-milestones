@@ -1,6 +1,9 @@
 # BEM Naming Conventions
 
 
+# Reference Articles
+
+1. [CSS for BEM](https://en.bem.info/methodology/css/)
 
 # Videos to Watch
 

@@ -1,11 +1,36 @@
-# CSS pseudo-class exercise
+# CSS Pseudo Classes
 
-## Setup
+Pseudo-classes are powerful CSS mechanisms that let you select multiple elements based off of their order of appearance in the HTML, rather than which classes are applied to them.
+
+1. first
+1. last
+1. nth-of-type
+1. nth-child
+1. before
+1. after
+
+You can also use them to select an element based on how a user has interacted with it.
+
+1. hover
+1. active
+1. visited
+
+# Videos to Watch
+
+1. [CSS Pseudo Element Selectors Tutorial](https://www.youtube.com/watch?v=3hX5F2upeFQ)
+1. [W3Schools CSS Pseudo-classes Tutorial](https://www.youtube.com/watch?v=gtY7VBru06Y)
+1. [CSS Tutorial For Beginners 20 - Hover, Active & Visited Effects](https://www.youtube.com/watch?v=XT2PFpOyDzY)
+1. [CSS Tutorial For Beginners 21 - First & Last Child Selectors](https://www.youtube.com/watch?v=UxHFB5_CSXc)
+1. [CSS Tutorial For Beginners 22 - First & Last of Type Selectors](https://www.youtube.com/watch?v=7eVUWLv6gz4)
+1. [CSS Tutorial For Beginners 23 - nth Child Selectors](https://www.youtube.com/watch?v=TVj1avJj8a8)
+1. [CSS Tutorial For Beginners 24 - nth of Type Selectors](https://www.youtube.com/watch?v=E45xQZTgaUI)
+
+## Practice
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
 
 ```bash
-mkdir -p ~/workspace/exercises/the-static-web/pseudo-classes && cd $_
+mkdir -p ~/workspace/css/exercises/pseudo-classes && cd $_
 touch index.html
 touch pseudo-classes.css
 ```
@@ -14,11 +39,20 @@ touch pseudo-classes.css
 
 Copy and paste the code below into the `index.html` file for this exercise.
 
-> For this exercise you can't add any classes or ids
+> For this exercise you can't add any classes or ids to the provided HTML in order to fulfill the requirements
 
 1. Currently, the `<li>` items are block level elements. Add correct styles to remove the bullets and display them as inline elements.
 1. The three `<span>` elements should be displayed as block elements with a 1 pixel border and 25 pixel margin on **all** sides.
-1. In the `article` element with the class `n-child`, add a 1 pixel border around every even numbered section element.
+1. In the article element with the class `n-child`, add a 1 pixel border around every even numbered section element.
+1. Change the top `ul` content to be displayed inline, with a comma between the three numbers.
+1. In the article element with the class `n-type`, make each odd section's font color blue.
+1. In the article element with the class `first-of-type`, make the first aside element's background color lime.
+1. In the article element with the class `first-of-type`, make the first section element's background color purple.
+1. In the article element with the class `three`, give each section a background color of orange.
+1. In the article element with the class `three`, give the first child element, regardless of type, a background color of goldenrod.
+1. In the article element with the class `three`, give the last child element, regardless of type, a background color of darkslategray.
+1. Give each article element a title of "Article parent element", a dashed gray border, and a background color of royalblue. Also ensure that it spans the entire length of the document.
+
 
 ```html
 <ul class="top">

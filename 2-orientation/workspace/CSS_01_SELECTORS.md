@@ -1,11 +1,103 @@
 # CSS Selectors
 
+CSS uses selectors to determine which elements the current set of styling should be applied to.
+
+## By Id
+
+##### HTML
+
+```html
+<body>
+    <section id="intro">Welcome to my blog</section>
+</body>
+```
+
+##### CSS
+
+```css
+#intro {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+```
+
+## By Class
+
+```html
+<body>
+    <section class="title">Welcome to my blog</section>
+</body>
+```
+
+##### CSS
+
+```css
+.title {
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+```
+
+## Descendant Selector
+
+##### HTML
+
+```html
+<body>
+  <article class="article__container">
+    <section class="article__header">
+      Welcome to my blog
+    </section>
+    <section class="article__content">
+      Copper mug small batch meh plaid flexitarian. Before they
+      sold out occupy chartreuse hot chicken, la croix 
+      fingerstache offal VHS air plant. Humblebrag blue bottle 
+      cred af jean shorts etsy copper mug chicharrones cronut 
+      art party scenester pabst chillwave. Distillery 8-bit 
+      pabst fashion axe, tousled cloud bread bushwick roof party 
+      franzen quinoa fixie.
+      <div class="aside_box--dark dashed">
+        <div class="article__header">
+          Very important box header
+        </div>
+        Messenger bag sriracha tote bag intelligentsia air plant
+        leggings.
+      </div>
+    </section>
+  </article>
+</body>
+```
+
+##### CSS
+
+```css
+/*
+  This will select both of the article__header elements
+*/
+.article__container .article__header {
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+
+/*
+  This will select only the section and ignore the div
+*/
+.article__container > .article__header {
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+```
 
 # Videos to Watch
 
 1. [ID's vs Classes](https://www.youtube.com/watch?v=9UNmumTYuq8)
+1. [W3Schools CSS Selectors Tutorial](https://www.youtube.com/watch?v=EeZKHmNJipE)
+1. [CSS Basics — Advanced Selectors](https://www.youtube.com/watch?v=oh2JLo2yxCM)
+1. [CSS Combinator Selectors](https://www.youtube.com/watch?v=L6Y9Yltj15A)
+1. [CSS Tutorials #19 - Child Selectors](https://www.youtube.com/watch?v=KiFo-yKGm6k)
+1. [CSS POSITIONING (PART1)](https://www.youtube.com/watch?v=kejG8G0dr5U)
 
-## Setup
+## Practice
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
 
@@ -14,8 +106,6 @@ mkdir -p ~/workspace/javascript/exercises/css-selectors && cd $_
 touch index.html
 touch selectors.css
 ```
-
-## Requirements
 
 Paste the code below into your HTML document.
 
