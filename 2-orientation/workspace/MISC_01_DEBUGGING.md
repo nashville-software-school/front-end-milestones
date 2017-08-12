@@ -51,3 +51,9 @@ Using the `debugger;` keyword somewhere in your code will force the browser to h
 In this example, I have a block of code that responds to user input, so it doesn't actually execute as soon as the page loads. I put a breakpoint on the line of code that I want to examine, and when the user performs the appropriate action, my JavaScript halts execution and I can examine the code.
 
 ![using breakpoints](./images/v8W1107o8K.gif)
+
+## Handling Errors
+
+### try/catch
+
+

@@ -10,6 +10,22 @@ Planning what you are going to do before you do it is the most important factor 
 1. Code for extension. Write code that can easily be extended in the future.
 1. Try to reduce coupling.
 
+# How to Plan
+
+## Whiteboard
+
+1. Start by writing down all of the features that are needed for the application.
+1. Then discuss what you think is needed to complete each feature. Write down those tasks.
+1. Next, determine your dependency tree. Draw lines between tasks to visualize the dependencies.
+1. Whichever task no depndencies, or has the least, is usually the task that you should start with.
+
+## Code Comments
+
+
+## Pseudocode
+
+# Principles
+
 ## Encapsulation
 
 Here's a very official sounding definition of encapsulation

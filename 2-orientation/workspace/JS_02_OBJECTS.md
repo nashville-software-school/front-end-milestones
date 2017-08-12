@@ -16,6 +16,9 @@ Want to see what JavaScript defines as an [Object](https://developer.mozilla.org
 
 # Videos to Watch
 
+1. [What's an Object in JavaScript?](https://www.youtube.com/watch?v=8iXoWC9XcU8)
+1. [Objects and Prototypes In-depth 02 - Objects Basics](https://www.youtube.com/watch?v=yHkPHteghSc&index=2&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u)
+1. [Objects and Prototypes In-depth 03 - Creating Objects](https://www.youtube.com/watch?v=25wlojU2mHg&index=3&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u)
 1. [Object Keys](https://www.youtube.com/watch?v=cEVnlKgySsg)
 1. [Javascript - How to Access Javascript Object Property Names Using A `for in` LOOP](https://www.youtube.com/watch?v=fDBuAnu0fvo)
 1. [Modular Javascript - Prototypal Pattern vs Classical OOP in JS
@@ -27,6 +30,5 @@ Want to see what JavaScript defines as an [Object](https://developer.mozilla.org
 1. []()
 1. []()
 1. []()
-1. [Object creation patterns](https://www.youtube.com/watch?v=xizFJHKHdHw)
 
 # 
