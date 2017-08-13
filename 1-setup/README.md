@@ -31,6 +31,7 @@ Suggested extensions to install
 1. Git History
 1. join-lines
 1. Quokka.js
+1. Debugger for Chrome
 
 ## Mac users
 
