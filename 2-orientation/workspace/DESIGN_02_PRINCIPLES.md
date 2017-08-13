@@ -21,8 +21,55 @@ Planning what you are going to do before you do it is the most important factor 
 
 ## Code Comments
 
+Next, create some boilerplate HTML, CSS, and JavaScript files. In those files, use comments to plan what code you will need to write.
 
-## Pseudocode
+> HTML comments
+
+```html
+<!-- Create a `nav` element to contain all anchor tags for each page on our site  -->
+
+<!-- Create an `article` element to contain all child elements that will display products  -->
+
+<!-- Create a `footer` element to contain the copyright information and team member names  -->
+```
+
+> JavaScript comments
+
+```js
+/*
+    Create an array to hold all product objects.
+    let products = [
+        {
+            name: "Toxic Waste Pops",
+            price: 3.99,
+            quantity: 5000
+        },
+        {
+            name: "Nuclear Fallout Popcorn",
+            price: 5.29,
+            quantity: 11000
+        }
+    ]
+*/
+
+// Get a reference to the article element contains
+
+// Iterate the `products` array and add a new DOM element for each product
+```
+
+## Code & Refactor
+
+1. Start writing code to implement all of the features, and completes all of the tasks that you defined initially.
+1. Review your code with a critical eye, or better yet, pull in a teammate to review your code and see if any improvements can be made.
+1. Refactor the code, if needed.
+1. Repeat steps 1-3
+
+## Unit Testing
+
+You will learn about something called unit testing. Unit testing provides a way for you to write code that verifies expected behavior of your actual, working code for your product or site.
+
+It protects you from people inadvertantly making code changes that break critical functionality, and protects your business from introducing bugs into the product.
+
 
 # Principles
 

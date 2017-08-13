@@ -1,10 +1,4 @@
-# Debugging
-
-There are three main methods for exploring code your code in the browser.
-
-1. `console.log`
-1. `debugger;`
-1. Breakpoints
+# Errors and Debugging
 
 ## How to read an error
 
@@ -24,7 +18,13 @@ You can then click on each file and look at all of the metadata for it. If the r
 
 ![response metadata](./images/A8LRi4fxHq.gif)
 
-## Examining Your Code
+## Debugging Your Code in the Browser
+
+There are three main methods for debugging code your code in the browser.
+
+1. `console.log`
+1. `debugger;`
+1. Breakpoints
 
 ### console.log
 
@@ -52,8 +52,45 @@ In this example, I have a block of code that responds to user input, so it doesn
 
 ![using breakpoints](./images/v8W1107o8K.gif)
 
-## Handling Errors
+## Debugging Code with Visual Studio Code
+
+1. Install the `Debugger for Chrome` extension.
+1. In any project directory that you want to debug, add a `.vscode` sub-directory.
+1. Create `.vscode/launch.json`.
+1. Copy the configuration below into the file.
+    ```js
+    {
+        "version": "0.1.0",
+        "configurations": [
+            {
+                "name": "Launch localhost",
+                "type": "chrome",
+                "request": "launch",
+                "url": "http://localhost:8080/",
+                "webRoot": "${workspaceRoot}"
+            }
+        ]
+    }
+    ```
+1. Start `http-server` in your project directory.
+1. Open the Debug Panel in VS Code.
+1. Click the *Start Debugging* button.
+
+## Catching Errors
+
+Sometimes, an error is unavoidable, or even expected in certain conditions. If you have a set of steps in your code that you know **may** cause an error, but under the right condition, will work correctly. In this situation, you put your code inside of a try/catch block.
+
+It does what it sounds like. The JavaScript engine will execute the code in the `try` block. If an exception occurs, the code in the `catch` block will be executed, otherwise it is ignored.
 
 ### try/catch
 
+```js
+try {
+    const domElement = document.getElementById("dynamicallyAddedElement");
+    domElement.innerHTML = "I was added after the user clicked on a button.";
+} catch (exception) {
+    console.error("The dynamic element has not been added to the DOM yet.");
+}
+```
 
+The try/catch block allows your program to continue running, even if an error occurs. This is because you are now giving instructions on what should happen if an error does occur. Otherwise, the exception is unhandled and the program stops working.
