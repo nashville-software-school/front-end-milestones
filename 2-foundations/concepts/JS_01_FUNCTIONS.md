@@ -55,6 +55,51 @@ displayName("Sequina", "Rodriguez");
 displayName("Jessawynne", "Parker");
 ```
 
+## Pure Functions
+
+A pure function is one that is consistent and has no effect on anything else in your system.
+
+```js
+const bugSquasher = function (bug, squasher) {
+    return `The ${bug} was squashed by a ${squasher}`
+}
+```
+
+That function will return the exact same value, given the same inputs every time.
+
+```js
+bugSquasher("Beetle", "Boot")
+> The Beetle was squashed by the Boot
+
+bugSquasher("Beetle", "Boot")
+> The Beetle was squashed by the Boot // Yep, same output
+
+bugSquasher("Spider", "thing next to my hand when I saw it")
+> The Spider was squashed by the thing next to my hand when I saw it
+```
+
+## Impure Functions
+
+Impure functions produce different results upon execution...
+
+```js
+const noise = function () {
+  return Math.random()
+}
+
+console.log(noise())   // ​​​​​0.8521188650079663​​​​​
+console.log(noise())   // 0.311073492244087​​​​​
+```
+
+or affect other parts of the system when executed.
+
+```js
+const updateDOM = function (message) {
+    const el = document.getElementById("messages")
+    el.innerHTML += message
+}
+```
+
 # Videos to Watch
 
 1. NSS Learning Team video showing the usage of [functions as sub-programs](https://www.youtube.com/watch?v=XBVombfX-lQ&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=1)
@@ -78,16 +123,16 @@ displayName("Jessawynne", "Parker");
 
 For this exercise, you need to create a single JavaScript function named `addExcitement` that will use `console.log()` to print out a sentence to the browser console.
 
-1. If you haven't done so yet, create the `workspace/exercises/overly-excited` directory structure in your home directory. Open your terminal and enter in the following command.
+1. If you haven't done so yet, create the `workspace/javascript/overly-excited` directory structure in your home directory. Open your terminal and enter in the following command.
 
     ```
-    mkdir -p ~/workspace/exercises/overly-excited
+    mkdir -p ~/workspace/javascript/overly-excited
     ```
 
 1. Now that you have created the directory, you want to change to that directory so that you can add files to it.
 
     ```
-    cd ~/workspace/exercises/overly-excited
+    cd ~/workspace/javascript/overly-excited
     ```
 
 1. Create an `index.html` file in this directory with the [touch](http://www.linfo.org/touch.html) command.
@@ -137,12 +182,13 @@ Paste the following code into overly-excited.js
 // Create an array that contains the words in the sentence
 var sentence = [];
 
-// The addExcitement function should accept the array as the sole argument
+/*
+    The addExcitement function should be an impure function, and accept 
+    the array as the sole argument. It should iterate over the array 
+    and output the words to the browser console.
+*/
 function addExcitement (theWordArray) {
-    /*
-      Write a `for` loop that iterates over the array argument and
-      outputs the words.
-     */
+
 }
 
 // Invoke the function and pass in the array
@@ -177,7 +223,6 @@ Your job is to read the following English statement and write the equivalent in 
 ## Even More Excited
 
 Add logic in the `addExcitement` function to the increase the number of exclamation points after every third word. The number of exclamation points (!) will be determined by how many times the counter variable can be divided by 3. 
-
 
 > **Example output:**  
 >  

@@ -33,7 +33,9 @@ Suggested extensions to install
 1. Quokka.js
 1. Debugger for Chrome
 
-## Mac users
+## For OSX Users Only
+
+Set up VS Code to be [launched from the command line](https://code.visualstudio.com/docs/setup/mac).
 
 ### Oh My Zsh
 
@@ -53,9 +55,9 @@ SSH is a technology that allows you to create a very secure connection between y
 
 Follow the [Github instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac) for creating a new SSH key, and providing your public key to Github, so that you can establish a secure connection between your computer and Github's computers.
 
-## Windows users
+## For Windows Users Only
 
-### Git powershell
+### Git Bash
 
 Visit the [Git Bash](http://www.git-scm.com/downloads) download page click the "Download for Windows" button, and once complete, install the software. Powershell is a command line utility that allows you to run most Unix command inside a Windows environment. This will help you have the same vernacular as the rest of the class, since having a *nix environment is preferred and is how the class is taught.
 
@@ -70,7 +72,7 @@ SSH is a technology that allows you to create a very secure connection between y
 
 Follow the [Github instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows) for creating a new SSH key, and providing your public key to Github, so that you can establish a secure connection between your computer and Github's computers.
 
-### Chocolatey package manager
+### Chocolatey Package Manager
 
 Windows, like OSX, does not have a built in package manager (a fancy term for a piece of software that lets you easily install other software that you need as a developer). There will be times, many weeks into class, as you gain confidence and skill, that you will want to use a package manager. Therefore, if you feel up to the task - meaning, you were able to install all the required software easily - you may want to install Chocolately.
 

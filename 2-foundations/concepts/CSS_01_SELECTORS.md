@@ -102,7 +102,7 @@ CSS uses selectors to determine which elements the current set of styling should
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
 
 ```bash
-mkdir -p ~/workspace/javascript/exercises/css-selectors && cd $_
+mkdir -p ~/workspace/css/exercises/css-selectors && cd $_
 touch index.html
 touch selectors.css
 ```
