@@ -22,7 +22,3 @@
 ### [JSHint](MJ_JSHINT_OPTIONS.md)
 
 ### [Unit Testing](MJ_TESTING.md)
-
-### [External Resources](MJ_EXTERNAL_RESOURCES.md)
-
-### [Feature Tickets](MJ_FEATURE_TICKETS.md)

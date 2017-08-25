@@ -1,53 +1,50 @@
 ## Firebase
 
-Now that you've seen a little bit about APIs, you're going to start using a SaaS called Firebase. It allows you to upload data to a remote server and then use an API to perform CRUD actions on that data.
+Firebase allows you to upload data to a remote server and then use an API to perform CRUD (Create, Read, Update, Destroy) actions on that data.
 
-> **Instructor Suggestion:**
-> Have students sign up for a Firebase account, and discourage the usage of the interface for building large JSON documents. Have students build and verify JSON locally and import it.
+To quickly get up and running with some data to experiement with, you can import a JSON file into your Firebase. This format -- an object with a single property that an object of objects -- allows you to save related data in a 'collection'. This way, if we also wanted to save some information about albums, artists, genres, etc, each of those could be saved in their own collections.  
 
-First, you need to combine your two JSON files that you've been using to populate your UI into a single JSON file. In addition, you'll be changing the format of the JSON object (see below).
-
-Import a JSON file into your Firebase. You'll notice that the format is slightly different from how you were storing them on your local computer. This representation is no longer a key of songs that holds an array. It's now an object that contains other objects. This is because Firebase hates, absolutely, hates arrays, and is also schizophrenic about them, so it's best to avoid then altogether.
+Firebase will store items in this same format even when you start saving things directly to it with XHRs. The difference will be that instead of having to add keys to every object yourself, like "songSharp", Firebase will autogenerate a key as a unique identifier that will look something like this: `-KXw6pl9XZRGYaX4vLzJ`. That's good, since naming things is hard, and naming things accidentally the same thing is too easy. 
 
 ```
 {
   "songs": {
-    "sharp": {
+    "songSharp": {
       "name": "Sharp Dressed Man",
       "artist": "ZZ Top",
       "album": "Eliminator"
     },
-    "breakfast": {
+    "songBreakfast": {
       "name": "Breakfast in America",
       "artist": "Supertramp",
       "album": "Breakfast in America"
     },
-    "goodbyemary": {
+    "songGoodbye": {
       "name": "Goodbye Mary",
       "artist": "Supertramp",
       "album": "Breakfast in America"
     },
-    "carryon": {
+    "songCarry": {
       "name": "Carry on My Wayward Son",
       "artist": "Kansas",
       "album": "Overture"
     },
-    "gimme": {
+    "songGimme": {
       "name":"Gimme All Your Lovin",
       "album": "Eliminator",
       "artist": "ZZ Top"
     },
-    "welcome": {
+    "songJungle": {
       "name":"Welcome To The Jungle",
       "album": "Appetite For Destruction",
       "artist": "Guns & Roses"
     },
-    "ratherbe": {
+    "songRather": {
       "name":"Rather Be",
       "album": "Rather Be",
       "artist": "Silent Bandit"
     },
-    "thewalk": {
+    "songWalk": {
       "name":"The Walk",
       "album": "How Do You Do",
       "artist": "Mayer Hawthorne"
@@ -60,13 +57,13 @@ Import a JSON file into your Firebase. You'll notice that the format is slightly
 
 #### GET
 
-To start off, all we're going to do is change how we get our data. Since we've imported it all into Firebase, all you need to do is open your `populate-data.js` file and change the URL. Right now, it's pointing to a local `songs.json` file, but you're going to change it.
+To start off, all we're going to do is change how we get our data. Use your latest version of Music History as an example. Since we've imported it all into Firebase, all you need to do is open your `populate-data.js` file and change the URL. Right now, it's pointing to a local `songs.json` file, but you're going to change it.
 
 1. Go to your Firebase console in Chrome and copy the URL.
-2. Update the `url` property in your XHR to `{{url you just copied}}/.json`.
+2. Update the `url` property in your XHR to `<url you just copied>/.json`. (That `.json` is important)
 3. Refresh your page.
 
-Since your existing Handlebars template is already set up to handle a data object with a `songs` key on it, everything should just work normally. You've simply changed the location of where the data lives... nothing else changes.
+Since your existing code is already set up to handle a data object with a `songs` key on it, everything should just work normally. You've simply changed the location of where the data lives... nothing else changes.
 
 #### POST
 
@@ -88,7 +85,7 @@ define(["jquery"], function($) {
 
     // POST the data to Firebase
     $.ajax({
-      url: "{{your firebase url}}/songs/.json",
+      url: "<your-firebase-url>/songs/.json",
       method: "POST",
       data: JSON.stringify(newSong)
     })
@@ -116,7 +113,7 @@ define(["jquery"], function($) {
     // DELETE the song from Firebase by specifying the URL to
     // the exact song you are targeting.
     $.ajax({
-      url: "{{your firebase url}}/songs"+ songKey +"/.json",
+      url: `<your-firebase-url>/songs${songKey}/.json`,
       method: "DELETE"
     })
     .done(function(response) {
@@ -129,7 +126,7 @@ define(["jquery"], function($) {
 });
 ```
 
-Now all you have to do is use the special `{{@key}}` decorator in your Handlebar file to set the song's key as the delete button's `id` attribute.
+Now all you have to do is use the special `{{@key}}` decorator in your Handlebar file to set the song's key as the delete button's `id` attribute. If this is your first exposure to `{{@key}}`, be sure to read the Handlebars docs to understand what it does.
 
 
 > **Pro tip:** Ever need to convert an object collection into an array of objects, and maintain the original key names for each object?

@@ -43,3 +43,14 @@ Use the [OpenWeatherMap](http://openweathermap.org/API) API to build an applicat
 **given** the user is viewing the current forecast<br/>
 **when** the user clicks on the link to view the 7 day forecast<br/>
 **then** the current data (see above), and the data for the next 7 days should be displayed
+
+### Note
+Temperature is returned in Kelvin. You will need to add to the query string to get results in Fahrenheit and Celsius.
+
+* Fahrenheit: units=imperial
+* Celsius: units=metric
+
+Example:
+```http://api.openweathermap.org/data/2.5/weather?q=London&appid=XXXXXX&units=imperial```
+
+

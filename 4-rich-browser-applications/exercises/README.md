@@ -1,25 +1,27 @@
 # Rich Browser Applications Exercises
 
 ### [SASS](../resources/RBA_MEDIA_QUERIES.md)
-[Music History 7](RBA_SASS_MUSIC_HISTORY_07.md) - SASS, GRUNT, and Bootstrap
+1. [Music History 7](RBA_SASS_MUSIC_HISTORY_07.md) - SASS, GRUNT, and Bootstrap
 
 
 ### [Handlebars](../resources/RBA_HANDLEBARS.md)
-[Best Blog Every](RBA_HANDLEBARS_BLOG.md) - Handlebars, GRUNT, SASS, Browserify
+1. [Best Blog Ever](RBA_HANDLEBARS_BLOG.md) - Handlebars, GRUNT, SASS, Browserify
 
 
 ### [API](../resources/RBA_API_CONCEPTS.md)
-[Local Weather API](RBA_API_WEATHER_APP.md) - API with detailed user requirements
+1. [Local Weather API](RBA_API_WEATHER_APP_PART1.md) - Part I
+1. [Local Weather API](RBA_API_WEATHER_APP_PART2.md) - Part 2
 
 
 ### [Firebase](../resources/RBA_FIREBASE_CONCEPTS.md)
-[Family Members](RBA_FAMILY_MEMBERS.md) - Firebase, Browserify 
-[Music History 8](RBA_MUSIC_HISTORY_08.md) - JQUERY, Firebase, Promises 
+1. [Family Members](RBA_FAMILY_MEMBERS.md) - Firebase, Browserify
+1. [Music History 8](RBA_MUSIC_HISTORY_08.md) - JQUERY, Firebase, Promises
 
 
 ### [Authentication](../resources/RBA_AUTHENTICATION.md)
-[Battleship](RBA_BATTLESHIP.md) - Firebase, Authentication, SASS 
-[Music History 9](RBA_MUSIC_HISTORY_09.md) - Firebase reference, Authentication
+1. [Battleship](RBA_BATTLESHIP.md) - Firebase, Authentication, SASS
+1. [Music History 9](RBA_MUSIC_HISTORY_09.md) - Firebase reference, Authentication
+1. [Blog 4](RBA_BLOG_04.md) - Firebase, Handlebars, Authentication
 
 
 ## Group Project

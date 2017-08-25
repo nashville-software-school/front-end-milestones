@@ -135,9 +135,7 @@ app.config(['$routeProvider', function($routeProvider) {
 Add in the script tag from the firstbase console.  Your script tags should be in the following order:
 ```html
  	<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
-  <script src="lib/bower_components/angular/angular.min.js"></script>
-  <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
-
+  <script src="lib/node_modules/angular/angular.min.js"></script>
   <script src="app/app.js"></script>
   <script src="app/AppConstants.js"></script>
   <script src="app/AppConfig.js"></script>

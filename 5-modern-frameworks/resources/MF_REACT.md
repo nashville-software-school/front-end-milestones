@@ -7,9 +7,9 @@ React is a declarative JavaScript library for building user interfaces. React al
 
 ## Tutorial
 
-You're going to be following along with the standard [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html). We will not be using Bower or Grunt for this project. These are not commonly used tools in the React ecosystem; however, do not fear--you will not have to learn another tool to get started with React.
+You're going to be following along with the standard [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html). We will not be using Grunt for this project. Grunt is not commonly used in the React ecosystem; however, do not fear--you will not have to learn another tool to get started with React.
 
-[Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) is the best way to start building a new React single page application. It is a command-line tool that sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and sets up a common toolchain used by React developers without requiring any prior knowledge of the tools.
+[Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) is the best way to start building a new React single page application. It is a command-line tool that sets up your development environment so you can use the latest JavaScript features, provides a nice developer experience, and configures a common toolchain used by React developers without requiring any prior knowledge of any piece of the toolchain.
 
 In all of the other projects in the Front-end Milestones, you have been using [Grunt](https://gruntjs.com/) as your task runner. [Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) uses [Webpack](https://webpack.github.io/) under the hood. Don't worry about learning Webpack--Create-React-App will configure it for us. For now, think of Webpack as the tool that will bundle and serve your React project. If you are interested in learning more about Webpack after this exercise, you can read more in Webpack's [documentation](https://webpack.js.org/). 
 
@@ -65,3 +65,4 @@ Follow the remaining steps of the [React tutorial](https://facebook.github.io/re
 [React Fundamentals by Tyler McGinnis](https://reacttraining.com/online/react-fundamentals)
 [React for Beginners](https://reactforbeginners.com/)
 [Egghead.io Courses](https://egghead.io/technologies/react)
+
