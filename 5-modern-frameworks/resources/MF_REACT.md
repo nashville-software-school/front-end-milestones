@@ -1,97 +1,68 @@
 
 # React.js
 
-You're going to be following along with the standard [React tutorial](https://facebook.github.io/react/docs/tutorial.html) with just minor modifications.
+## What is React?
+
+React is a declarative JavaScript library for building user interfaces. React allows developers to build user interfaces that change and update when the application state changes. React is able to rerender parts of your application that need to be updated when the state updates. React embraces a component-based approach to developing interfaces. 
+
+## Tutorial
+
+You're going to be following along with the standard [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html). We will not be using Grunt for this project. Grunt is not commonly used in the React ecosystem; however, do not fear--you will not have to learn another tool to get started with React.
+
+[Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) is the best way to start building a new React single page application. It is a command-line tool that sets up your development environment so you can use the latest JavaScript features, provides a nice developer experience, and configures a common toolchain used by React developers without requiring any prior knowledge of any piece of the toolchain.
+
+In all of the other projects in the Front-end Milestones, you have been using [Grunt](https://gruntjs.com/) as your task runner. [Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) uses [Webpack](https://webpack.github.io/) under the hood. Don't worry about learning Webpack--Create-React-App will configure it for us. For now, think of Webpack as the tool that will bundle and serve your React project. If you are interested in learning more about Webpack after this exercise, you can read more in Webpack's [documentation](https://webpack.js.org/). 
 
 ## Setup
 ```bash
-cd lib
-npm install -g babel-cli
-npm install babel-preset-react
-<!-- Not sure of the npm equal to this. Possibly whole exercise needs updating, anyway(?): JoeShep -->
-bower install babel react
-
+npm install -g create-react-app
+create-react-app my-app
+cd my-app
 ```
 
-## Hello, world
+This will create a directory called `my-app` inside the current folder. Inside that directory, it will generate the initial project structure and install the dependencies:
 
-Add the following code to your body.
+It will create a directory called `my-app` inside the current folder.
 
-```html
-  <div id="example"></div>
-
-
-  <script src="lib/bower_components/babel/browser.min.js"></script>
-  <script src="lib/bower_components/react/react.min.js"></script>
-  <script src="lib/bower_components/react/react-dom.min.js"></script>
-
-  <script type="text/babel" src="app/hello.js"></script>
-```
-
-Now create the `app/hello.js` file and add the following to it.
+Inside that directory, it will generate the initial project structure and install the dependencies:
 
 ```
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('example')
-);
+my-app/
+  README.md
+  node_modules/
+  package.json
+  .gitignore
+  public/
+    favicon.ico
+    index.html
+    manifest.json
+  src/
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+    registerServiceWorker.js
 ```
 
-Now load your browser and you should see "Hello, world!"
+[Create React App](https://facebook.github.io/react/docs/installation.html#creating-a-new-application) will create a small "hello world" style project to get us started. You can look at the files to see how we will be using [ECMAScript 2015 (ES6)](http://es6-features.org/) syntax to import and export our JavaScript modules to build our app.
 
-## Using Babel
+Check out the project that `create-react-app` created by running `npm start`. This will also serve your React app to your browser. 
 
-Babel is a popular library which allows JavaScript developers to write ES6 compliant syntax, and have it compiled down to ES5 for cross-browser compatibility.
+[Create React App](https://github.com/facebookincubator/create-react-app/blob/master/README.md) has the ability to hot reload your React components as you edit them in your text editor. This means that you won't have to refresh your browser every time you make a change to your project. To see the hot reloading in action, open up `src/App.js` and find the line that says `<h2>Welcome to React</h2>`. Change this line to `<h2>My first React app!</h2>` and save the file. If you ran `npm start` prior to saving, you should see your browser automatically update the component that changed. This will make your life a little bit easier as you develop using React since you won't have to refresh to see changes you have made to your code base.
 
-You're going to update Grunt to compile the React component, written in JSX syntax, before the JSHint task kicks off. Otherwise, it will yell at you because JSX components are not valid JavaScript.
-
-```js
-module.exports = function(grunt) {
-
-  grunt.initConfig({
-    babel: {
-        options: {
-            sourceMap: true,
-            presets: ['./node_modules/babel-preset-react']
-        },
-        dist: {
-            files: {
-                '../build/hello.js': '../app/hello.js'
-            }
-        }
-    },
-    jshint: {
-      files: ['../build/**/*.js']
-    },
-    sass: {
-      dist: {
-        files: {
-          '../styles/main.css': '../sass/main.scss'
-        }
-      }
-    },
-    watch: {
-      javascripts: {
-        files: ['../build/**/*.js'],
-        tasks: ['jshint']
-      },
-      babelify: {
-        files: ['../app/**/*.js'],
-        tasks: ['babel']
-      },
-      sassy: {
-        files: ['../sass/**/*.scss'],
-        tasks: ['sass']
-      }
-    }
-  });
-
-  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  grunt.registerTask('default', ['babel', 'jshint', 'sass', 'watch']);
-};
-```
+We won't be needing the code generated by `create-react-app` in the `src/` directory while following the tutorial. Delete all files in the `src/` directory before following the next steps in the tutorial.
 
 ```bash
-# Watch task for compiling JSX components
-babel --presets ./lib/node_modules/babel-preset-react app --watch --out-dir build
+rm -rf src/*
 ```
+
+Follow the remaining steps of the [React tutorial](https://facebook.github.io/react/tutorial/tutorial.html#overview) to build your first React project.
+
+## Other Tutorials
+
+[React Fundamentals by Tyler McGinnis](https://reacttraining.com/online/react-fundamentals)
+[React for Beginners](https://reactforbeginners.com/)
+[Egghead.io Courses](https://egghead.io/technologies/react)
+
