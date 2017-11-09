@@ -62,4 +62,4 @@ Your task is to build a grid of cards for a company's products. Here are the req
 
 Here's an image that shows how the cards should appear.
 
-![Static Web Product Cards Example](./SW_HTML_CSS_exercise.png)
+![Static Web Product Cards Example](SW_HTML_CSS_exercise.png)
