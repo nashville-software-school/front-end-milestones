@@ -96,7 +96,7 @@
 
 ## Javascript: If Switch & For
 
-[NSS Study Guide: Javascript: If, Switch, & For](learning-materials/js_if_switch_for)
+[NSS Study Guide: Javascript: If, Switch, & For](learning-materials/JS_IF_SWITCH_FOR.md)
 
 ### Resources
 
