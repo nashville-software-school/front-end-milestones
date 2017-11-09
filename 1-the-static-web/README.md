@@ -71,7 +71,7 @@
 * [Meet the Pseudo Class Selectors](https://css-tricks.com/pseudo-class-selectors/)
 * [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-# Videos to Watch
+### Videos to Watch
 
 * [CSS Pseudo Element Selectors Tutorial](https://www.youtube.com/watch?v=3hX5F2upeFQ)
 * [W3Schools CSS Pseudo-classes Tutorial](https://www.youtube.com/watch?v=gtY7VBru06Y)
@@ -94,9 +94,16 @@
 
 ---
 
-## Javascript 101
+## Javascript: If Switch & For
 
-[NSS Study Guide: Javascript 101](learning-materials/JS_IF_SWITCH_FOR.md)
+[NSS Study Guide: Javascript: If, Switch, & For](learning-materials/js_if_switch_for)
+
+### Resources
+
+* Now you know about conditional statements, but what exactly is the difference between double and triple equals? For a broader understanding of javascript comparisons, browse through this [equality table](https://dorey.github.io/JavaScript-Equality-Table/)
+* You've learned how to use a boolean condition check with *if..else* statements, but what if a condition has more than just a true/false state? Learn how to use a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+* Learn how to catch exceptions (errors) in your code and handle them gracefully with a [*try..catch..finally*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block.
+
 
 ### NSS Exercises
 
@@ -110,9 +117,25 @@
 
 ---
 
-## In-class Exercises
+## Javascript: Primitives & Arrays
+[NSS Study Guide: JS Primitives and Arrays](learning-materials/JS_PRIMITIVES_ARRAYS.md)
+
+### Resources
+
+1. When trying to find out what's causing an error in your code, a useful command is the [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statement. Try putting it in your code and watch what happens when you run it in Chrome.
+1. Now that you know how to declare variables, you can learn about how JavaScript [hoists](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) variable declarations.
+1. Learn how to assign the [same value to two variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#Assigning_two_variables_with_single_string_value) with a single line of code.
+
+---
+## Javascript: Sting Manipulation
+
+[NSS Study Guide: JS Sting Manipulation](learning-materials/JS_STRING_MANIPULATION.md)
+
+
+### In-class Exercises
 1. [Sonnet](learning-materials/SW_JS_SONNET.md) - string methods
 
+---
 
 ## Group Project
 1. Product Website
