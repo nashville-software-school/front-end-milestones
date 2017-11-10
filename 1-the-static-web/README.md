@@ -104,6 +104,9 @@
 * You've learned how to use a boolean condition check with *if..else* statements, but what if a condition has more than just a true/false state? Learn how to use a [switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 * Learn how to catch exceptions (errors) in your code and handle them gracefully with a [*try..catch..finally*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block.
 
+### Videos
+
+[NSS Learning Team: Functions as sub-programs](https://www.youtube.com/watch?v=XBVombfX-lQ&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=1)
 
 ### NSS Exercises
 
@@ -126,10 +129,14 @@
 1. Now that you know how to declare variables, you can learn about how JavaScript [hoists](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) variable declarations.
 1. Learn how to assign the [same value to two variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#Assigning_two_variables_with_single_string_value) with a single line of code.
 
----
-## Javascript: Sting Manipulation
+### Videos
 
-[NSS Study Guide: JS Sting Manipulation](learning-materials/JS_STRING_MANIPULATION.md)
+[NSS Learning Team: JS Array Methods](https://www.youtube.com/watch?v=y2LSiUm29hc&list=PLX0ucpUE_qIOUsxGNEPpP9yonb4zerVIC&index=2)
+
+---
+## Javascript: String Manipulation
+
+[NSS Study Guide: JS String Manipulation](learning-materials/JS_STRING_MANIPULATION.md)
 
 
 ### In-class Exercises
