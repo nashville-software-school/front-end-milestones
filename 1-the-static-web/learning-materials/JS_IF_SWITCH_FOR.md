@@ -2,7 +2,7 @@
 
 ## Conditions with *if* and *else*
 
-Learn how to check if something is true or false, and execute different code for each case. First, you evaluate if a condition is true or false.  If it is true, execute the code inside the surrounding curly braces (or mustaches).
+Check if something is true or false and then execute different code for each case.
 
 > **Tip: ** There are several types of punctuation in JavaScript. {} are braces, [] are brackets, () are parenthesis, <> are angle brackets.
 
@@ -43,7 +43,7 @@ switch (value) {
 
 ## Loops with *for*
 
-Learn how to execute the same code against every items in an array. The *for* loop has several key elements that allow you to execute the same logic over and over again, a predetermined number of times.
+The *for* loop allows you to execute the same logic over and over again, a predetermined number of times.
 
 First, you state an initial value that will be checked the first time through the loop.
 
