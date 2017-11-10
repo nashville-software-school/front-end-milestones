@@ -32,7 +32,7 @@ alert(phrase.indexOf("x"));
 ```
 
 ### Determine which character is at a position in a string
-Yo use the `charAt()` method that is automatically added to any variable that holds a string value.
+You use the `charAt()` method that is automatically added to any variable that holds a string value.
 
 ```js
 var phrase = "How now brown cow?";
@@ -66,7 +66,7 @@ var numberFive = parseInt(five); // 5
 
 ## Adding strings to your web page
 
-Learn to use `document.getElementById()` and  `element.innerHTML` to add text to a web page with JavaScript. This is an alternative to `document.write()` which is taught in the Treehouse video for their first JavaScript program.
+With Javascript, add text to a web page with `document.getElementById()` and  `element.innerHTML`. This is an alternative to `document.write()`.
 
 ##### **Example**
 ---

@@ -16,7 +16,7 @@ Use alert to show messages to people using your application.
 
 ## Variables
 
-Learn how to store values in human readable variables that can be used throughout your code, and changed when necessary. It is the same as your bank account number. That number never changes, but the actual value of your bank account changes daily as you make money and spend money.
+Human readable variables store values that can be used throughout your code, and changed when necessary. It is the same as your bank account number. The number never changes, but the actual value(dollars) of your account changes daily as you make money and spend money.
 
 ### Number values
 
@@ -75,6 +75,11 @@ var name = "Susan";
 ```
 
 If you tried to use the variable `name` at this point, it's value would be `Susan` even though you initially provided the value of `Beth`.
+
+### Declaring variables with let and const (ES6)
+
+ES6 brings new ways to declare variables allowing more controll over scope. 
+
 
 ## Math Expressions
 
