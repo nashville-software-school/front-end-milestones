@@ -90,8 +90,6 @@ Use, or fork, an example [HTML form Codepen project](http://codepen.io/chortleho
 
 ## Block elements vs inline elements
 
-Just touch on this by showing how some elements fill the width of their parent and some don't. Planting the seed for later when we begin styling.
-
 A [block element](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) is an element that has, but may not be limited to, the following characteristics:
 
 + If no width is set, will expand naturally to fill its parent container
