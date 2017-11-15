@@ -4,6 +4,15 @@
 
 ---
 
+## GIT & GITHUB
+
+### Resources
+
+[Git Basics](learning-materials/GIT_BASICS.md)  
+[Git Workflow](learning-materials/GIT_WORKFLOW.md)
+
+---
+
 ## HTML 101
 
 **Start HERE** - [NSS Study Guide: HTML 101](learning-materials/HTML_101.md)
