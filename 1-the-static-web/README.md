@@ -8,7 +8,7 @@
 
 ### Resources
 
-[Git Basics](learning-materials/GIT_BASICS.md)
+[Git Basics](learning-materials/GIT_BASICS.md)  
 [Git Workflow](learning-materials/GIT_WORKFLOW.md)
 
 ---
