@@ -1,12 +1,4 @@
-# :pushpin: Exercises
-
-1. [Doctors & Patients](../exercises/MF_DOCTORS_PATIENTS.md)
-1. [Music History 10](../exercises/MF_MUSIC_HISTORY.md)
-1. [National Parks](../exercises/MF_NATIONAL_PARKS.md)
-1. [Music History 11](../exercises/MF_MUSIC_HISTORY.md)
-1. [Nashville Chart](../exercises/MF_MF_NASHVILLE_CHART.md)
-
-# Angular 105
+# AngularJS 105
 
 ## Custom directives
 
@@ -144,8 +136,3 @@ Now you can include the custom directive in other partials.  Replace the content
 </section>
 ```
 
-# Resources
-
-[Angular directives tutorial](http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/)
-[Create a tree hierarchy with ng-include](http://gurustop.net/blog/2014/07/15/angularjs-using-templates-ng-include-create-infinite-tree/)
-[How to Work With All the Scopes in Angular](http://jonathancreamer.com/working-with-all-the-different-kinds-of-scopes-in-angular/)

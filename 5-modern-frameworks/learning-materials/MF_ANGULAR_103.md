@@ -1,8 +1,4 @@
-# :pushpin: Exercises
-
-1. [User Notes](../exercises/MF_USER_NOTES.md)
-
-# Angular 103
+# AngularJS 103
 
 ## Handling authentication in Angular/Firebase application
 
@@ -46,7 +42,7 @@ app/controllers/AuthCtrl.js
 ```js
 app.controller("AuthCtrl", function($scope, AuthFactory) {
   $scope.auth = {};
-  
+
   $scope.registerUser = function(registerNewUser) {
     AuthFactory.registerWithEmail(registerNewUser).then(function(didRegister) {
       console.log(didRegister);
@@ -247,7 +243,7 @@ So now if you are logged out and you go to /songs/list you should see an blank p
 app.run(function($rootScope, $location, FIREBASE_CONFIG, AuthFactory) {
   firebase.initializeApp(FIREBASE_CONFIG);
 
-  //watch method that fires on change of a route.  3 inputs. 
+  //watch method that fires on change of a route.  3 inputs.
   //event is a change event
   //currRoute is information about your current route
   //prevRoute is information about the route you came from

@@ -1,4 +1,4 @@
-# Angular 104
+# AngularJS 104
 
 ## ng-include
 
@@ -27,11 +27,3 @@ The `ng-include` directive allows you to include HTML partials into other ones. 
 ```
 
 ![Angular Architecture](./angular-arch-with-includes.png)
-
-## controllerAs
-
-[Intro to controller as](http://toddmotto.com/digging-into-angulars-controller-as-syntax/)
-
-## AngularUI Router
-
-[Angular UI router](https://github.com/angular-ui/ui-router) is a more advanced routing library that isn't solely dependent upon the URL, and supports nested views.

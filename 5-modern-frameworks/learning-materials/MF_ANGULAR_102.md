@@ -1,14 +1,6 @@
-# :pushpin: Exercises
+# AngularJS 102
 
-1. [Routing](../exercises/MF_ROUTE_ROUTING.md)
-1. [Listing](../exercises/MF_ROUTE_LISTING.md)
-1. [Mushroom Factory](../exercises/MF_MUSHROOM_FACTORY.md)
-1. [Wide World Travel Factory](../exercises/MF_WIDE_WORLD_TRAVEL_FACTORY.md)
-1. [WIDE WORLD TRAVEL ROUTING](../exercises/MF_WIDE_WORLD_TRAVEL_ROUTING.md)
-
-# Angular102
-
-## Angular route
+## AngularJS route
 
 Install the Angular Route module. This library allows you to easily build a SPA (Single Page Application) where you switch out one view for another - without ever refreshing the browser - and break up your HTML into what are called *partials*.
 
@@ -332,7 +324,7 @@ app.controller("SongListCtrl",
 ```
 ### Using chained promises
 
-If you want to perform mutiple asynchronous operations, such as read from two separate JSON files, and then do something only after *all of the operations complete*, then you can chain them together just like with the original Q library.  Lets demonstrate this by creating a songs2.json file in the data folder.  Add three new songs to the json file.  
+If you want to perform mutiple asynchronous operations, such as read from two separate JSON files, and then do something only after *all of the operations complete*, then you can chain them together just like with the original Q library.  Lets demonstrate this by creating a songs2.json file in the data folder.  Add three new songs to the json file.
 
 Then we can add a getMoreSongs function to our SongFactory
 ```js
@@ -368,6 +360,6 @@ app.controller("SongListCtrl",[ "$scope", "SongFactory", function($scope, SongFa
 }]);
 ```
 
-# Angular Application Architecture Visualization
+# AngularJS Application Architecture Visualization
 
-![Angular Architecture](angular-architecture.png)
+![AngularJS Architecture](angular-architecture.png)
