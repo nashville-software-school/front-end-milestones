@@ -9,7 +9,6 @@
 1. [Guinea pig](SP_JS_EVENT_LISTENERS_GUINEA_PIG.md)
 1. [Dynamic cards](SP_JS_EVENT_LISTENERS_DYNAMIC_CARDS.md)
 1. [WYSIWYG](SP_JS_EVENT_LISTENERS_WYSIWYG.md)
-1. [TSA](SP_JS_EVENT_LISTENERS_TSA.md)
 
 ### Array Functions
 
@@ -25,9 +24,4 @@
 
 ### Modules
 
-1. [Sandwich maker](SP_JS_IIFE_SANDWICH.md)
-
-### Group Projects
-
-1. Translator
-1. Chatty
+1. [Sandwich maker](SP_JS_MODULE_SANDWICH.md)
