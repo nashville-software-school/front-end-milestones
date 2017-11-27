@@ -39,15 +39,13 @@ Here's some code to get you started.
 ##### module-xhr.js
 
 ```js
-const animal = require('./animal);
+const animal = require("./animal");
 
 function showCarnivores(carnivores) {
   // code that takes the carnovores array and displays it to the DOM
 }
 
-function showHerbivores() {
-
-}
+function showHerbivores() {}
 
 animal.loadCarnivores(showCarnivores);
 ```
