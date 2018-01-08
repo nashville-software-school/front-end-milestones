@@ -1,4 +1,53 @@
 >Linking objects together to share properties and delegate behavior
+# Javascript: Introduction to Objects
+
+The most basic object is a collection of key:value pairs surrounded by curly braces.
+
+```js
+let myCar = {
+  make: "Nissan",
+  model: "Xterra",
+  year: 2006,
+  color: blue
+}
+```
+
+You can add new key:value pairs after the initial definition.
+
+```js
+myCar.doors = 4;
+myCar.sunroof = false;
+```
+
+You can then access the value of any of those keys.
+
+```js
+console.log("My car has " + myCar.doors + " doors.");
+```
+
+However, ES5 introduced a new way to create objects. The following creates an empty object with a null prototype.
+
+```js
+let nissan = Object.create(null);
+```
+
+You can add a property to the object the same way as before.
+
+```js
+nissan.make = "Nissan";
+```
+
+You can also create objects that inherit from other objects.
+
+```js
+let myNissan = Object.create(nissan);
+```
+
+You can then access the prototype's properties on the new object.
+
+```js
+console.log("My car is a " + myNissan.make + ".")
+```
 
 # Greeting Card Maker
 The existing `CardMaker` object below contains a single method that returns a greeting. Your job is to add one or more methods to it, then use it as a prototype for at least three other objects using `Object.create()`

@@ -154,6 +154,15 @@
 
 ---
 
+## Javascript: Objects
+[NSS Study Guide: Objects](learning-materials/SW_OBJ_GREETING-CARD.md)
+
+
+### NSS Exercises
+1. [Greeting Card](learning-materials/SW_OBJ_GREETING-CARD.md)
+
+---
+
 ## Group Project
 1. Product Website
 
