@@ -14,11 +14,9 @@ touch events.css
 ## Requirements
 
 1. There is sample HTML file content below so create an `index.html` for it and place the content in the `body` tag.
-2. Link in a JavaScript file named `events.js`.
-2. Link in a CSS file named `events.css`. You'll be using `element.classList` to manipulate the CSS classes on elements.
-
-
-> :pencil2: Output target is the `output-target` element.
+1. Link in a JavaScript file named `events.js`.
+1. Link in a CSS file named `events.css`. You'll be using `element.classList` to manipulate the CSS classes on elements.
+    > :pencil2: Output target is the `output-target` element.
 
 1. When any section is clicked the output target text should be "You clicked on the {text of the section} section"
 2. When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
