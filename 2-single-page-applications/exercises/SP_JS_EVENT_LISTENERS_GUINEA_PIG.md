@@ -1,16 +1,5 @@
 # The Guinea Pig
 
-## Setup
-
-These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
-
-```bash
-mkdir -p ~/workspace/exercises/spa/event-handlers && cd $_
-touch index.html
-touch events.js
-touch events.css
-```
-
 ## Requirements
 
 1. There is sample HTML file content below so create an `index.html` for it and place the content in the `body` tag.
